@@ -12,7 +12,7 @@ tags:
 ---
 
 先來個WeChat上的對話
-![log](https://mike2014mike.github.io/blog/images/wechat-sql-n.png)
+![log](https://mike2014mike.github.io/images/wechat-sql-n.png)
 
 是的，前陣子同事問我簡體字寫入 MSSQL 變問號之解法，這邊稍微紀錄一下。
 

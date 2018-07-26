@@ -32,7 +32,7 @@ tags:
 
 ```html
 <script>
-var _url = 'https://mike2014mike.github.io/blog/sample/';
+var _url = 'https://mike2014mike.github.io/sample/';
 // 高雄、屏東縣人口數
 function load(data){
   var chart = c3.generate({
