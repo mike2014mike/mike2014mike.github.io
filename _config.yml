@@ -2,13 +2,13 @@
 title: "麥克的筆記本"
 email: mike2007.cv96g@gmail.com
 description: "Full Stack Developer"
-baseurl: "https://mike2014mike.github.io/blog/"
-url: "https://mike2014mike.github.io/blog/"
+baseurl: "https://mike2014mike.github.io/"
+url: "https://mike2014mike.github.io/"
 title_description: "努力朝全端工程師邁進"
 title_image: "./favicons/android-chrome-192x192.png"
 google_analytics: "UA-122457148-1"
 disqus_account: mikechen2018
-github_repository: https://mike2014mike.github.io/blog/
+github_repository: https://github.com/mike2014mike/mike2014mike.github.io
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
