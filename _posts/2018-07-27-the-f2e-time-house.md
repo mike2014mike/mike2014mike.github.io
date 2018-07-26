@@ -25,7 +25,7 @@ tags:
 
 ## 【第二週 - Filter】
 * [設計稿](https://hexschool.github.io/THE_F2E_Design/week2-filter/)  
-* API網址>>https://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97
+* [API網址](https://data.kcg.gov.tw/api/action/datastore_search?resource_id=92290ee5-6e61-456f-80c0-249eae2fcc97)
 * 直播示範(Will保哥) >> [Facebook](https://www.facebook.com/will.fans/videos/2124246790937787/)
 
 ## 【第三週 - Admin Order 訂單管理系統】
@@ -50,8 +50,8 @@ tags:
 * 直播示範(Arel Lin) >> [YouTube](https://youtu.be/p-V6adV2unQ)
 
 ## 【第八週 - parallax scrolling】
-* 設計稿 >> http://bit.ly/2uX1m47
-* 影片模擬動線 >> https://www.youtube.com/watch?v=xViDpVyIBoU
+* [設計稿](http://bit.ly/2uX1m47)
+* [影片模擬動線](https://www.youtube.com/watch?v=xViDpVyIBoU)
 * 動線簡述：
 
 ```
