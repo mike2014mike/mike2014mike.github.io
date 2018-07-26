@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      使用Github Page做blog
+title:      使用Github Page做免費個人網站(blog)
 date:       2018-07-26 10:32:18
 summary:    
 categories: tip
