@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      SEO - robot.txt製作
+title:      SEO - robots.txt製作
 date:       2018-07-26 10:37:19
 author:     Mike Chen
 summary:    
