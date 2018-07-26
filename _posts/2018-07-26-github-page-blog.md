@@ -10,6 +10,10 @@ tags:
  - blog
 ---
 
+## 參考
+
+* [為你自己學 Git](https://gitbook.tw/)
+
 ## 新增專案
 
 在專案名稱的地方，填寫「username.github.io」，這個 `username` 指的是自己的 GitHub 帳號，所以我這邊是填 `mike2014mike.github.io`，請別跟我填一樣的唷！
