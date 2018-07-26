@@ -1,0 +1,40 @@
+--- 
+layout: default 
+make-smaller-titles: true 
+---
+
+
+<div class="container-fluid index">
+  <div class="row index all-posts">
+
+    <h1 class="header author-header">{{ site.author_name }}</h1>
+    <h2 class="header" itemprop="headline">所有文章</h2>
+    <h2 class="header categories" itemprop="headline"><small>排序依據：
+
+      <div class="dropdown btn-group">
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">分類
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/posts/">年份</a></li>
+        </ul>
+      </div>
+
+    </small></h2>
+    {% for category in site.categories %}
+    <div class="col-md-12 content-panel articles">
+      <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
+      <ul>
+        {% for posts in category %} {% for post in posts %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+        </li>
+        {% endfor %} {% endfor %}
+
+      </ul>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
