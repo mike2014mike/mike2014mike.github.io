@@ -62,7 +62,16 @@ Disallow: /wp-admin/
 Disallow: ^test*
 ```
 
+## 本站robots.txt
+
+```
+User-agent: *
+Disallow:
+Sitemap: https://mike2014mike.github.io/sitemap.xml
+```
+
 ## 測試
 
 * [Google Search Console](https://www.google.com/webmasters/tools/home?hl=zh-TW)
+* [Bing Webmaster](https://www.bing.com/toolbox/webmaster)
 
