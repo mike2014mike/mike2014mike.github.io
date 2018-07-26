@@ -2,7 +2,7 @@
 
 * English Name: Mike Chen
 * Location : 新北市樹林區
-* Personal Website : https://mike2014mike.github.io/blog/
+* Personal Website : https://mike2014mike.github.io/
 * E-mail : mike2007.cv96g@gmail.com
 
 ## Career
