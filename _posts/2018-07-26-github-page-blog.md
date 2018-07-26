@@ -18,7 +18,7 @@ tags:
 
 
 ## 下載專案
-將建立好的專案利用Github Desktop Clone 下來本機端。
+將建立好的專案利用[Github Desktop](https://desktop.github.com/) Clone 下來本機端。
 ![Open in Desktop](https://i.imgur.com/aJg5UX5.png)
 
 ## 更新專案
