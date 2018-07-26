@@ -13,15 +13,12 @@ tags:
 
 ![Logo](https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/blog%2F2018%2F05%2FTheF2E_banner.png?alt=media&token=4e663e89-554e-4bed-83ac-000fddabd8ab)
 
-## 活動網站
-[http://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/](http://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/)
+## [活動網站](http://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/)
 
 ## 【第一週 - Todolist】
 * [設計稿](https://hexschool.github.io/THE_F2E_Design/todolist/)   
-* 直播示範(吳哲宇) >> [YouTube](https://youtu.be/dvc0IBLbUMY)
-* 直播示範(卡斯伯) >> [Facebook](https://www.facebook.com/WccCasper/videos/537506876645540/)
-* 範例連結 >> https://codepen.io/frank890417/pen/aKJYjm
-* 共筆 >> https://paper.dropbox.com/doc/001-todolist-by--AIkE5GY4HHEDFHcDiO_oFWPTAg-V3OTg3oVllEX8RvtQvR1y
+* 直播示範(吳哲宇) >> [YouTube](https://youtu.be/dvc0IBLbUMY)、[CodePen範例](https://codepen.io/frank890417/pen/aKJYjm) 
+* 直播示範(卡斯伯) >> [Facebook](https://www.facebook.com/WccCasper/videos/537506876645540/)、[共筆](https://paper.dropbox.com/doc/001-todolist-by--AIkE5GY4HHEDFHcDiO_oFWPTAg-V3OTg3oVllEX8RvtQvR1y)
 
 ## 【第二週 - Filter】
 * [設計稿](https://hexschool.github.io/THE_F2E_Design/week2-filter/)  
@@ -45,7 +42,7 @@ tags:
 * 直播示範(偷米騎巴哥) >> [YouTube](https://youtu.be/hQ6UfBVylio)
 
 ## 【第七週 - Canvas Game】
-* [設計稿](https://hackmd.io/N5yEjm2vSx6D41qAbJGDmw/) (吳哲宇老師出的設計稿)
+* [設計稿](https://hackmd.io/N5yEjm2vSx6D41qAbJGDmw/) (吳哲宇老師)
 * Tips: SVG + TweenMax + TimelineMax
 * 直播示範(Arel Lin) >> [YouTube](https://youtu.be/p-V6adV2unQ)
 
