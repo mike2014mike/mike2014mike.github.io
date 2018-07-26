@@ -75,3 +75,7 @@ Sitemap: https://mike2014mike.github.io/sitemap.xml
 * [Google Search Console](https://www.google.com/webmasters/tools/home?hl=zh-TW)
 * [Bing Webmaster](https://www.bing.com/toolbox/webmaster)
 
+## 注意事項
+
+* robots.txt的檔案命名方式必須為 `全小寫` 字母（ `robots.txt` ），請記得加上 `s` ，若命名為Robots.txt或robots.TXT等皆為不正確的命名方式，將會被搜索引擎的爬蟲忽略。
+* robots.txt檔案只能放在網站的 `根目錄` 底下，若非根目錄則不會被發現。若網址如果是 https://www.abc.com/blog/index.html，需要能使用 https://www.abc.com/robots.txt 看到才行。
