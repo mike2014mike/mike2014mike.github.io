@@ -8,7 +8,7 @@ categories: SEO
 thumbnail:  sitemap
 tags:
  - SEO
- - robot.txt
+ - robots.txt
 ---
 
 ## 參考
