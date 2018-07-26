@@ -15,14 +15,14 @@ tags:
 
 
 ## 建置Google表單
-目前不論是問卷調查還是投票，甚至是婚禮統計親友要來不來，很多人都直接使用 Google 表單來進行統計。這裡我做了一個簡單的[投票頁面](https://docs.google.com/forms/d/1fzW2SGMgQX7RXzfSmk_xd6Jf6XucEtwuHJDef8NMtNs/viewform?edit_requested=true)，僅做 demo 用，並沒真的抽獎活動。<br>
+目前不論是問卷調查還是投票，甚至是婚禮統計親友要來與否，很多人都直接使用 Google 表單來進行統計。這裡我做了一個簡單的[投票頁面](https://docs.google.com/forms/d/1fzW2SGMgQX7RXzfSmk_xd6Jf6XucEtwuHJDef8NMtNs/viewform?edit_requested=true)，僅做 demo 用，並沒真的抽獎活動。<br>
 
 ## 查看回應結果
 我們可以在 Google 雲端硬碟中找到該[試算表](https://docs.google.com/spreadsheets/d/1GdGQn93xWgCT3xu31r3nDxHuVK9znTJGTKUIGxQePcY/edit#gid=1885393347)，詳實記錄了投票的時間與選項，但沒有統計出數據。
 ![投票結果](https://i.imgur.com/VY6tPXu.png)
 
 ## Google APP Script API
-我們可以透過 Google APP Script API 將該試算表發布為API，供後續自己或他人二次開發使用。<br>
+我們可以透過 Google APP Script API 將該試算表發布為 API，供後續自己或他人二次開發使用。<br>
 
 操作步驟：
 * 雲端硬碟 > 新增 > 更多 > Google APP Script
