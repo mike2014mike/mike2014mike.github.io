@@ -26,8 +26,11 @@ tags:
 ![Open in Desktop](https://i.imgur.com/aJg5UX5.png)
 
 ## 更新專案
-放入自已的網頁資料，再 push 上去即可。
+放入自已的網頁資料，再 Push 上去即可。
 ![Push](https://i.imgur.com/9i8xIHn.png)
+
+## PWA
+如果有實作 PWA，注意 `service-worker.js` 中的 `cacheName` 也要修改，再 Push。
 
 ## 檢視
 網址就是剛剛的專案名稱 [https://mike2014mike.github.io/](https://mike2014mike.github.io/) 囉！

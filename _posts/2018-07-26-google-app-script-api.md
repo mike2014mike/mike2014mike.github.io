@@ -66,12 +66,15 @@ function getData(sheet){
 ```
 
 * 發佈 > 佈署為網路應用程式
+
 ![佈署為網路應用程式](https://i.imgur.com/oXL5yib.png)
 
 * 請記得每次若有修改，重新發佈時，專案版本號碼都要 `往上加一` 。
+
 ![佈署設定](https://i.imgur.com/eBxM7Ck.png)
 
 * 之後只要在網址列輸入 [API 連結](https://script.google.com/macros/s/AKfycbzgi7A8mvHKhvvwgAmZLdZGRzp67mYTwE_qHXCUmeoTQvJwOj7P/exec)，就可以得到 JSON 格式的資料。
+
 ![JSON格式的資料](https://i.imgur.com/9k9MEti.png)
 
 * 可使用圖表繪製套件繪製專屬圖表，這裡我使用 Google Chart，搭配 Vue 來實作。
