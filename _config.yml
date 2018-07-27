@@ -3,7 +3,7 @@ title: "麥克的筆記本"
 email: mike2007.cv96g@gmail.com
 description: "小小工程師，努力朝全端工程師(Full Stack Developer)邁進！這是麥克的筆記本，主要紀錄一些學習筆記與小技巧，包含網站開發、Javascript、jQuery、CSS、RWD、Android、Linux、SQL等各種工作上遇到的問題與解決方案，方便日後查閱。也希望可以幫助到各位朋友，謝謝。"
 baseurl: "https://mike2014mike.github.io"
-url: "https://mikechen.nctu.me"
+url: "http://mikechen.nctu.me"
 title_description: "努力朝全端工程師邁進"
 title_image: "./favicons/android-chrome-192x192.png"
 google_analytics: "UA-122457148-1"
