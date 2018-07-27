@@ -28,5 +28,5 @@ tags:
 
 ### 精靈寶可夢資料規格書
 
-[點我下載(PDF)](https://mike2014mike.github.io/sample/2018-07-14/pokemon-spec.pdf)
+[點我下載(PDF)](https://www.dropbox.com/s/czoumcidbph3by7/Pokemon%20%E7%B2%BE%E9%9D%88%E8%B3%87%E6%96%99%E4%B8%80%E8%A6%BD%E8%A1%A8-A4%E6%A9%AB%E5%88%97%E5%8D%B0%E7%89%88.pdf?dl=0)
 
