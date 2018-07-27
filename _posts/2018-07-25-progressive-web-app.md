@@ -322,7 +322,7 @@ if (!CacheStorage.prototype.match) {
   "orientation": "portrait",
   "author": {
     "name": "Mike Chen",
-    "website": "https://mike2014mike.github.io/blog/",
+    "website": "https://mike2014mike.github.io",
     "github": "https://github.com/mike2014mike",
     "source-repo": ""
   }
