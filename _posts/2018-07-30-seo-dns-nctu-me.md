@@ -18,12 +18,12 @@ tags:
 因為我最後懶得去用 SSL，但我某些範例程式又需要 SSL ，而且 PWA 也需要 SSL ，而原本 Github Page 就有 SSL ，所以我就先取消 nctu.me 的網域名稱囉！
 
 ### 緣由
-好記的網域名稱對 SEO 來說也是有相當重要性的，雖然我對 Github Page 提供的網域名稱沒甚麼意見，但如果還能另外制定也不錯。身為交大畢業生，無意間看到有 nctu.me 這個免費網域申請的服務，就來玩玩看囉！
+好記的網域名稱 (Domain Name) 對 SEO 來說也是有相當的重要性，但並非 SEO 的必要影響因素。雖然我對 Github Page 提供的網域名稱沒甚麼意見，但如果還能另外制定也不錯。身為交大畢業生，無意間看到有 nctu.me 這個免費網域申請的服務，就來玩玩看囉！
 
 * 我 Github 原本的網址：[https://mike2014mike.github.io](https://mike2014mike.github.io)
 * 使用了 nctu.me 的網址：~~[http://www.mikechen.nctu.me](http://www.mikechen.nctu.me)~~ (已失效)
 
-可以發現，nctu.me 的網址其實是沒有 SSL 協定的喔！如果需要還得另外去處理，例如用[Let's Encrypt](https://letsencrypt.org/)。
+可以發現， `nctu.me 的網址其實是沒有 SSL 協定的喔！` 如果需要還得另外去處理，例如用[Let's Encrypt](https://letsencrypt.org/)。
 
 ### 參考
 
