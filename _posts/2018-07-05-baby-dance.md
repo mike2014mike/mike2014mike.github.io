@@ -18,7 +18,7 @@ tags:
     <iframe src="https://www.youtube.com/embed/HNQ9m-oHmmE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-這是將我兒子日常拍攝的影片擷取部分律動像舞獅的片段，重複播放，配上音樂，感覺蠻合適的。
+這是將我兒子日常拍攝的影片擷取部分律動像【舞獅】的片段，重複播放，配上音樂，感覺蠻合適的。
 
 主演：我五個月大的兒子
 

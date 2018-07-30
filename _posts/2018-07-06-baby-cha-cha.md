@@ -18,7 +18,7 @@ tags:
     <iframe src="https://www.youtube.com/embed/c1PvzPzNxbI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-這是將我兒子日常拍攝的影片擷取部分律動像恰恰的片段，重複播放，配上音樂，感覺蠻合適的。
+這是將我兒子日常拍攝的影片擷取部分律動像【恰恰】的片段，重複播放，配上音樂，感覺蠻合適的。
 
 主演：我四個月大的兒子
 
