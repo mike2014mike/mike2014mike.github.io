@@ -1,7 +1,7 @@
 //Cache polyfil to support cacheAPI in all browsers
 importScripts('./cache-polyfill.js');
 
-var cacheName = 'mikeBlog-20180730-v3';
+var cacheName = 'mikeBlog-20180730-v4';
 
 //Files to save in cache
 var files = [
