@@ -33,14 +33,22 @@ tags:
 
 ### 活動海報
 
+
+
+<div class="col-sm-6 col-xs-12">
 ![海報一](https://i.imgur.com/wCel0ce.jpg)
+</div>
+
+<div class="col-sm-6 col-xs-12">
 ![海報二](https://i.imgur.com/In2eqE1.jpg)
+</div>
 
 
 <hr>
 
 ### 幫忙按讚
 
+If you have some free time, please go to the following link, and find the photo of my son & me, then give us a like.Thanks!
 有空的朋友請幫忙到下面網址，找到我跟兒子的照片（如下圖）按個讚喔，謝謝！<br>
 [http://0rz.tw/K0Ksv](http://0rz.tw/K0Ksv)
 
