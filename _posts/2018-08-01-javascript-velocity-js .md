@@ -31,15 +31,28 @@ tags:
 * transit 這個動畫庫可直接跳過，效能太差，免學！
 * v1 與 v2 在 transform 的使用方式有些差異， v1 可以直接下 `translateX` ， 但 v2 要 `transform: translateX` 。
 * velocity 內 `backgroundColor 只能打色碼` ，如果打顏色文字會無效。
+* v2 還在 Beta， issue 不少，先暫時別用。
+* 引入了 jQuery ， Velocity 前面需加上$.，即 `$.Velocity` ，或者加入下面這段Code
 
-### CodePen
+```javascript
+if (window.jQuery) { var Velocity = $.Velocity; } 
+```
+
+### CodePen - Velocity.js(v1) - Basic
 <div class="iframe-rwd">
-    <iframe scrolling='no' title='Velocity.js' src='//codepen.io/mikechen2017/embed/VByeXy/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/VByeXy/'>Velocity.js</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+    <iframe scrolling='no' title='Velocity.js(v1) - Basic' src='//codepen.io/mikechen2017/embed/VByeXy/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/VByeXy/'>Velocity.js</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 </div>
 
-
+### CodePen - Velocity.js(v1) - rotate
 <div class="iframe-rwd">
-    <iframe scrolling='no' title='Velocity.js - rotate' src='//codepen.io/mikechen2017/embed/xJpNqp/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/xJpNqp/'>Velocity.js - rotate</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+    <iframe scrolling='no' title='Velocity.js(v1) - rotate' src='//codepen.io/mikechen2017/embed/xJpNqp/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/xJpNqp/'>Velocity.js - rotate</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 </div>
+
+### CodePen - Velocity.js(v1) - scroll
+<div class="iframe-rwd">
+    <iframe scrolling='no' title='Velocity.js(v1) - scroll' src='//codepen.io/mikechen2017/embed/MBrdLv/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/MBrdLv/'>Velocity.js(v1) - scroll</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
