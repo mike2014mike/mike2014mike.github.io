@@ -90,7 +90,7 @@ server.listen(port, function () {
 
 ### test.handlebars
 
-```javascript
+```
 
 {{>test_partial}}
 <script>
@@ -105,7 +105,7 @@ server.listen(port, function () {
 
 ### test_partial.handlebars
 
-```javascript
+```
 
 <script>
     console.log('{{partials.test_partial.1.name}}');
@@ -119,7 +119,7 @@ server.listen(port, function () {
 
 ### main.handlebars
 
-```html
+```
 <!doctype html>
 <html>
 <head>
