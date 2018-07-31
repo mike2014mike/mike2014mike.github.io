@@ -46,8 +46,7 @@ tags:
 ### 幫忙按讚
 
 If you have some free time, please go to the following link, and find the photo of my son & me, then give us a like.Thanks!<br>
-
 有空的朋友請幫忙到下面活動網址，找到我跟兒子的照片（如下圖）按個讚喔，謝謝！<br>
-[活動網址](http://0rz.tw/K0Ksv)
+[【活動網址】](http://0rz.tw/K0Ksv)
 
 ![家樂福樹林店活動](https://i.imgur.com/S8lSK8f.jpg)
