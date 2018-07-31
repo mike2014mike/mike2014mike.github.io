@@ -87,48 +87,8 @@ server.listen(port, function () {
 ```
 
 
+### 其他檔案
+* [test.handlebars](https://mike2014mike.github.io/sample/2018-08-02/test.handlebars)
+* [test_partial.handlebars](https://mike2014mike.github.io/sample/2018-08-02/test_partial.handlebars)
+* [main.handlebars](https://mike2014mike.github.io/sample/2018-08-02/main.handlebars)
 
-### test.handlebars
-
-```
-
-{{>test_partial}}
-<script>
-    console.log('{{name}}');
-    var data = '{{name}}';
-    document.writeln('<p style="color: blue;">[View] ' + data + '是' + '{{job}}' + '</p>');
-
-</script>
-
-
-```
-
-### test_partial.handlebars
-
-```
-
-<script>
-    console.log('{{partials.test_partial.1.name}}');
-    document.writeln('<p style="color: green;">[Partial View] ' + '{{partials.test_partial.0.name}}' + '是' + '{{partials.test_partial.0.job}}' + '</p>');
-    document.writeln('<p style="color: green;">[Partial View] ' + '{{partials.test_partial.1.name}}' + '是' + '{{partials.test_partial.1.job}}' + '</p>');
-
-</script>
-
-
-```
-
-### main.handlebars
-
-```
-<!doctype html>
-<html>
-<head>
-<title>傳值給View和Partial View</title> 
-
-</head>
-<body>
-    {{{ body }}}
-
-</body>
-</html>
-```
