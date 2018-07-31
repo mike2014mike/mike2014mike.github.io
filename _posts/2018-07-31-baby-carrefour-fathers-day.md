@@ -36,11 +36,11 @@ tags:
 
 
 <div class="col-sm-6 col-xs-12">
-![海報一](https://i.imgur.com/wCel0ce.jpg)
+    <img src="https://i.imgur.com/wCel0ce.jpg" width="100%">
 </div>
 
 <div class="col-sm-6 col-xs-12">
-![海報二](https://i.imgur.com/In2eqE1.jpg)
+    <img src="https://i.imgur.com/In2eqE1.jpg" width="100%">
 </div>
 
 
