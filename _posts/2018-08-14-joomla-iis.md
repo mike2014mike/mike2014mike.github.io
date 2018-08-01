@@ -5,7 +5,7 @@ date:       2018-08-14 09:37:19
 author:     Mike Chen
 summary:    
 categories: linux
-thumbnail:  linux
+thumbnail:  joomla
 tags:
  - linux
  - Joomla相關

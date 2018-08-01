@@ -5,7 +5,7 @@ date:       2018-08-17 09:37:19
 author:     Mike Chen
 summary:    
 categories: tips
-thumbnail:  windows
+thumbnail:  lightbulb
 tags:
  - big file
  - usb

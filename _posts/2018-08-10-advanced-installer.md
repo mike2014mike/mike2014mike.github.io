@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      練習以Advanced installer封裝程式
+title:      以Advanced installer封裝程式
 date:       2018-08-10 09:37:19
 author:     Mike Chen
 summary:    
 categories: tips
-thumbnail:  file
+thumbnail:  windows
 tags:
  - Advanced installer
 ---
 
-### 練習以Advanced installer封裝程式
+### 以Advanced installer封裝程式
 
 1. 若選擇Visual Studio Application，Import VS專案檔時，會出現"failed to start visual studio"訊息。改以.NET Application即可。
 2. 註冊需使用C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /codebase /tlb "C:\Groundwater\Groundwater\bin\Release\Groundwater.dll"，因為是用.Net 4.0以上開發的。

@@ -5,7 +5,7 @@ date:       2018-08-09 09:37:19
 author:     Mike Chen
 summary:    
 categories: tips
-thumbnail:  file
+thumbnail:  windows
 tags:
  - dll
  - Debug

@@ -5,7 +5,7 @@ date:       2018-08-12 09:37:19
 author:     Mike Chen
 summary:    
 categories: tips
-thumbnail:  file
+thumbnail:  windows
 tags:
  - Acronis True Image
 ---
