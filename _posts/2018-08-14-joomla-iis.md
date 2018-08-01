@@ -24,7 +24,7 @@ tags:
 2. 壓縮檔須使用Akeeba eXtract Wizard進行解壓縮：
 
 ### 彰師大網站移植。
-1. 安裝最新版的Webmin
+1. 安裝最新版的 Webmin
 
 ```
 wget http://downloads.sourceforge.net/project/webadmin/webmin/1.510/webmin_1.510-2_all.deb?use_mirror=cdnetworks-us-1
@@ -115,3 +115,11 @@ tar -xvf /home/mike/backup/html/everyday
 ```
 ufw disable
 ```
+
+
+### Webmin 出現「應用程式已被安全設定值封鎖」之解法
+
+1. 移除JAVA>重新開機>安裝新版JAVA。
+2. 控制台>JAVA>進階>將「啟用新一代JAVA...」取消勾選
+3. 控制台>JAVA>安全>將後台網址加入例外。
+4. 重新啟動瀏覽器，即可正常使用檔案管理功能。

@@ -23,3 +23,6 @@ tags:
 * Command：按Edit可選擇剛剛加入的batchfile，非暫存是"[#MyBatchFile.bat]"，暫存是"[&MyBatchFile.bat]"
 * 選擇ignore return code。
 * 選擇Deferred。
+
+### 其他封裝軟體
+* InstallShield
