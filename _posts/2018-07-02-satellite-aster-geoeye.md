@@ -16,9 +16,9 @@ tags:
 以下連結可能都已經失效，僅記錄之前查詢的方式！
 
 ### Aster 衛星影像查詢
-[Aster查詢網址1](http://www.gdem.aster.ersdac.or.jp/search.jsp)
-[Aster查詢網址2](http://imsweb.aster.ersdac.or.jp/ims/html/MainMenu/MainMenu.html)
-[USGS](http://earthexplorer.usgs.gov/)
+* [Aster查詢網址1](http://www.gdem.aster.ersdac.or.jp/search.jsp)
+* [Aster查詢網址2](http://imsweb.aster.ersdac.or.jp/ims/html/MainMenu/MainMenu.html)
+* [USGS](http://earthexplorer.usgs.gov/)
 
 
 ### GeoEye 衛星影像查詢
