@@ -12,7 +12,7 @@ tags:
 
 ### 問題
 
-開啟或關閉windows功能空白，導致無法安裝.Net Framework 4.，
+開啟或關閉windows功能空白，導致無法安裝.Net Framework 4.，或開啟其他功能
 
 ### 原因
 

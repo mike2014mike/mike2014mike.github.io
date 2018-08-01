@@ -12,9 +12,6 @@ tags:
 
 ---
 
-2012/12/25
-
-
 ### Joomla是否可以IIS架站
 
 1. [How to instal a Joomla 1.7 on a Windows 7 IIS](http://www.youtube.com/watch?v=YeaCGNS1-kw&hd=1)
@@ -26,7 +23,7 @@ tags:
 1. 使用JoomlaPack(Akeeba Backup)模組便可進行網站與資料庫的備份與移植：會備份成jpa的壓縮檔：
 2. 壓縮檔須使用Akeeba eXtract Wizard進行解壓縮：
 
-### 練習彰師大網站移植。
+### 彰師大網站移植。
 1. 安裝最新版的Webmin
 
 ```
@@ -88,4 +85,33 @@ vi /etc/network/interfaces
 ```
 hdparm -I /dev/sda
 WDC WD5000AAKS-00V1A0
+```
+
+
+### 主機增加硬碟
+1. 先以df -h與ls /dev/[sh]d*判斷新硬碟
+2. 再以fdisk -l /dev/sdb再度確認。
+3. 以fdisk /dev/sdb進行磁碟分割
+4. 以mkfs -t ext4 /dev/sdb1進行格式化
+5. 以blkid查詢磁碟UUID後
+6. 修改/etc/fstab掛載硬碟。
+
+
+### 測試還原
+* webmin的restore有問題，無法使用。需自行使用下列指令還原：
+
+```
+cd /var/www/test
+tar -xvf /home/mike/backup/html/everyday
+```
+
+### 系統網卡問題
+1. 網卡可能被關閉，可透過ifconfig eth0 up可開啟eth0網卡。
+2. 手動將 `/etc/udev/rules.d/70-persistent-et.rules` 這個檔案刪除，重新啟動後，系統就會重抓網卡。
+
+
+### 關閉預設防火牆
+
+```
+ufw disable
 ```
