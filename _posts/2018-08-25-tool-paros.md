@@ -13,7 +13,7 @@ tags:
 
 ### 參考
 * [介紹好用工具：Paros ( 網站安全性掃瞄工具 )](https://blog.miniasp.com/post/2008/12/15/Useful-tool-Paros-web-application-security-assessment.aspx)
-*[以 Paros 掃描 Web 程式漏洞](https://www.openfoundry.org/index.php?option=com_content&task=view&id=8385&Itemid=4%3bisletter=1)
+* [以 Paros 掃描 Web 程式漏洞](https://www.openfoundry.org/index.php?option=com_content&task=view&id=8385&Itemid=4%3bisletter=1)
 
 
 ### 說明

@@ -13,14 +13,16 @@ tags:
  - Satellite 
 ---
 
+以下連結可能都已經失效，僅記錄之前查詢的方式！
+
 ### Aster 衛星影像查詢
-http://www.gdem.aster.ersdac.or.jp/search.jsp
-http://imsweb.aster.ersdac.or.jp/ims/html/MainMenu/MainMenu.html
-http://earthexplorer.usgs.gov/
+[Aster查詢網址1](http://www.gdem.aster.ersdac.or.jp/search.jsp)
+[Aster查詢網址2](http://imsweb.aster.ersdac.or.jp/ims/html/MainMenu/MainMenu.html)
+[USGS](http://earthexplorer.usgs.gov/)
 
 
 ### GeoEye 衛星影像查詢
-1. GeoEye網址：http://geofuse.geoeye.com/advanced/SearchOptions/UploadFile.aspx
+1. [GeoEye查詢網址](http://geofuse.geoeye.com/advanced/SearchOptions/UploadFile.aspx)
 2. 上傳小林村區域後會列出可選擇符合需求的衛星影像。
 3. 注意上傳之shp節點數(Feature Vertices)要控制在200內，座標系統WGS84，須包含SHP, SHX, DBF, and PRJ等檔案，並壓成zip。
 4. 提供衛星影像的有Aster, Spot, Formosat(2m), Quick bird, Modis, IKONOS(1m), GeoEye(0.5m)。
