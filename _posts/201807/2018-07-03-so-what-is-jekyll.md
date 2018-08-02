@@ -20,3 +20,6 @@ Jekyll是基於Ruby Gem的解析引擎，能夠將樣板、liquid 語言、markd
 * Liquid Template 動態模板
 * Free hosting with GitHub Pages 只要學會git push 就可以丟到github page上
 * Markdown 好編寫
+
+## 參考
+[Jekyll目录结构和运行机理](https://blog.csdn.net/HopefulLight/article/details/78366374)
