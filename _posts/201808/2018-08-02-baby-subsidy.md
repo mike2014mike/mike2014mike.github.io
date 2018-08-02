@@ -55,7 +55,7 @@ tags:
 
 
 
-<div class="videoWrapper">
+<div class="iframe-rwd">
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/om1sifZ5fCkJyL" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
