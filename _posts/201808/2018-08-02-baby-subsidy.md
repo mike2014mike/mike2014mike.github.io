@@ -52,3 +52,10 @@ tags:
 * [托育補助2018懶人包](https://blog.bananny.co/2018/03/21/childcare-subsidy-2018/)
 * [全新「準公共化」育兒政策懶人包](https://blog.bananny.co/2018/05/17/childcare-subsidy-2018-4/?utm_source=fb_page&utm_medium=post&utm_campaign=blog&utm_content=post_07302018)
 * [準公托加碼 新北：托育補助最多拿9千](https://tw.news.yahoo.com/%E6%BA%96%E5%85%AC%E6%89%98%E5%8A%A0%E7%A2%BC-%E6%96%B0%E5%8C%97-%E6%89%98%E8%82%B2%E8%A3%9C%E5%8A%A9%E6%9C%80%E5%A4%9A%E6%8B%BF9%E5%8D%83-110512190.html)
+
+
+
+<div class="videoWrapper">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/om1sifZ5fCkJyL" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+</div>
+
