@@ -17,7 +17,7 @@ tags:
 ### 補助表
 ![補助表](https://i.imgur.com/jgWr1EA.png)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/9EzI5wK"><a href="//imgur.com/9EzI5wK"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](https://imgur.com/a/9EzI5wK)
 
 
 
