@@ -14,6 +14,8 @@ tags:
   <img src="https://rawgit.com/AllThingsSmitty/css-protips/master/media/logo.svg" alt="light bulb icon">
 </p>
 
+[原文](https://github.com/AllThingsSmitty/css-protips)
+
 # CSS 專家密技 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 這裡收集了一系列 CSS 專家密技，幫助你提升 CSS 技能點數。
