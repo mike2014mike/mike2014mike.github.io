@@ -51,7 +51,7 @@ tags:
 * 若低於 1.5 ，請到 環境變數 > 系統變數 `Path` 移除 `C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\`，重新啟動 VS Code ，再回來檢查版本。
 ![系統變數](https://i.imgur.com/tYh8mgN.png)
 
-* `Ctrl + 反單引號` 開出終端機， 輸入 `tsc --init`，會產生一個 `tsconfig.json` 檔，可設定要輸出的 JavaScript 版本。
+* ``Ctrl + `(反單引號) `` 開出終端機， 輸入 `tsc --init`，會產生一個 `tsconfig.json` 檔，可設定要輸出的 JavaScript 版本。
 
 ![target](https://i.imgur.com/XXs5wLo.png)
 
