@@ -1,7 +1,3 @@
-function abc() {
-    return 'abc';
+function getName(name: string) {
+    return `${name} !!!`
 }
-
-//ES6 指定變數的方法
-let b = abc();
-b = 'def';

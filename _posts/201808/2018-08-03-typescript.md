@@ -12,7 +12,7 @@ tags:
 ---
 
 ### 筆記
-* TypeScript 是一個提供強型別語法的 JavaScript 超集合 (Superset)，TypeScript 包含了完整的 JavsScript 的語言特性。
+* TypeScript 是一個提供 `強型別` 語法的 JavaScript `超集合` (Superset)，TypeScript 包含了完整的 JavsScript 的語言特性。
 
 ![超集合](https://i.imgur.com/tKcLkTY.png)
 
@@ -40,24 +40,24 @@ tags:
 
 ![重構](https://i.imgur.com/2hb4jcy.png)
 
-* TypeScript 可轉譯為 ES3、ES4、ES5、ES6 等不同版本的 JavaScript。
+* TypeScript 可轉譯為 不同版本的 JavaScript，最低支援到 `ES3` 。
 
-* 開命令提示字元(系統管理員)，安裝編譯器 `npm install -g typescript`
+* ``Ctrl + `(反單引號) `` 開出 VS Code 內建的終端機，安裝編譯器 `npm install -g typescript`
+
+* 若 VS Code 的終端機無 `系統管理員權限` ，請到該捷徑點選右鍵 > 內容 > 相容性，勾選 `「以系統管理員的身分執行此程式」`
+
+![以系統管理員的身分執行此程式](https://i.imgur.com/ogMHYoP.png)
 
 * 輸入 `tsc -v` 確認版本 >= 1.5，否則無法使用
 
 ![typescript版本](https://i.imgur.com/b4SuufV.png)
 
-* 若低於 1.5 ，請到 環境變數 > 系統變數 `Path` 移除 `C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\`，重新啟動 VS Code ，再回來檢查版本。
+* 若版本 < 1.5 ，請到 `環境變數` >> `系統變數` >> `Path` 移除 `C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\`，重新啟動 VS Code ，再回來檢查版本。
 ![系統變數](https://i.imgur.com/tYh8mgN.png)
 
-* ``Ctrl + `(反單引號) `` 開出終端機， 輸入 `tsc --init`，會產生一個 `tsconfig.json` 檔，可設定要輸出的 JavaScript 版本。
+* 終端機 `cd` 到專案目錄，輸入 `tsc --init`，會產生一個 `tsconfig.json` 檔，可設定要輸出的 JavaScript 版本。
 
 ![target](https://i.imgur.com/XXs5wLo.png)
-
-* 若 VS Code 的終端機無系統管理員權限，請到該捷徑點選右鍵 > 內容 > 相容性，勾選「以系統管理員的身分執行此程式」
-
-![以系統管理員的身分執行此程式](https://i.imgur.com/ogMHYoP.png)
 
 * 輸入 `tsc -w` ，可在每次存檔的時候自動編譯成 JavaScript。
 
@@ -69,9 +69,34 @@ tags:
 
 * 單獨編譯某個 ts 檔，則是 `tsc test.ts`。
 
-* 紅色波浪符提醒 const 不能變動，但用 let 的話就安全過關。
+* 紅色波浪符提醒 `const(常數) 不能變動` ，但用 let 的話就安全過關。
 
 ![const](https://i.imgur.com/PzAbp9X.png)
+
+* 若不想寫 TypeScript ，但想在 JS 內使用 TS 的型別檢查，可直接在 JS 最上方加入  `// @ts-check`，如下 a 就會報錯。
+
+```javascript
+// @ts-check
+var a = 1;
+a = 'Mike';
+```
+
+* 多型別寫法
+
+```javascript
+let m: string | number = 1;
+m = "Mike"
+```
+
+* function 指定參數型別寫法，如果參數給錯誤型別就會報錯
+
+```javascript
+function getName(name: string) {
+    return `${name} !!!`
+}
+```
+
+![function參數](https://i.imgur.com/eyBEQMj.png)
 
 ### 參考
 * [從 TypeScript 學習 JavaScript](https://www.youtube.com/watch?v=seNBnxXHj9E)
