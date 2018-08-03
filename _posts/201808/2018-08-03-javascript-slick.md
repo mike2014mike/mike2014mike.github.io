@@ -25,3 +25,6 @@ tags:
 
 ### 範例
 * 官網上就有範例囉，而且官網也是用Github Page做的唷！
+
+### 參考
+* [[ Alex 宅幹嘛 ] 👨‍💻你的 jQuery 我來 VUE 第一集：簡易輪播篇](https://www.youtube.com/watch?v=2iclZL9SUqA)
