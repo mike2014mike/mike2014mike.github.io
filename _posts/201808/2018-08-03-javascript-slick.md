@@ -24,26 +24,28 @@ tags:
 
 ### Code
 
-```pug
-ul.container
-  li
-    img(src="https://picsum.photos/400/200?image=1", alt="")
-  li
-    img(src="https://picsum.photos/400/200?image=2", alt="")
-  li
-    img(src="https://picsum.photos/400/200?image=3", alt="")
+```html
+<ul class="container">
+  <li><img src="https://picsum.photos/400/200?image=1" alt=""/></li>
+  <li><img src="https://picsum.photos/400/200?image=2" alt=""/></li>
+  <li><img src="https://picsum.photos/400/200?image=3" alt=""/></li>
+</ul>
 ```
 
-```sass
-body
-  background-color: #ccc
+```css
+body {
+  background-color: #ccc;
+}
 
-.container
-  width: 500px
-  margin: 0 auto
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
 
-img
-  margin: 0 auto
+img {
+  margin: 0 auto;
+}
+
 ```
 
 ```javascript
