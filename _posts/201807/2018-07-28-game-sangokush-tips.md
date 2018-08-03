@@ -20,6 +20,12 @@ tags:
 > 遊戲角色名稱：酷壽司
 
 
+### 團長配兵
+![團長配兵](https://i.imgur.com/sHKDAS9.jpg)
+
+### 軍師配兵
+![軍師配兵](https://i.imgur.com/Kd4nOCy.jpg)
+
 ### 橙將推薦
 
 ```
