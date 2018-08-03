@@ -20,7 +20,7 @@ tags:
 
 ![Quokka.js](https://i.imgur.com/fa5AvFd.png)
 
-* `Ctrl + Shift + P` ，輸入 `Quokka` ，選擇 `New TypeScript File`
+* `Ctrl + Shift + P` ，輸入 `Quokka` ，選擇 `New TypeScript File` (透過這方式建立的檔案會自動啟動 Quokka)
 
 ![Ctrl + K + T](https://i.imgur.com/E8OqViD.png)
 
@@ -97,6 +97,33 @@ function getName(name: string) {
 ```
 
 ![function參數](https://i.imgur.com/eyBEQMj.png)
+
+* function 參數也可以多型別
+
+```javascript
+function sum(n: number | string) {
+    //讓使用者可以同時輸入數字或文字
+    //如果是文字就轉型為數字
+    if (typeof n === 'string') {
+        n = parseInt(n);
+    }
+    return n + n;
+}
+
+console.log(sum(1));
+console.log(sum("2"));
+```
+
+![function多型別](https://i.imgur.com/EpaLFYc.png)
+
+* 啟動 Quokka.js 的方法：`Ctrl + Shift + P` ，輸入 `Quokka` ，選擇 `Start on Current File`
+
+![啟動 Quokka](https://i.imgur.com/cMhrcuA.png)
+
+
+### ES6 為什麼要用 let
+
+![let](https://i.imgur.com/KhnoaVB.png)
 
 ### 參考
 * [從 TypeScript 學習 JavaScript](https://www.youtube.com/watch?v=seNBnxXHj9E)
