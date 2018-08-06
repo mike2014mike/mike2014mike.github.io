@@ -121,10 +121,143 @@ console.log(sum("2"));
 ![啟動 Quokka](https://i.imgur.com/cMhrcuA.png)
 
 
+### 資料型別
+
+```js
+//Number 
+let decimal: number = 6;
+let hex: number = 0xf00d;
+let binary: number = 0b1010;
+let octal: number = 0o744;
+
+//Stirng
+let person: string = "Mike"; //可以用 ""
+let age: number = 37;
+let sentence: string = `Oh, ${person} is ${age} years old.`; //也可以用 `${}`
+//上面等於 "Oh, " + person + " is " + age + " years old."
+
+//Array
+let list: number[] = [1, 2, 3];
+
+//Tuple
+let x: [string, number]; // Array中包含不同型別的變數用 Tuple
+x = ["hello", 10]; // OK
+x = [10, "hello"]; // Error
+x[3] = true // Error 往後的變數只能是一開始設定的 string 或 number
+```
+
+
+### 型別註釋
+
+```js
+//以往在 JS中函數的參數是不需要宣告參數的型別
+function greeter(person) {
+    return "Hello, " + person;
+}
+
+//但是這樣沒人知道 person是甚麼，到底是物件還是字串？
+//所以 TS強制要求參數要註釋型別 person: string這樣一看就知道是字串
+function greeter(person: string) {
+    return "Hello, " + person;
+}
+```
+
 ### ES6 為什麼要用 let
 
 ![let](https://i.imgur.com/KhnoaVB.png)
 
+
+### let...of...用法
+
+```js
+let list = [4, 5, 6];
+for (let i of list) { 
+    console.log(i);
+}
+
+//上面TS寫法等同於下面JS寫法
+
+let list = [4, 5, 6];
+for (let _i = 0; _i < list.length; _i++) {
+    var num = list[_i];
+    console.log(num);
+}
+```
+
+
+### Interfaces 
+
+```js
+interface Person {
+    firstName: string;
+    lastName: string;
+}
+
+function greeter(person: Person) {
+    return "Hello, " + person.firstName + " " + person.lastName;
+}
+
+var user = { firstName: "Mike", lastName: "Chen" };
+
+console.log(greeter(user));
+```
+
+
+### Classes
+
+```js
+class Student {
+    fullName: string;
+    constructor(public firstName, public middleInitial, public lastName) {
+        this.fullName = `${firstName} ${middleInitial} ${lastName}`;
+    }
+}
+
+interface Person {
+    firstName: string;
+    lastName: string;
+}
+
+function greeter(person : Person) {
+    return `Hello, ${person.firstName} ${person.lastName}`;
+}
+
+let user = new Student("蒙奇", "D.", "魯夫");
+
+console.log(greeter(user));
+```
+
+
+### class 繼承
+
+```js
+class Human {
+    static hands: number = 2;
+    static legs: number = 2;
+}
+
+class Woman extends Human {
+    static gender: string = 'female';
+}
+```
+
+### interface 繼承
+
+```js
+interface Shape {
+    area(): number;
+}
+
+interface Color {
+    RGB: string;
+}
+
+interface Thing extends Color, Shape {
+}
+```
+
+
 ### 參考
 * [從 TypeScript 學習 JavaScript](https://www.youtube.com/watch?v=seNBnxXHj9E)
 * [TypeScript新手入門](https://hackmd.io/s/rkITEOYX)
+* [TypeScript -- Angular 2 的寫作靈魂](https://ithelp.ithome.com.tw/articles/10186280)
