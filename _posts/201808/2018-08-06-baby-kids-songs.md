@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      寶寶英文兒歌
+title:      寶寶英文兒歌(含改編)
 date:       2018-08-06 09:37:19
 author:     Mike Chen
 summary:    
@@ -9,6 +9,7 @@ thumbnail:  heart
 tags:
  - baby
  - songs
+ - 英文兒歌
 ---
 
 這幾首兒歌我兒子特別喜歡，其中幾首我也做了改編，在此紀錄。
@@ -92,18 +93,18 @@ Boom-dee-a-da, boom-dee-a-da, boom-dee-a-da, boom-dee-yay
 </div>
 
 ```
-00:00:00 字母歌
+00:00:00 ABC字母歌
 00:01:55 兔子舞
 00:03:02 Jingle Bells
 00:04:22 Bingo
-00:06:01 Mary had a little lamb
-00:07:26 London Bridge
+00:06:01 Mary had a little lamb (瑪莉有隻小綿羊)
+00:07:26 London Bridge (倫敦鐵橋)
 00:08:33 Ten little Indian boys
-00:10:22 Fly Birdie Fly (我是只小小鳥)
-00:12:05 Apple Tree
+00:10:22 Fly Birdie Fly (我是隻小小鳥)
+00:12:05 Apple Tree (綠油精)
 00:13:20 The fox
-00:15:23 Twinkle twinkle Little Star
-00:16:49 five little duck 
-00:18:48 Old macdonald had a farm
-00:20:46 Chenparty
+00:15:23 Twinkle twinkle Little Star (一閃一閃亮晶晶)
+00:16:49 Five Little Ducks
+00:18:48 Old MacDonald Had A Farm (王老先生有塊地)
+00:20:46 Chenparty (Häschenparty 德國兒歌)
 ```
