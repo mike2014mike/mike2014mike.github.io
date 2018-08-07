@@ -35,4 +35,4 @@ tags:
 ### 參考
 * [GitHub](https://github.com/daneden/animate.css/)
 * [微動畫簡單做！使用 animate.css 五秒提升作品質感](http://blog.infographics.tw/2016/11/animate-css/)
-* [CSS Animation 教學 | CSS animation 好用的工具](https://www.youtube.com/watch?v=Y4xBYZJSvuM)
+* [CSS Animation 教學 / CSS animation 好用的工具](https://www.youtube.com/watch?v=Y4xBYZJSvuM)
