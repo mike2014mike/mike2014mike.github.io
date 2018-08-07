@@ -13,6 +13,7 @@ tags:
 ## 參考
 
 * [為你自己學 Git](https://gitbook.tw/)
+* [如何在 Github Pages 建立靜態網站](https://www.youtube.com/watch?v=bU0f1IvUcZA)
 
 ## 新增專案
 
