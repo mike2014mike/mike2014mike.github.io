@@ -56,15 +56,15 @@ var ul = document.querySelector('ul');
 var list = ul.querySelectorAll('li');
 for (var i = 0; i < list.length; i++) {
     ul.appendChild(document.createElement('li'));
-}//這個時候就創建了3個新的li，添加在ul列表上。 
-console.log(list.length) //輸出的結果仍然是3，不是此時畫面上li的數量是6
+}//這個時候就創建了 3 個新的 li ，添加在 ul 列表上。 
+console.log(list.length) //輸出的結果仍然是 3 ，但此時畫面上 li 的數量是 6
 
 var ul = document.getElementsByTagName('ul')[0];
 var list = ul.getElementsByTagName('li');
 for (var i = 0; i < 5; i++) {
     ul.appendChild(document.createElement('li'));
 }
-console.log(list.length)//此時輸出的結果就是3+5=8
+console.log(list.length)//此時輸出的結果就是 3 + 5 = 8
 
 ```
 
@@ -73,3 +73,4 @@ console.log(list.length)//此時輸出的結果就是3+5=8
 * [你不需要jQuery](http://www.webhek.com/post/how-to-forget-about-jquery-and-start-using-native.html)
 * [用纯JavaScript替代jQuery的技巧](http://www.webhek.com/post/you-do-not-need-jquery.html)
 * [querySelector和getElementById方法的区别](http://www.imooc.com/article/13027?block_id=tuijian_wz)
+* [不負責 Javascript 入門觀念提醒](https://www.youtube.com/watch?v=hCy-eHwjhXc)
