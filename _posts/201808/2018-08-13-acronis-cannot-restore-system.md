@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      使用Acronis True Image無法還原系統
-date:       2018-08-12 09:37:19
+date:       2018-08-13 09:37:19
 author:     Mike Chen
 summary:    
 categories: tips
