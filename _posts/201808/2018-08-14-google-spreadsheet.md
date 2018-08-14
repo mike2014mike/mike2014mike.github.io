@@ -48,7 +48,7 @@ tags:
 
 ### importXML 讀取任意網頁內容
 
-* 這裡會使用到一個概念叫做「XPath」，XPath 長得有點像目錄結構或網址的寫法，他使用斜線分格、並利用標籤名做找查。
+* 這裡會使用到 XML Path Language (XPath)，XPath 長得有點像目錄結構或網址的寫法，他使用斜線分格、並利用標籤名做找查。
 
 * Google Chrome 瀏覽器提供了「Copy XPath」的功能，可以讓我們直接複製任意網頁內容的 XPath 。
 
