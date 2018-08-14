@@ -93,6 +93,11 @@ tags:
 
 ![執行結果](https://i.imgur.com/8vh4VZ7.png)
 
+
+### 注意
+
+> Google 試算表只能對付「靜態」網頁，也就是資料與結構都是在遠端電腦產生的網頁類型，若碰到使用 JavaScript 做內容動態載入或需要登入的個人化頁面，我們便還是得靠進一步的網頁分析與開發爬蟲程式才能順利取得我們想要的資料了。
+
 ### 參考
 * [無痛爬梳自己來，用 Google Spreadsheet 爬取網頁資料](http://blog.infographics.tw/2016/11/google-spreadsheet-data-scraping/)
 * [新北市各區人數統計表](https://data.gov.tw/dataset/26555)
