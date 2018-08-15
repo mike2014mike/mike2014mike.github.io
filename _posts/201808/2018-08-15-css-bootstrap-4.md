@@ -21,7 +21,7 @@ tags:
 
 * BS3 是 float ， BS4 改為 flex 。
 
-* 預設色彩有八個：primary, secondary, success, info, warning, danger, light, dark。
+* 預設色彩有 8 個基本款：primary, secondary, success, info, warning, danger, light, dark。
 ![預設色彩](https://i.imgur.com/4zfou58.png)
 
 * BS4 斷點預設值以手機為準，拿掉 BS3 才有的 xs ，欄位寫法精簡為 `col-6`。
@@ -68,8 +68,42 @@ tags:
 * .no-gutters 讓欄之間的間距不見，一般套用在 .row 上。
 ![.no-gutters](https://i.imgur.com/WIL2Z2s.png)
 
+* .col 可以直接拿來做等寬的欄。
+![.col](https://i.imgur.com/qwdO2xE.png)
+
+* flex-basis 控制物件主軸方向的長度 (資料走向)，主軸橫向(flex-direction: row;)就是寬度、主軸縱向(flex-direction: column;)就是高度。
+
+* .col 如果拿來做橫向 (flex-direction: row;) 的沒問題，因為所有的 div 預設就是視窗寬度，所以flex-basis: 0 沒問題。
+
+* 但所有的 div 預設不會是視窗高度，所以如果父層設定縱向(flex-direction: column;) 會出問題，因為 .col 的 flex-basis:0 ，而父層沒有設定高度，就會壞掉。
+
+* .col-auto 寬度不斷延長延長延長不會換行，感覺難以掌控。
+![.col-auto](https://i.imgur.com/LkBWzbk.png)
+
+* .col-* 伸展值、收縮值均為 0，僅用 flex-basis 設定寬度。
+![.col-*](https://i.imgur.com/aABJd8C.png)
+
+* .order-* 就是 flex 的 order 將物件做排序。以 .order-first 來說，所有物件預設 order: 0，所以將其設定為 -1 就會跑到最前面。
+![.order-*](https://i.imgur.com/6ehZ2ei.png)
+
+* .offset-* 在 BS3 的寫法是 .col-sm-offset-1，就是位移 n 欄的寬度。
+![.offset-*](https://i.imgur.com/ynDJ9gk.png)
+
+* offset 容易和 BS3 的 push 和 pull 搞混。push 和 pull 使用的是 left 和 right，跟 position 有關；而 offset 使用的是 margin ，會佔空間。
+![push 和 pull](https://i.imgur.com/zJqqgA1.png)
+
+* mr-auto, ml-auto
+
+* .table 有九個顏色( 8 個基本款 + active )。
+![.table](https://i.imgur.com/CGasnCs.png)
+
+* .table-sm 在 BS3 的寫法是 .table-condensed，作用是減少 padding，讓表格擠一點，不要太空洞。sm 表示小一點，lg 表示大一點。
+
 
 
 
 ### 參考
 * [Bootstrap4 CSS原始碼導讀之1](https://www.youtube.com/watch?v=YgYFMnysL6Y)
+* [玩轉 CSS FLEX](https://youtu.be/_nCBQ6AIzDU)
+* [圖解 Flexbox 進階屬性](https://cythilya.github.io/2017/04/06/flexbox-advance/)
+* [Flex · Bootstrap 4 繁體中文手冊](https://bootstrap.hexschool.com/docs/4.0/utilities/flex/)
