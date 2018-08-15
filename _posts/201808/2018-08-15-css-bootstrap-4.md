@@ -99,6 +99,11 @@ tags:
 
 * .table-sm 在 BS3 的寫法是 .table-condensed，作用是減少 padding，讓表格擠一點，不要太空洞。sm 表示小一點，lg 表示大一點。
 
+* .table-borderless 拿掉表格框線。
+
+* .table-striped 條紋式表格。
+
+* .table-primary, .table-顏色 改變表格顏色。
 
 
 
