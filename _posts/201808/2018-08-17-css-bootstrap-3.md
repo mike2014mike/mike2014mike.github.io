@@ -120,9 +120,48 @@ Win10 用戶可使用 Ctrl + Win + Enter 可開啟網頁朗讀功能。
 * .caret 箭頭，三角形
 ![.caret](https://i.imgur.com/HRO4w8K.png)
 
+* CSS 中的 空格、大於（>）、加號（+）和取代符號（~）的意思，請見下方參考文章。
+
+```
+空格：影響的是所有小孩的意思
+大於(>)：影響的是直接的小孩(direct descendant/child)
+
+EX: 
+div p：下一層中，所有 p；
+div>p：下一層中，直接接觸的所有 p。
+```
+![空格大於比較示意圖](https://i.imgur.com/BzqWnFY.png)
+
+```
+加號(+)：影響的是同一階層（siblings）的標籤
+取代符號(~)：影響到同一階層的所有元素，也就是「毛毛蟲隔山打一群牛」
+
+EX: 
+div+p：同一層中，div 後面直接接觸的第一個 p；
+div~p：同一層中，div 後面的所有 p。
+```
+![加號示意圖](https://i.imgur.com/ehw3qZD.png)
+![取代符號示意圖](https://i.imgur.com/GSGiHFe.png)
+
+* CSS 空格 > + ~ 使用方法範例
+<div class="iframe-rwd">
+    <iframe scrolling='no' title='CSS 空格 > + ~ 使用方法' src='//codepen.io/mikechen2017/embed/XBvXaV/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/XBvXaV/'>CSS 空格 &rt; + ~ 使用方法</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+* BS 裡面所有的垂直距離都是 `margin-bottom`，所以如果要調整上下兩個項目的距離，直接改上方項目的 `margin-bottom` 即可。只有 pagination(分頁列) 是調整 `margin-top` 。
+
+* .breadcrumb (麵包屑) 路徑列，麵包屑這個術語是源自於童話故事糖果屋。漢賽爾與葛麗特在前往森林的路上放置麵包屑，這樣即使迷路了，也能順著先前丟棄的麵包屑找到回家的方向。
+![.breadcrumb (麵包屑)](https://i.imgur.com/qcqvCi5.png)
+
+* 麵包屑要改斜線，就改 `.breadcrumb > li + li:before` 的 `content` 即可。
+
+* .pagination(分頁列) 清單類型的要套用 class 都是套用在 li 上，例如下圖的 .active 和 .disabled。
+![.pagination(分頁列)](https://i.imgur.com/uq69HXk.png)
 
 
 
+### 記錄到 3:19:12
 
 
 
@@ -132,3 +171,5 @@ Win10 用戶可使用 Ctrl + Win + Enter 可開啟網頁朗讀功能。
 * [CSS3 鲜为人知的属性-webkit-tap-highlight-color的理解](https://www.cnblogs.com/libin-1/p/5903350.html)
 * [螢幕閱讀器 - Wiki](https://zh.wikipedia.org/wiki/%E8%9E%A2%E5%B9%95%E9%96%B1%E8%AE%80%E5%99%A8)
 * [網頁設計師不可沒有的10個隨身碟軟體](http://amos-lee.blogspot.com/2008/06/10.html)
+* [CSS 選擇器中加號（+）和取代符號／波浪號（~）的意思](https://pjchender.blogspot.com/2015/07/css_25.html)
+* [CSS選擇器中的大於（>）是什麼意思？](https://pjchender.blogspot.com/2015/07/css.html)
