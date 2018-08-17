@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bootstrap 4 爬 Code
-date:       2018-08-15 09:37:19
+date:       2018-08-17 09:37:19
 author:     Mike Chen
 summary:    
 categories: css
@@ -15,7 +15,7 @@ tags:
 
 * 官方載點：[bootstrap-4.1.3-dist.zip](https://github.com/twbs/bootstrap/releases/download/v4.1.3/bootstrap-4.1.3-dist.zip)
 
-* 備用載點：[bootstrap-4.1.3-dist.zip](https://mike2014mike.github.io/sample/2018-08-15/bootstrap-4.1.3-dist.zip)
+* 備用載點：[bootstrap-4.1.3-dist.zip](https://mike2014mike.github.io/sample/2018-08-17/bootstrap-4.1.3-dist.zip)
 
 ### 筆記
 
@@ -90,7 +90,7 @@ tags:
 ![.offset-*](https://i.imgur.com/ynDJ9gk.png)
 
 * offset 容易和 BS3 的 push 和 pull 搞混。push 和 pull 使用的是 left 和 right，跟 position 有關；而 offset 使用的是 margin ，會佔空間。
-![push 和 pull](https://i.imgur.com/zJqqgA1.png)
+![BS3 的 push 和 pull](https://i.imgur.com/RXIjnSE.png)
 
 * mr-auto, ml-auto
 
