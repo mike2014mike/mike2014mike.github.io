@@ -8,7 +8,7 @@ categories: css
 thumbnail:  css3
 tags:
  - css
- - Bootstrap 4
+ - Bootstrap 3
 ---
 
 看 Amos 大大的影片作筆記，下面的擷取內容是以 `Bootstrap-3.3.7` 為準。
@@ -64,6 +64,65 @@ Win10 用戶可使用 Ctrl + Win + Enter 可開啟網頁朗讀功能。
 * .mark 螢光筆。
 ![.mark](https://i.imgur.com/kiwl9Ym.png)
 
+* .list-unstyled 和 .list-inline 是加在 ul 上的，都有做 list-style: none; 移除項目符號的功能，.list-inline 只是多了變成一行的功能。
+![.list-unstyled 和 .list-inline](https://i.imgur.com/Nvpl8Ry.png)
+
+* BS3 使用 .list-line 空白字元問題之解法
+<div class="iframe-rwd">
+    <iframe scrolling='no' title='BS3 使用 .list-line 空白字元問題' src='//codepen.io/mikechen2017/embed/GBbbaz/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/GBbbaz/'>BS3 使用 .list-line 空白字元問題</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+* abbr 一個「秀下線、問號游標」的標籤，常用在縮寫註解或輔助說明上，搭配 title 使用。
+![abbr](https://i.imgur.com/ztnhHlr.png)
+
+* kbd 在提示輸入鍵盤那些按鈕的時候用，例如 <kbd>Ctrl + P</kbd>
+![kbd](https://i.imgur.com/7NLgBaS.png)
+
+* .pre-scrollable 會員條款，滾到底勾選我已閱讀 --->大家說謊區
+![.pre-scrollable](https://i.imgur.com/Ea7mQxT.png)
+
+* pull: 用 right >> position
+
+* push: 用 left >> position
+
+* offset: margin
+
+* BS 每一個欄寬 8.333333%，年薪百萬的關鍵。100萬 / 12月 = 8.333333萬，每月要賺8.333333萬。
+
+* pull, push, offset 用法
+<div class="iframe-rwd">
+    <iframe scrolling='no' title='BS3  pull, push, offset 用法' src='//codepen.io/mikechen2017/embed/ejqOGx/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/ejqOGx/'>BS3  pull, push, offset 用法</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+* 2514 行重複設定了 border-box，先別急著罵它，我們可以思考一下為什麼。原因可以理解為 BS 提供了客製化模組下載，為避免被使用者遺漏勾選，所以這邊再設定一次。
+![border-box again](https://i.imgur.com/Pp7qYvw.png)
+
+* .form-control 寬度 100%，讓它可以換行。
+![.form-control](https://i.imgur.com/bhJ4uvd.png)
+
+* 下面範例可以試著把 .form-control 拿掉看看會怎樣。
+<div class="iframe-rwd">
+    <iframe scrolling='no' title='BS3  .form-control' src='//codepen.io/mikechen2017/embed/bjXNOB/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/bjXNOB/'>BS3  .form-control</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+* .radio-inline 或 .checkbox-inline 有雷，第二行開始左邊會多出 10px ，無法對齊，只能手動覆寫掉。
+![.radio-inline 或 .checkbox-inline](https://i.imgur.com/LbGJiC0.png)
+
+* .btn 按鈕如果要置中，用 text-align: center; 即可，因為它是 inline-block。
+![.btn](https://i.imgur.com/znW0IQU.png)
+
+* .fade 淡入淡出效果
+![.fade](https://i.imgur.com/A1f6Dh9.png)
+
+* .caret 箭頭，三角形
+![.caret](https://i.imgur.com/HRO4w8K.png)
+
+
+
+
 
 
 
@@ -72,3 +131,4 @@ Win10 用戶可使用 Ctrl + Win + Enter 可開啟網頁朗讀功能。
 * [Bootstrap3 CSS原始碼導讀](https://www.youtube.com/watch?v=kxnGnewfpHA)
 * [CSS3 鲜为人知的属性-webkit-tap-highlight-color的理解](https://www.cnblogs.com/libin-1/p/5903350.html)
 * [螢幕閱讀器 - Wiki](https://zh.wikipedia.org/wiki/%E8%9E%A2%E5%B9%95%E9%96%B1%E8%AE%80%E5%99%A8)
+* [網頁設計師不可沒有的10個隨身碟軟體](http://amos-lee.blogspot.com/2008/06/10.html)
