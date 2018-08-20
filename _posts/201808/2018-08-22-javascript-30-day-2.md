@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      JavaScript 30 - Day 2.JS and CSS Clock
+date:       2018-08-22 10:37:19
+author:     Mike Chen
+summary:    
+categories: javascript
+thumbnail:  code
+tags:
+ - javascript
+---
+
+
+### #2.JS and CSS Clock
+
+```js
+[筆記]
+
+
+
+```
+
+* [實作](https://mike2014mike.github.io/js30/02 - JS and CSS Clock/index-mike.html)
+
+
+
+### 參考
+* [Javascript 30 #1](https://www.youtube.com/watch?v=CWxU_q5b33U)
+* [JavaScript 30](https://javascript30.com/)
+* [GitHub - Javascript 30](https://github.com/wesbos/JavaScript30)
