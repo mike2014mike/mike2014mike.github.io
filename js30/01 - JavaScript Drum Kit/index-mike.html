@@ -64,13 +64,67 @@
     //   console.log('press', e);
     // })
 
-    // window.addEventListener('keyup', function (e) {
-    //   console.log('up', e);
-    // })
+    //程式不要裸露在外，可用立即函式包起來
+    (function () {
+      window.addEventListener('keydown', function (e) {
+        // console.log('down', e);
 
-    window.addEventListener('keydown', function (e) {
-      console.log('down', e);
-    })
+        //按下加入反黃 class
+        //jQuery 寫法
+        // $('selector').addClass('palying'); 
+
+        // var myClick = document.querySelector('.key[data-key="' + e.keyCode + '"]');
+        // console.log(myClick);
+
+        // ES6 反引號寫法
+        let myClick = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+        if (myClick) {
+
+          if (myClick.classList.contains('down')) return false;
+
+          myClick.classList.add('playing');
+          myClick.classList.add('down');
+        }
+
+        // 播放音效
+        let myAudio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        if (myAudio) {
+          myAudio.currentTime = 0;//確保聲音從頭播放
+          myAudio.play();
+        }
+
+      })
+
+
+
+      window.addEventListener('keyup', function (e) {
+        // console.log('up', e);
+        let myClick = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+        if (myClick) {
+          myClick.classList.remove('down');
+        }
+      })
+
+
+
+      let keys = document.querySelectorAll('.key'); //NodeList 類陣列
+      keys.forEach(function (key) {
+        key.addEventListener('transitionend', function (e) {
+          //console.log('transitionend', e);
+          //從上面 log 可看出，按一次按鈕會跑出一堆 Transition Event，可透過 propertyName 篩選
+
+          if (e.propertyName === 'transform') {
+            this.classList.remove('playing');
+            console.log('remove');
+          }
+
+          // if (e.propertyName !== 'transform') return false;
+          // this.classList.remove('playing');
+          // console.log('remove');
+
+        })
+      })
+    })()
   </script>
 
 
