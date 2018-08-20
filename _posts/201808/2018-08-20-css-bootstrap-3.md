@@ -167,29 +167,33 @@ div~p：同一層中，div 後面的所有 p。
 </iframe>
 </div>
 
-* .jumbotron 滿版，幾乎等於 .container。如果 .container 包 .jumbotron，會是一個帶圓角的滿版； 反之，如果是 .jumbotron 包 .container，則不會帶圓角。
+* `.jumbotron` 滿版，幾乎等於 .container。如果 .container 包 .jumbotron，會是一個帶圓角的滿版； 反之，如果是 .jumbotron 包 .container，則不會帶圓角。
 ![.jumbotron](https://i.imgur.com/qNngp69.png)
 
-* .media 用在留言區好用，也有人用於最新消息。注意其 .media-body 的 display 是使用 table-cell。
+* `.media` 用在留言區好用，也有人用於最新消息。注意其 .media-body 的 display 是使用 table-cell。
 ![.media](https://i.imgur.com/DJ0DWGo.png)
 
-* BS4 捨棄了一些在 BS3 的使用習慣，例如在 BS3 的 4700 行 .breadcrumb 下面接 `li 標籤`，但在 BS4 改使用 .breadcrumb-item 這個 class。
+* BS4 捨棄了一些在 BS3 的使用習慣，例如在 BS3 的 4700 行 `.breadcrumb` 下面接 `li 標籤`，但在 BS4 改使用 `.breadcrumb-item` 這個 class。
 ![使用習慣](https://i.imgur.com/VlVBNCA.png)
 
-* .list-group 在 BS4 多了一個 .list-group-item-action 的 class。
+* `.list-group` 在 BS4 多了一個 `.list-group-item-action` 的 class。
 ![.list-group](https://i.imgur.com/QdIXz3X.png)
 
-* .panel 可以搭配其他項目使用，例如搭配 .list-group 可以做出功能選單。但直接套入 .list-group 會很醜，因為有 padding。可以直接移除 .panel-body，以 .list-group 取代之即可。
+* `.panel` 可以搭配其他項目使用，例如搭配 `.list-group` 可以做出功能選單。但直接套入 `.list-group` 會很醜，因為有 padding。可以直接移除 `.panel-body`，以 `.list-group` 取代之即可。
 <div class="iframe-rwd">
     <iframe scrolling='no' title='BS3 panel 搭配 list-group 做功能選單' src='//codepen.io/mikechen2017/embed/eLOPWr/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/eLOPWr/'>BS3 panel 搭配 list-group 做功能選單</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 </div>
 
-* .embed-responsive 嵌入 Google 地圖、 YouTube 影片、iframe等，使用 .embed-responsive 在父層，使用 .embed-responsive-item 在子層。
+* `.embed-responsive` 嵌入 Google 地圖、 YouTube 影片、iframe等，使用 `.embed-responsive` 在父層；並視情況設定比例使用 `.embed-responsive-16by9` 或 `.embed-responsive-4by3` ；最後在子層使用 `.embed-responsive-item` 。
+![.embed-responsive](https://i.imgur.com/xRp6UEQ.png)
 <div class="iframe-rwd">
     <iframe src='//codepen.io/mikechen2017/embed/pOzxmZ/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/pOzxmZ/'>BS3  embde-responsive</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 </div>
+
+* .well 有雷！如果想要換背景色彩，例如加上 `.bg-info` 會沒有作用，原因是 `.bg-info` 寫在前方，會被 .well 的背景色蓋掉。 .well 在 BS4 已經拿掉。
+![.well](https://i.imgur.com/oR08Ejv.png)
 
 
 ### 參考
