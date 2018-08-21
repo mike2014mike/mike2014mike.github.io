@@ -10,9 +10,6 @@ tags:
  - javascript
 ---
 
-### JavaScript 30
-* 使用原生 JS 實作 30 個範例。
-
 ### #1. JS Drum Kit
 
 ```js

@@ -55,6 +55,6 @@ style.transform = rotate('角度')
 
 
 ### 參考
-* [Javascript 30 #1](https://www.youtube.com/watch?v=CWxU_q5b33U)
+* [Javascript 30 #2](https://www.youtube.com/watch?v=CWxU_q5b33U)
 * [JavaScript 30](https://javascript30.com/)
 * [GitHub - Javascript 30](https://github.com/wesbos/JavaScript30)
