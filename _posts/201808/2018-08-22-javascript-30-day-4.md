@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      JavaScript 30 - Day 4+7.Array Cardio
+title:      JavaScript 30 - Day 4.Array Cardio
 date:       2018-08-22 10:37:19
 author:     Mike Chen
 summary:    
@@ -8,13 +8,15 @@ categories: javascript
 thumbnail:  code
 tags:
  - javascript
- - CSS Variables
+ - Array
 ---
 
 
-### #4 + #7.Array Cardio
+### #4.Array Cardio
+* [實作](https://mike2014mike.github.io/js30/04 - Array Cardio Day 1/test.js)
 
 ```js
+
 [筆記]
 
 # Node Exec
@@ -56,10 +58,6 @@ let shiftNum = numArr.shift();
 console.log(shiftNum); //1
 console.log(numArr); //[2, 3]
 ```
-
-* [實作](https://mike2014mike.github.io/js30/04 - Array Cardio Day 1/test.js)
-
-
 
 ### 參考
 * [Javascript 30 #3](https://www.youtube.com/watch?v=T-6LN1iQd1U)
