@@ -20,6 +20,6 @@ tags:
 
 
 ### 參考
-* [Javascript 30 #4](https://www.youtube.com/watch?v=jYH4AjGHoeQ)
+* [Javascript 30 #4 with Amos](https://www.youtube.com/watch?v=jYH4AjGHoeQ)
 * [JavaScript 30](https://javascript30.com/)
 * [GitHub - Javascript 30](https://github.com/wesbos/JavaScript30)
