@@ -22,7 +22,7 @@ tags:
 * 第 1826 行，在 iPhone 上拿掉 transition。
 ![transition](https://i.imgur.com/GIDzwAS.png)
 
-* 第 1959 行，BS4 新增的 .form-row，縮小欄位間距。
+* 第 1959 行，BS4 新增的 .form-row，縮小欄位間距，也就是把原本 .row 的地方直接換成 .form-row，相對好看許多。
 ![.form-row](https://i.imgur.com/xKMPO6H.png)
 
 * 第 2216 行，.form-inline 將內容物橫向排列。
@@ -34,8 +34,38 @@ tags:
 * 第 2917 行，.btn-block 超大顆寬滿版按鈕。
 ![.btn-block](https://i.imgur.com/be4SXox.png)
 
-* 第 2932 行，.fade 控制淡入淡出效果，一樣手機部分都會取消 transition。
+* 第 2932 行，.fade 控制淡入淡出效果，一樣手機部分都會取消 transition。 .fade 要搭配 .show 一起使用才有效果，BS3 是搭配 .in 使用。
 ![.fade](https://i.imgur.com/ZbuVG2n.png)
+
+* 第 2946 行，.collapse 收合、 .collapsing 收合過程。
+![.collapse](https://i.imgur.com/67BzVWH.png)
+
+* 第 2963 行，.dropup / .dropdown / .dropleft / .dropright 是 BS 自己做的下拉選單，並非 select。.dropdown-toggle 是下拉選單的小三角形。
+![.dropdown](https://i.imgur.com/5fO7tXy.png)
+
+* 第 3111 行，.dropdown-divider 分隔線，直接套用在 li 上。
+![.dropdown-divider](https://i.imgur.com/qW3Hkfc.png)
+
+* 第 3152 行，.dropdown-header 拿來做選單的分類標題，通常會設定為不可選，並在下方加上 divider(分隔線)。
+![.dropdown-header](https://i.imgur.com/d5LbHZy.png)
+
+* 第 3319 行，.custom-select 和 .custom-file。
+![.custom-select 和 .custom-file](https://i.imgur.com/S3UwrDQ.png)
+
+* 第 3447 行，.input-group-prepend 和 .input-group-append，名稱由 jQuery 而來，其實就是在表單 前面/後面 加東西的意思。
+![.input-group-prepend 和 .input-group-append](https://i.imgur.com/yzPXw1t.png)
+
+* :checked 用在手機選單很好用
+![:checked](https://i.imgur.com/0rD2Ygp.png)
+
+<div class="iframe-rwd">
+    <iframe scrolling='no' title='custom checkbox' src='//codepen.io/mikechen2017/embed/ZMGrYQ/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/ZMGrYQ/'>custom checkbox</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+
+
+
 
 
 ### 參考
