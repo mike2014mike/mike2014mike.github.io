@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      JavaScript 30 - Day 4.Array Cardio
-date:       2018-08-22 10:37:19
+date:       2018-08-24 10:37:19
 author:     Mike Chen
 summary:    
 categories: javascript
