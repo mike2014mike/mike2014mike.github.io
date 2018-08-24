@@ -99,3 +99,9 @@ function temp() {
 }
 
 temp(1, 2, 3, 4)
+
+function temp2(...args) {
+  console.log(args);
+}
+
+temp2(4, 5, 6, 7)
