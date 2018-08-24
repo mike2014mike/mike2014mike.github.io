@@ -13,9 +13,6 @@ tags:
  - bind
 ---
 
-
-
-
 ### apply, call 與 bind
 
 ```js
@@ -28,21 +25,21 @@ function f0() {
 f0(); //this 是空的，會印出整個 Window 物件/ global
 
 function f1() {
-  console.log(this)
+  console.log(this) //{ value: 100 }
 }
 //利用 apply 將 this 換成 data，並立刻執行 f1
 f1.apply(data);
 
 
 function f2() {
-  console.log(this)
+  console.log(this) //{ value: 100 }
 }
 //利用 call 將 this 換成 data，並立刻執行 f2
 f2.call(data);
 
 
 function f3() {
-  console.log(this)
+  console.log(this) //{ value: 100 }
 }
 //利用 bind 將 this 換成 data，並回傳一個 function
 var newFoo = f3.bind(data);
@@ -82,7 +79,7 @@ function temp() {
 
   //利用 .slice.call 將 arguments 轉為陣列
   var arrr = [].slice.call(arguments);
-  console.log(arrr);
+  console.log(arrr); //​​​​​[ 1, 2, 3, 4 ]​​​​​
 }
 
 temp(1, 2, 3, 4)
