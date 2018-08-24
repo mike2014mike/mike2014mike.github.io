@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      JavaScript - Closure (閉包)
+date:       2018-08-24 10:37:19
+author:     Mike Chen
+summary:    
+categories: javascript
+thumbnail:  code
+tags:
+ - javascript
+ - Closure
+---
+
+
+### 閉包
+
+```js
 
 function callMethod(newMoney) {
   var money = newMoney;
@@ -29,14 +46,22 @@ console.log(callMethod(100));
 //但本範例如果直接這樣用等於是一個減法 function 而已。
 console.log(callMethod(100)(20));
 
+```
+
+![Closure](https://i.imgur.com/OtFYK5h.png)
 
 
+### 利用閉包解決問題
+
+```js
+//在第一個 for 迴圈內，我們將每次的 console.log 加上 setTimeout，預期應該會印出 0~4，但卻都是 5。
 for (var i = 0; i < 5; i++) {
   setTimeout(function () {
     console.log(i);
   }, 100)
 }
 
+//我們利用閉包記憶的特性，加入一立即函式解決這問題
 for (var i = 0; i < 5; i++) {
   (function (index) {
     setTimeout(function () {
@@ -44,58 +69,12 @@ for (var i = 0; i < 5; i++) {
     }, 100)
   })(i)
 }
+```
 
-
-var data = { value: 100 };
-
-function f0() {
-  console.log(this)
-}
-f0();
-
-function f1() {
-  console.log(this)
-}
-f1.apply(data);
-
-
-function f2() {
-  console.log(this)
-}
-f2.call(data);
-
-
-function f3() {
-  console.log(this)
-}
-var newFoo = f3.bind(data);
-newFoo();
+![利用閉包解決問題](https://i.imgur.com/UwiAclY.png)
 
 
 
-function test(a, b, c) {
-  console.log(a, b, c);
-}
-
-test.apply(undefined, [1, 2, 3])
-test.call(undefined, 5, 6, 7)
-
-var arr = [1, 3, 4, 66, 74, 22, 44]
-var max = Math.max.apply(undefined, arr)
-//var max = Math.max(1, 3, 4, 66, 74, 22, 44)
-//var max = Math.max(...arr)     //ES6 展開寫法
-console.log(max);
-
-
-console.log(Array.prototype.slice.call(arr));
-console.log([].slice.call(arr));
-
-function temp() {
-  //arguments 是保留字，可以取得輸入的參數
-  console.log(arguments);
-
-  var arrr = [].slice.call(arguments);
-  console.log(arrr);
-}
-
-temp(1, 2, 3, 4)
+### 參考
+* [JavaScript - 十分鐘帶你了解 閉包 (Closure)](https://www.youtube.com/watch?v=TLIQUloXLec)
+* [線上讀書會 承億 主講 Benchmark, javascript 作用域、閉包、this](https://www.youtube.com/watch?v=14hNN6veRjc)
