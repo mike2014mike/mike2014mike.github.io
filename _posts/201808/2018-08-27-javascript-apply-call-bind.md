@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      JavaScript - apply, call 和 bind
-date:       2018-08-24 10:37:19
+date:       2018-08-27 10:37:19
 author:     Mike Chen
 summary:    
 categories: javascript
