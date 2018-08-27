@@ -65,10 +65,10 @@
       if (filter && filterArray) {
         let html = filterArray.map(function (city) {
 
-          var cache = JSON.parse(JSON.stringify(city));
-          var field = ["city", "state"];
+          let cache = JSON.parse(JSON.stringify(city));
+          let field = ["city", "state"];
           field.forEach((f) => {
-            var match = cache[f].match(regexp);
+            let match = cache[f].match(regexp);
             // console.log(match);
             if (match)
               cache[f] = cache[f].replace(regexp, `<span class='hl'>${match[0]}</span>`);

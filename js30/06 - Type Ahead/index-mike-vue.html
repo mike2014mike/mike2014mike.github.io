@@ -43,10 +43,10 @@
       },
       methods: {
         highlight(obj) {
-          var cache = JSON.parse(JSON.stringify(obj));
-          var field = ["city", "state"];
+          let cache = JSON.parse(JSON.stringify(obj));
+          let field = ["city", "state"];
           field.forEach((f) => {
-            var match = cache[f].match(this.regexp);
+            let match = cache[f].match(this.regexp);
             // console.log(match);
             if (match)
               cache[f] = cache[f].replace(this.regexp, `<span class='hl'>${match[0]}</span>`);
