@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      JavaScript 30 - Day 6.Type Ahead & Vue框架作法比較
-date:       2018-08-24 10:37:19
+date:       2018-08-28 10:37:19
 author:     Mike Chen
 summary:    
 categories: javascript
@@ -42,6 +42,6 @@ tags:
 * [Javascript 30 #5 & Vue框架作法比較](https://www.youtube.com/watch?v=8iRyEhJBdUg)
 * [JavaScript 30](https://javascript30.com/)
 * [GitHub - Javascript 30](https://github.com/wesbos/JavaScript30)
-* [正規表達式- JavaScript | MDN](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Regular_Expressions)
+* [正規表達式- JavaScript MDN](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Regular_Expressions)
 * [線上正規表達式測試網頁](https://regex101.com/)
 * [js數字格式化（加千分位逗號）](https://hk.saowen.com/a/d85852ebff40414ded947185e1a8930ce129731069f49a9688917eeca9fd6204)
