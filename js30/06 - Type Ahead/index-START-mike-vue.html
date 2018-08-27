@@ -35,9 +35,6 @@
         cities: [],
         filter: ''
       },
-      created: function () {
-        // 網頁載入完成，先執行的 function 內容寫在這(像 jQ 的 .ready())
-      },
       mounted() {
         $.ajax({
           url: endpoint
@@ -46,9 +43,20 @@
       },
       methods: {
         highlight(obj) {
-          let cname = obj.city.replace(this.regexp, `<span class="hl">${this.filter}</span>`);
-          let sname = obj.state.replace(this.regexp, `<span class="hl">${this.filter}</span>`);
-          return cname + ', ' + sname;
+          var cache = JSON.parse(JSON.stringify(obj));
+          var field = ["city", "state"];
+          field.forEach((f) => {
+            var match = cache[f].match(this.regexp);
+            // console.log(match);
+            if (match)
+              cache[f] = cache[f].replace(this.regexp, "<span class='hl'>" + match[0] + "</span>");
+          });
+          // console.log(cache);
+          return cache.city + ', ' + cache.state;
+
+          // let cname = obj.city.replace(this.regexp, `<span class="hl">${this.filter}</span>`);
+          // let sname = obj.state.replace(this.regexp, `<span class="hl">${this.filter}</span>`);
+          // return cname + ', ' + sname;
         }
       },
       computed: {
