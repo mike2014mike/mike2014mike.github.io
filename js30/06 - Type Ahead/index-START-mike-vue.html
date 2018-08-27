@@ -49,7 +49,7 @@
             var match = cache[f].match(this.regexp);
             // console.log(match);
             if (match)
-              cache[f] = cache[f].replace(this.regexp, "<span class='hl'>" + match[0] + "</span>");
+              cache[f] = cache[f].replace(this.regexp, `<span class='hl'>${match[0]}</span>`);
           });
           // console.log(cache);
           return cache.city + ', ' + cache.state;
