@@ -61,20 +61,41 @@
       let filterArray = cities.filter(function (city) {
         return city.city.match(regexp) || city.state.match(regexp);
       })
-      let html = filterArray.map(function (city) {
-        let cityName = city.city.replace(regexp, `<span class="hl">${filter}</span>`)
-        let stateName = city.state.replace(regexp, `<span class="hl">${filter}</span>`)
-        let population = parseInt(city.population).toLocaleString();
-        return `
+
+      if (filter && filterArray) {
+        let html = filterArray.map(function (city) {
+
+          var cache = JSON.parse(JSON.stringify(city));
+          var field = ["city", "state"];
+          field.forEach((f) => {
+            var match = cache[f].match(regexp);
+            // console.log(match);
+            if (match)
+              cache[f] = cache[f].replace(regexp, `<span class='hl'>${match[0]}</span>`);
+          });
+          let cityName = cache.city;
+          let stateName = cache.state;
+
+          // let cityName = city.city.replace(regexp, `<span class="hl">${filter}</span>`)
+          // let stateName = city.state.replace(regexp, `<span class="hl">${filter}</span>`)
+
+          let population = parseInt(city.population).toLocaleString();
+          return `
         <li>
           <span class="name">${cityName}, ${stateName}</span>
           <span class="population">${population}</span>
         </li>
         `;
-      }).join('');
-      //join 可以將陣列轉字串，並在之間加上某個字串，這裡我們加上空字串即可。
+        }).join('');
+        //join 可以將陣列轉字串，並在之間加上某個字串，這裡我們加上空字串即可。
 
-      document.querySelector('.suggestions').innerHTML = html;
+        document.querySelector('.suggestions').innerHTML = html;
+      } else {
+        document.querySelector('.suggestions').innerHTML =
+          `<li>Filter for a city</li>
+           <li>or a state</li>`;
+      }
+
     })
 
     // ========================= 我的寫法 =========================
