@@ -14,7 +14,7 @@ tags:
 
 ### #5.Flex Panel Gallery
 * [實作-JS](https://mike2014mike.github.io/js30/05 - Flex Panel Gallery/index-mike-js.html)
-* [實作-jQuery](https://mike2014mike.github.io/js30/05 - Flex Panel Gallery/index-mike-js.html)
+* [實作-jQuery](https://mike2014mike.github.io/js30/05 - Flex Panel Gallery/index-mike-jq.html)
 * [實作-純CSS](https://mike2014mike.github.io/js30/05 - Flex Panel Gallery/index-mike-pure-css.html)
 
 

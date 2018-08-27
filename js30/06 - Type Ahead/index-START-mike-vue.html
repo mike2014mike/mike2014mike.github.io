@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+</head>
+
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State" v-model="filter">
+    <ul class="suggestions">
+      <template v-if="filter && filterArray.length">
+        <li v-for="city in filterArray">
+          <span class="name" v-html="highlight(city)"></span>
+          <span class="population">{{ (city.population * 1).toLocaleString() }}</span>
+        </li>
+      </template>
+      <template v-else>
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      </template>
+    </ul>
+  </form>
+  <script>
+    const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+    // const endpoint = 'https://mike2014mike.github.io/js30/06 - Type Ahead/cities.json';
+    var vm = new Vue({
+      el: '.search-form',
+      data: {
+        cities: [],
+        filter: ''
+      },
+      created: function () {
+        // 網頁載入完成，先執行的 function 內容寫在這(像 jQ 的 .ready())
+      },
+      mounted() {
+        $.ajax({
+          url: endpoint
+        }).done(res =>
+          this.cities = JSON.parse(res))
+      },
+      methods: {
+        highlight(obj) {
+          let cname = obj.city.replace(this.regexp, `<span class="hl">${this.filter}</span>`);
+          let sname = obj.state.replace(this.regexp, `<span class="hl">${this.filter}</span>`);
+          return cname + ', ' + sname;
+        }
+      },
+      computed: {
+        //計算屬性
+        regexp() {
+          return new RegExp(this.filter, 'gi');
+        },
+        filterArray() {
+          return this.cities.filter(city =>
+            city.city.match(this.regexp) || city.state.match(this.regexp)
+          )
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

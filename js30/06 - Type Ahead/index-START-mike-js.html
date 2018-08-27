@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<style>
+  .pop {
+    float: right;
+  }
+</style>
+
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+  </form>
+  <script>
+    const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+
+    // const endpoint = 'https://mike2014mike.github.io/js30/06 - Type Ahead/cities.json';
+
+    let cities = [];
+
+    //jQuery 寫法 - $.ajax
+    // $.ajax({
+    //   url: endpoint
+    // }).done(function (res) {
+    //   console.log(JSON.parse(res));
+    // })
+
+    //純 JS 寫法 - fetch
+    fetch(endpoint).then(function (res) {
+      // console.log(res);
+
+      //res.json() 是 Promise，需要接 then 才能操作
+      res.json().then(function (obj) {
+        console.log(obj);
+        cities = obj;
+      })
+    })
+
+
+    // ========================= Alex 的寫法 =========================
+    document.querySelector('.search').addEventListener('keyup', function () {
+      //search 這個「人」，當發生 keyup 「事」件的時候，做什麼事情
+      let filter = this.value.trim();
+
+      // 輸入 los ，也要能查到 Los Angeles >> 利用 【正規表達式】
+      // gi: g (Global) 整個資料搜尋；i (Case Insensitive) 不分大小寫
+      let regexp = new RegExp(filter, 'gi');
+
+      let filterArray = cities.filter(function (city) {
+        return city.city.match(regexp) || city.state.match(regexp);
+      })
+      let html = filterArray.map(function (city) {
+        let cityName = city.city.replace(regexp, `<span class="hl">${filter}</span>`)
+        let stateName = city.state.replace(regexp, `<span class="hl">${filter}</span>`)
+        let population = parseInt(city.population).toLocaleString();
+        return `
+        <li>
+          <span class="name">${cityName}, ${stateName}</span>
+          <span class="population">${population}</span>
+        </li>
+        `;
+      }).join('');
+      //join 可以將陣列轉字串，並在之間加上某個字串，這裡我們加上空字串即可。
+
+      document.querySelector('.suggestions').innerHTML = html;
+    })
+
+    // ========================= 我的寫法 =========================
+    // document.querySelector('.search').addEventListener('keyup', function () {
+    //   // console.log('change');
+    //   let filter = this.value.trim().toLowerCase();
+    //   let filterArray = cities.filter(function (city) {
+    //     return city.city.toLowerCase().indexOf(filter) !== -1 || city.state.toLowerCase().indexOf(filter) !== -1;
+    //   })
+
+    //   let suggestions = '';
+    //   filterArray.forEach(function (city) {
+    //     let cname = city.city;
+    //     let sname = city.state;
+    //     //[千分位法一]
+    //     // let population = city.population.replace(/\d+?(?=(?:\d{3})+$)/img, "$&,");
+
+    //     //[千分位法二]
+    //     let population = format(city.population);
+
+    //     suggestions += `<li><span class="name">${cname}, ${sname}</span><span class="population">${population}</span></li>`;
+    //   })
+    //   console.log(suggestions);
+    //   document.querySelector('.suggestions').innerHTML = suggestions;
+    // })
+
+
+    // let format = n => {
+    //   let num = n.toString()
+    //   let decimals = ''
+    //   // 判斷是否有小數
+    //   num.indexOf('.') > -1 ? decimals = num.split('.')[1] : decimals
+    //   let len = num.length
+    //   if (len <= 3) {
+    //     return num
+    //   } else {
+    //     let temp = ''
+    //     let remainder = len % 3
+    //     decimals ? temp = '.' + decimals : temp
+    //     if (remainder > 0) { // 不是3的整數倍
+    //       return num.slice(0, remainder) + ',' + num.slice(remainder, len).match(/\d{3}/g).join(',') + temp
+    //     } else { // 是3的整數倍
+    //       return num.slice(0, len).match(/\d{3}/g).join(',') + temp
+    //     }
+    //   }
+    // }
+  </script>
+</body>
+
+</html>
