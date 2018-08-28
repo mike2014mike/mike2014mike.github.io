@@ -22,7 +22,7 @@ tags:
 ### Quokka.js
 ![Quokka.js](https://i.imgur.com/fa5AvFd.png)
 
-* Quokka.js 可以拿來測試 JS 程式碼，不需要啟動瀏覽器，相當方便。
+* Quokka.js 可以拿來測試 JS 程式碼，不需要啟動瀏覽器，相當方便。相似的有 Wallaby.js。
 
 * 輸入完 console.log 會立即在後方顯示結果，滑鼠移動到變數名稱上會顯示型別。
 ![Type alert 1](https://i.imgur.com/gTxEoXS.png)
@@ -45,12 +45,24 @@ tags:
 
 * 可以 HTTP 開啟瀏覽器，更動程式碼會即時反應到畫面上。(Hot Reload)
 
+* 預設 port: 5500，如果要修改，可到設定修改 `"liveServer.settings.port": 8080`。
+
 * 啟動法一：點選下方的 `Go Live` 按鈕。
 ![Go Live](https://i.imgur.com/9fNsfFa.png)
 
 * 啟動法一：HTML 內點選右鍵，選擇 `Open with Live Server` 。
 ![Open with Live Server](https://i.imgur.com/wJZYu5H.png)
 
+
+### Live Sass Compiler
+![Live Sass Compiler](https://i.imgur.com/Pahp5r1.png)
+
+* 即時編譯為 css，配合前面的 Live Server，如虎添翼。
+
+* 其他的 Sass Compiler 幾乎都需要先裝 Ruby 環境，而這款 Live Sass Compiler 不需要安裝 Ruby 即可運行。
+
+* 啟動法：點選下方的 `Watch my Sass` 按鈕。
+![Watch my Sass](https://i.imgur.com/mIdGQxy.png)
 
 ### cdnjs
 ![cdnjs](https://i.imgur.com/grWDcSJ.png)
@@ -73,6 +85,9 @@ tags:
 
 * 配合 cdnjs ，輸入 `cdnjs-fa` ，然後按下 Tab 鍵，可以快速引入 Font Awesome CSS 樣式。
 
+### Vetur
+
+* 有用 Vue 必裝外掛。
 
 ### 程式語言外掛
 
@@ -82,4 +97,8 @@ tags:
 
 
 ### 參考
-[精选！15个必备的VSCode插件](https://blog.csdn.net/qq_38906523/article/details/77278403)
+* [精选！15个必备的VSCode插件](https://blog.csdn.net/qq_38906523/article/details/77278403)
+
+* [我與我的網站開發環境工具](https://www.youtube.com/watch?v=bcgL1sCjAJA)
+
+* [Visual Studio Code 大哉聊](https://www.youtube.com/watch?v=aWmHkACveWM)
