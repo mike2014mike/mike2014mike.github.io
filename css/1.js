@@ -1,37 +1,31 @@
-const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
-
-new Vue({
-  el: '.search-form',
-  data() {
-    return {
-      cities: null,
-      filter: ''
+var vm = new Vue({
+  el: '#app',
+  data: {
+    //網頁用到的資料都放在這
+    col1: '第一欄內容',
+    col2: '第二欄內容'
+  },
+  created: function () {
+    // 網頁載入完成，先執行的 function 內容寫在這(像 jQ 的 .ready())
+  },
+  mounted() {
+    // 接API通常放這兒
+    $.ajax({
+      url: endpoint
+    }).done(res =>
+      console.log(JSON.parse(res)))
+  },
+  methods: {
+    //各種要用的 function 寫在這
+    m1: function (event) {
+      //方法一
     }
   },
   computed: {
-    regexp() {
-      return new RegExp(this.filter, 'gi')
-    },
-    filterArray() {
-      return this.cities.filter(city => city.city.match(this.regexp) || city.state.match(this.regexp))
+    //計算屬性
+    c1: function () {
+      //計算一
+      return this.col1 + ' ' + this.col2
     }
-  },
-  methods: {
-    highlight(obj) {
-      let cache = JSON.parse(JSON.stringify(obj));
-      let field = ["city", "state"];
-      field.forEach((f) => {
-        let match = cache[f].match(this.regexp);
-        // console.log(match);
-        if (match)
-          cache[f] = cache[f].replace(this.regexp, `<span class='hl'>${match[0]}</span>`);
-      });
-      // console.log(cache);
-      return cache.city + ', ' + cache.state;
-    }
-  },
-  mounted() {
-    $.ajax({ url: endpoint }).done(res => this.cities = JSON.parse(res))
   }
 })
-

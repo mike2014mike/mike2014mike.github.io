@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>網頁名稱</title>
+
+  <!-- 線上CDN -->
+  <!-- jQuery 3.x -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- bootstrap 3.x -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- bootstrap 4.x -->
+  <!--
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js'></script>
+    -->
+
+  <!-- vue 3.x -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+
+  <!-- fontawesome 5.x -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
+    crossorigin="anonymous"></script>
+
+  <!-- echarts 4.x -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/echarts/4.1.0/echarts.min.js'></script>
+
+  <!-- 本機目錄 -->
+  <!--
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+    -->
+
+  <style>
+    .navbar {
+      border-radius: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar 可輸入bs-nav加入-->
+
+  <!-- body -->
+  <div class="container" id="app">
+    <div class="col-sm-6">
+    </div>
+    <div class="col-sm-6">
+    </div>
+  </div>
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // Vue 專區
+    var vm = new Vue({
+      el: '#app',
+      data: {
+        //網頁用到的資料都放在這
+        col1: '第一欄內容',
+        col2: '第二欄內容'
+      },
+      created: function () {
+        // 網頁載入完成，先執行的 function 內容寫在這(像 jQ 的 .ready())
+      },
+      mounted() {
+        // 接API通常放這兒
+        $.ajax({
+          url: endpoint
+        }).done(res =>
+          console.log(JSON.parse(res)))
+      },
+      methods: {
+        //各種要用的 function 寫在這
+        m1: function (event) {
+          //方法一
+        }
+      },
+      computed: {
+        //計算屬性
+        c1: function () {
+          //計算一
+          return this.col1 + ' ' + this.col2
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>

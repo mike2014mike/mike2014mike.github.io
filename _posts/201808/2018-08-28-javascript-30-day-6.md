@@ -34,9 +34,18 @@ tags:
 
 ### 實作
 * [實作-JS](https://mike2014mike.github.io/js30/06 - Type Ahead/index-mike-js.html)
+
+<div class="iframe-rwd">
+<iframe height='265' scrolling='no' title='JS30 - 06 - Type Ahead -  JS' src='//codepen.io/mikechen2017/embed/dqMzoL/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/dqMzoL/'>JS30 - 06 - Type Ahead -  JS</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
 * [實作-Vue](https://mike2014mike.github.io/js30/06 - Type Ahead/index-mike-vue.html)
 
-
+<div class="iframe-rwd">
+<iframe height='265' scrolling='no' title='JS30 - 06 - Type Ahead - Vue' src='//codepen.io/mikechen2017/embed/XPdaMP/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/XPdaMP/'>JS30 - 06 - Type Ahead - Vue</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
 
 ### 參考
 * [Javascript 30 #5 & Vue框架作法比較](https://www.youtube.com/watch?v=8iRyEhJBdUg)
