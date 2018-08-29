@@ -88,6 +88,16 @@
       line-height: 20px;
       text-decoration: none;
     }
+
+    p:hover {
+      text-shadow: 1px 1px #ffc600;
+      /* #4CAF50; */
+    }
+
+    .disable-pointer,
+    .disable-pointer * {
+      pointer-events: none;
+    }
   </style>
 </head>
 
@@ -245,6 +255,36 @@
       };
     }
 
+    // throttle 需多增加一個多少時間一定要執行 => limit
+    // 1000 / 30 = 30 fps
+    function throttle(func, { wait = 1000 / 30, limit = 0, immediate = false }) {
+      let timer,
+        startTime = null;
+
+      return function () {
+        let context = this, args = arguments;
+        let currentTime = new Date().getTime();
+
+        if (startTime == null) {
+          if (!immediate) startTime = currentTime;
+          else startTime = currentTime - limit;
+        }
+
+        let waitFunc = function () {
+          func.apply(context, args);
+          startTime = null;
+        }
+
+        clearTimeout(timer);
+        if (limit && currentTime - startTime >= limit) {
+          func.apply(context, args);
+          startTime = currentTime;
+        } else {
+          timer = setTimeout(waitFunc, wait);
+        }
+      }
+    }
+
     // querySelectorAll() 取得的是 NodeList ，並非 Array。
     // 所以若需使用 indexOf()，需先透過 Array.from 轉換為 Array。
     let buttons = Array.from(document.querySelectorAll('#nav > a'));
@@ -254,6 +294,8 @@
     buttons.forEach(function (btn) {
       btn.addEventListener('click', setScroll);
     })
+
+
 
 
     function setScroll() {
@@ -286,10 +328,64 @@
     render();
 
 
-    window.addEventListener('scroll', checkScroll, false);//氣泡事件
+    // window.addEventListener('scroll', checkScroll, false);
+    // 氣泡事件有兩種：
+    // 1. 捕捉階段(CAPTURING_PHASE)：由 DOM 外到內，第三個參數設定 ture 代表在捕捉階段時觸發
+    // 2. 氣泡階段(BUBBLING_PHASE)：由 DOM 內到外，第三個參數設定 false 代表在氣泡階段時觸發 (預設)
+    // 先捕獲，再冒泡
+
+    // 作者提供的 debounce 在此不太適用，如果連續快速捲動多次然後突然停下，會出現圖片出不來的 bug。
+    // window.addEventListener('scroll', debounce(checkScroll, 100), false);
+
+    // 改用 throttle，limit 設 1000，表示就算捲軸還在捲，時間到了 1000 毫秒就會執行一次。
+    window.addEventListener('scroll', throttle(checkScroll, { wait: 250, limit: 1000 }), false);
 
     function checkScroll() {
+      // 確認捲軸捲動時，圖片進畫面了沒
 
+      // 上下邊界
+      let topLimit = window.scrollY;
+      let bottomLimit = topLimit + window.innerHeight;
+
+      // 圖片中間位置
+      images.forEach(function (image) {
+        let imageLimit = image.offsetTop + image.height / 2;
+
+
+        if (imageLimit > topLimit && imageLimit < bottomLimit) {
+          // 圖片進畫面
+          image.classList.add('active');
+        } else {
+          // 圖片出畫面
+          image.classList.remove('active');
+        }
+      })
+      // 在 body 加上 .disable-pointer，停用 :hover 功能
+      document.body.classList.add('disable-pointer');
+
+
+      // 檢查效能
+      // console.timeEnd();
+      // console.time();
+    }
+
+    // window.addEventListener('scroll', switchPointer);
+
+    // let timer;
+    // function switchPointer() {
+    //   clearTimeout(timer);
+    //   timer = setTimeout(function () {
+    //     // 250 毫秒沒捲動，才移除 .disable-pointer，恢復 :hover 功能
+    //     document.body.classList.remove('disable-pointer');
+    //   }, 250);
+    // }
+
+    // switchPointer 也套用 throttle。
+    // 沒設定 limit 就是 debounce
+    window.addEventListener('scroll', throttle(switchPointer, { wait: 250 }));
+    // 套用 throttle，timer 就不需要再做。
+    function switchPointer() {
+      document.body.classList.remove('disable-pointer');
     }
   </script>
 
