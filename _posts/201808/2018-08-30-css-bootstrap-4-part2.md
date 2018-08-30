@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Bootstrap 4 爬 Code [Part2]
-date:       2018-08-23 09:37:19
+date:       2018-08-30 09:37:19
 author:     Mike Chen
 summary:    
 categories: css
@@ -63,10 +63,54 @@ tags:
 </iframe>
 </div>
 
+* Modal 的圓角設定可在 .modal-content 中找到。
+![Modal 的圓角設定](https://i.imgur.com/vJBEIcK.png)
+
+* .modal-backdrop 是在 Modal 跳出後動態加入的透明黑背景。
+![.modal-backdrop](https://i.imgur.com/DAYvFjD.png)
+
+* .tooltip 可能常會依客戶要求修改顏色，三角形的部分利用邊框線繪製，可在 .tooltip .arrow 這段修改。
+![.tooltip](https://i.imgur.com/vp3jHXZ.png)
+
+* .popover 跟 .tooltip 差不多，多了 title 可以寫。
+![.popover](https://i.imgur.com/wMfq7Qe.png)
+
+* .popover-header:empty ，empty 代表一個字、一個空格、連換行都不能有的情況。這招在 badge 也有使用到。
+![:empty]()
+
+* `.carousel` BS4 的幻燈片被很多人嫌棄，點點點 `.carousel-indicators li` 變成了一條線，但其實點選範圍不是只有一條線。
+
+* `.carousel-caption` 是幻燈片文字部分。
+
+* `.embed-responsive` iframe 等嵌入物件做 RWD 使用；而 `.embed-responsive-*by*` 是看嵌入物件的長寬比例。
+
+```css
+.embed-responsive-21by9::before {
+  padding-top: 42.857143%;
+}
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%;
+}
+
+.embed-responsive-4by3::before {
+  padding-top: 75%;
+}
+
+.embed-responsive-1by1::before {
+  padding-top: 100%;
+}
+```
+
+
+
+
+
 
 
 ### 參考
 * [Bootstrap4 CSS原始碼導讀之2](https://www.youtube.com/watch?v=xtSURzudQTQ)
+* [Bootstrap4 CSS原始碼導讀之3](https://www.youtube.com/watch?v=zZgl9N1JuJI)
 * [玩轉 CSS FLEX](https://youtu.be/_nCBQ6AIzDU)
 * [圖解 Flexbox 進階屬性](https://cythilya.github.io/2017/04/06/flexbox-advance/)
 * [Flex · Bootstrap 4 繁體中文手冊](https://bootstrap.hexschool.com/docs/4.0/utilities/flex/)
