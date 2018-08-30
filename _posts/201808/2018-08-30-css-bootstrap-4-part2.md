@@ -76,36 +76,38 @@ tags:
 ![.popover](https://i.imgur.com/wMfq7Qe.png)
 
 * .popover-header:empty ，empty 代表一個字、一個空格、連換行都不能有的情況。這招在 badge 也有使用到。
-![:empty]()
+![:empty](https://i.imgur.com/Z2Ue6fw.png)
 
 * `.carousel` BS4 的幻燈片被很多人嫌棄，點點點 `.carousel-indicators li` 變成了一條線，但其實點選範圍不是只有一條線。
+![.carousel](https://i.imgur.com/OpmXHMV.png)
 
 * `.carousel-caption` 是幻燈片文字部分。
+![.carousel-caption](https://i.imgur.com/oKSDlht.png)
 
 * `.embed-responsive` iframe 等嵌入物件做 RWD 使用；而 `.embed-responsive-*by*` 是看嵌入物件的長寬比例。
+![.embed-responsive](https://i.imgur.com/ERTHush.png)
+
+* `.text-truncate` 文章或標題太長的省略符號【...】
+![.text-truncate](https://i.imgur.com/GH1rRIb.png)
+
+* `.text-lowercase`, `.text-uppercase`, `.text-capitalize` 控制大小寫。
 
 ```css
-.embed-responsive-21by9::before {
-  padding-top: 42.857143%;
+.text-lowercase {
+  text-transform: lowercase !important;
+  <!--定義所有字母均為小寫-->
 }
 
-.embed-responsive-16by9::before {
-  padding-top: 56.25%;
+.text-uppercase {
+  text-transform: uppercase !important;
+  <!--定義所有字母均為大寫-->
 }
 
-.embed-responsive-4by3::before {
-  padding-top: 75%;
-}
-
-.embed-responsive-1by1::before {
-  padding-top: 100%;
+.text-capitalize {
+  text-transform: capitalize !important;
+  <!--定義單字的第一個字母大寫，其他字母小寫-->
 }
 ```
-
-
-
-
-
 
 
 ### 參考
