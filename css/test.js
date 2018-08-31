@@ -206,8 +206,12 @@ function fn2() {
 
 
 async function run() {
-  await fn1();
-  fn2();
+  try {
+    await fn1();
+    fn2();
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 run();
