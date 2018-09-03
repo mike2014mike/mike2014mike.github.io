@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Vue Component & Template
+title:      Vue Component(元件) & Template(樣板)
 date:       2018-09-03 10:37:19
 author:     Mike Chen
 summary:    
@@ -10,11 +10,21 @@ tags:
  - javascript
  - Vue Component & Template
 ---
+### 目錄
+
+* [區域註冊 Component](#### 區域註冊 Component)
+* [全域註冊 Component](#### 全域註冊 Component)
+* [Data 要用 function 來 return](#### Data 要用 function 來 return)
+* [Script Template](#### Script Template)
+* [Render Function: Vue 自己會 render，但也可以自己寫](#### Render Function: Vue 自己會 render，但也可以自己寫)
+
+
+
 
 
 ### 筆記
 
-#### Vue Component 基本款：區域註冊 Component。
+#### 區域註冊 Component
 
 ```html
 <div id="app">
@@ -48,7 +58,7 @@ var vm = new Vue({
 </div>
 
 
-#### Vue Component 基本款：全域註冊 Component。
+#### 全域註冊 Component
 
 ```html
 <div id="app1">
@@ -91,7 +101,7 @@ var vm = new Vue({
 </div>
 
 
-#### Vue Component - Data 要用 function 來 return。
+#### Data 要用 function 來 return
 
 ```html
 <div id="app">
@@ -143,41 +153,98 @@ var vm = new Vue({
 </div>
 
 
-#### 標題
+#### Script Template
 
 ```html
+<div id="app">
+  <my-component></my-component>
+</div>
 
+<script type="text/x-template" id="my-component">
+<!-- 根結點只能有一個 div -->
+  <div>
+    <div class="component">1. {{msg}}</div>
+    <div class="component">2. {{msg}}</div>
+    <div class="component">3. {{msg}}</div>
+    <div class="component">4. {{msg}}</div>
+  </div>
+  
+</script>
 ```
 
 ```sass
-
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
 ```
 
 ```js
+//全域 component
+Vue.component('my-component',{
+  template:'#my-component',
+  data: function(){
+    return {
+      msg: 'This is a component of Vue! @component'
+    }
+  }
+})
+
+var vm = new Vue({
+  el: '#app'
+})
 
 ```
 
 <div class="iframe-rwd">
-
+<iframe height='265' scrolling='no' title='Vue Component - x-template' src='//codepen.io/mikechen2017/embed/QVvbxE/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/QVvbxE/'>Vue Component - x-template</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 
 
-#### 標題
+#### Render Function: Vue 自己會 render，但也可以自己寫
 
 ```html
-
+<div id="app">
+  <my-component></my-component>
+</div>
 ```
 
 ```sass
-
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
+  
 ```
 
 ```js
+//全域 component
+Vue.component('my-component',{
+  // template:'<div class="component">1. {{msg}}</div>',
+  render: function(createElement){
+    return createElement('div',{
+      class: 'component'
+    }, [this.msg])
+  },
+  data: function(){
+    return {
+      msg: 'This is a component of Vue! @component'
+    }
+  }
+})
+
+var vm = new Vue({
+  el: '#app'
+})
 
 ```
 
 <div class="iframe-rwd">
-
+<iframe height='265' scrolling='no' title='Vue Component - render function' src='//codepen.io/mikechen2017/embed/EemVae/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/EemVae/'>Vue Component - render function</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 
 
