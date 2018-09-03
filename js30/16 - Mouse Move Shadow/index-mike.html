@@ -41,7 +41,43 @@
     let hero = document.querySelector('.hero');
     let h1 = hero.querySelector('h1');
 
-    h1.style.textShadow = '10px 10px 10px rgba(255, 0, 0, 0.5)'
+    // h1.style.textShadow = '10px 10px 10px rgba(255, 0, 0, 0.5)'
+
+    hero.addEventListener('mousemove', function (e) {
+      // let w = hero.offsetWidth;
+      // let h = hero.offsetHeight;
+      let { offsetWidth: w, offsetHeight: h } = hero;
+
+      // let x = e.offsetX;
+      // let y = e.offsetY;
+      let { offsetX: x, offsetY: y } = e;
+
+      // console.log({ w, h }, { x, y });
+
+      // 注意 offsetX 和 offsetY 會因為 e.target 的不同而受到影響。
+      // 滑鼠點擊 hero 的範圍，原點座標在 hero 的左上角；
+      // 點到 h1 的範圍，原點座標在 h1 這的 DOM 的左上角。
+      // 所以還要加上兩個原點座標的距離。
+      if (e.currentTarget !== e.target) {
+        x += e.target.offsetLeft;
+        y += e.target.offsetTop;
+      }
+
+      // 計算容器(hero)中心點座標
+      let centerX = w / 2;
+      let centerY = h / 2;
+
+      // 距離
+      let lengthX = (x - centerX) * -0.1;
+      let lengthY = (y - centerY) * -0.1;
+
+      h1.style.textShadow = `${lengthX}px ${lengthY}px 10px rgba(255, 0, 0, 0.5)`;
+    })
+
+
+    // hero.addEventListener('click', function (e) {
+    //   console.log(e.target, e.currentTarget, e.offsetX, e.offsetY);
+    // })
 
   </script>
 </body>
