@@ -18,6 +18,13 @@ tags:
 拖曳中 > 移動(mousemove)；
 拖曳中 > 離開範圍(mouseleave) 移除 .active；
 拖曳的結束 > 放開(mouseup) 移除 .active
+
+
+手機平板事件對照
+mousedown > touchstart
+mousemove > touchmove
+mouseup   > touchend
+
 ```
 
 
@@ -26,8 +33,19 @@ tags:
 
 * jQuery 的 hover 使用的事件是 mouseenter 和 mouseleave。
 
+* 滑鼠座標
+![滑鼠座標](https://i.imgur.com/Aa2GmMj.png)
 
-看到 24:07
+* mousemove 監聽太頻繁，沒有按的時候，startX 不存在，distance 會得到 NaN，所以需要擋一下。
+
+* 將 mousemove 作為一個開關的概念， mousedown 的時候才監聽 mousemove，mouseleave 或 mouseup 的時候關閉監聽 mousemove。
+
+* 或者一直持續監聽 mousemove ，但利用 flag 判斷。而判斷也可以使用 `正向判斷` 或 `反向判斷` 。
+
+* 起始點如果沒有重置，移動速度會越來越快，因為移動距離會越來越長。
+
+
+
 
 
 ### 實作

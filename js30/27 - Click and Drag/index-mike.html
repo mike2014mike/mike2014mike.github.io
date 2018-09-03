@@ -39,19 +39,53 @@
   <script>
 
     let items = document.querySelector('.items');
+    let startX;
+    let isDown = false;
+
+    // touchstart
     items.addEventListener('mousedown', (e) => {
       // 這邊如果用箭頭函式要注意 this = window
       // 可改用 e.currentTarget 或 items
       items.classList.add('active')
+
+      startX = e.pageX;
+      isDown = true;
+      // items.addEventListener('mousemove', moveHandler);
     })
 
-    items.addEventListener('mouseup', function () {
+    // touchmove
+    items.addEventListener('mousemove', moveHandler);
+
+    function moveHandler(e) {
+      // this = window
+
+      if (!isDown) return false;
+
+      let x = e.pageX;
+      let distance = x - startX; //沒有按的時候，startX 不存在，會得到 NaN
+      // console.log(distance);
+
+      startX = x; // 起始點位置重置
+
+      // 控制左右捲軸
+      // items.scrollLeft -= distance;
+      // 乘上一係數，加速移動速度
+      items.scrollLeft -= distance * 5;
+    }
+
+    // touchend
+    items.addEventListener('mouseup', function (e) {
       // 使用傳統 function 寫法，就可以用 this = items
       this.classList.remove('active')
+      // items.removeEventListener('mousemove', moveHandler);
+      isDown = false;
     })
 
-    items.addEventListener('mouseleave', function () {
+    items.addEventListener('mouseleave', function (e) {
+      // this = items
       this.classList.remove('active')
+      // items.removeEventListener('mousemove', moveHandler);
+      isDown = false;
     })
 
 
