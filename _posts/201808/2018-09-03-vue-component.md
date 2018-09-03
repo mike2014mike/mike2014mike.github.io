@@ -10,17 +10,6 @@ tags:
  - javascript
  - Vue Component & Template
 ---
-### 目錄
-
-* [區域註冊 Component](#### 區域註冊 Component)
-* [全域註冊 Component](#### 全域註冊 Component)
-* [Data 要用 function 來 return](#### Data 要用 function 來 return)
-* [Script Template](#### Script Template)
-* [Render Function: Vue 自己會 render，但也可以自己寫](#### Render Function: Vue 自己會 render，但也可以自己寫)
-
-
-
-
 
 ### 筆記
 
@@ -247,6 +236,9 @@ var vm = new Vue({
 </iframe>
 </div>
 
+
+#### 追蹤物件變化 Object.defineProperty
+![Object.defineProperty](https://i.imgur.com/kCVsFHy.png)
 
 #### 標題
 
