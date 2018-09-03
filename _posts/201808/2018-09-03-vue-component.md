@@ -16,14 +16,15 @@ tags:
 
 #### Vue Component 基本款：區域註冊 Component。
 
-```pug
-#app
-  my-component
-  my-component
-  my-component
+```html
+<div id="app">
+  <my-component></my-component>
+  <my-component></my-component>
+  <my-component></my-component>
+</div>
 ```
 
-```scss
+```sass
 .component
   border: 1px solid #000
   padding: 10px
@@ -49,19 +50,20 @@ var vm = new Vue({
 
 #### Vue Component 基本款：全域註冊 Component。
 
-```pug
-#app1
-  my-component
-  my-component
-  my-component
-  
-#app2
-  my-component
-  my-component
-  my-component
+```html
+<div id="app1">
+  <my-component></my-component>
+  <my-component></my-component>
+  <my-component></my-component>
+</div>
+<div id="app2">
+  <my-component></my-component>
+  <my-component></my-component>
+  <my-component></my-component>
+</div>
 ```
 
-```scss
+```sass
 .component
   border: 1px solid #000
   padding: 10px
@@ -91,15 +93,16 @@ var vm = new Vue({
 
 #### Vue Component - Data 要用 function 來 return。
 
-```pug
-#app
-  .root {{msg}}
-  my-component
-  my-component
-  my-component
+```html
+<div id="app">
+  <div class="root">{{msg}}</div>
+  <my-component></my-component>
+  <my-component></my-component>
+  <my-component></my-component>
+</div>
 ```
 
-```scss
+```sass
 .component
   border: 1px solid #000
   padding: 10px
@@ -142,11 +145,11 @@ var vm = new Vue({
 
 #### 標題
 
-```pug
+```html
 
 ```
 
-```scss
+```sass
 
 ```
 
@@ -161,11 +164,11 @@ var vm = new Vue({
 
 #### 標題
 
-```pug
+```html
 
 ```
 
-```scss
+```sass
 
 ```
 
@@ -176,14 +179,15 @@ var vm = new Vue({
 <div class="iframe-rwd">
 
 </div>
+
 
 #### 標題
 
-```pug
+```html
 
 ```
 
-```scss
+```sass
 
 ```
 
@@ -194,14 +198,15 @@ var vm = new Vue({
 <div class="iframe-rwd">
 
 </div>
+
 
 #### 標題
 
-```pug
+```html
 
 ```
 
-```scss
+```sass
 
 ```
 
@@ -212,14 +217,15 @@ var vm = new Vue({
 <div class="iframe-rwd">
 
 </div>
+
 
 #### 標題
 
-```pug
+```html
 
 ```
 
-```scss
+```sass
 
 ```
 
@@ -230,14 +236,15 @@ var vm = new Vue({
 <div class="iframe-rwd">
 
 </div>
+
 
 #### 標題
 
-```pug
+```html
 
 ```
 
-```scss
+```sass
 
 ```
 
@@ -248,6 +255,26 @@ var vm = new Vue({
 <div class="iframe-rwd">
 
 </div>
+
+
+#### 標題
+
+```html
+
+```
+
+```sass
+
+```
+
+```js
+
+```
+
+<div class="iframe-rwd">
+
+</div>
+
 
 
 
