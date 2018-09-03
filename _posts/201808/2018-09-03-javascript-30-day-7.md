@@ -36,11 +36,11 @@ mouseup   > touchend
 * 滑鼠座標
 ![滑鼠座標](https://i.imgur.com/Aa2GmMj.png)
 
-* mousemove 監聽太頻繁，沒有按的時候，startX 不存在，distance 會得到 NaN，所以需要擋一下。
+* `mousemove` 監聽太頻繁，沒有按的時候，`startX` 不存在，distance 會得到 NaN，所以需要擋一下。
 
-* 將 mousemove 作為一個開關的概念， mousedown 的時候才監聽 mousemove，mouseleave 或 mouseup 的時候關閉監聽 mousemove。
+* 將 `mousemove` 作為一個開關的概念， `mousedown` 的時候才監聽 mousemove，`mouseleave` 或 `mouseup` 的時候關閉監聽 mousemove。
 
-* 或者一直持續監聽 mousemove ，但利用 flag 判斷。而判斷也可以使用 `正向判斷` 或 `反向判斷` 。
+* 或者一直持續監聽 mousemove ，但利用 `flag` 判斷。而判斷也可以使用 `正向判斷` 或 `反向判斷` 。
 
 * 起始點如果沒有重置，移動速度會越來越快，因為移動距離會越來越長。
 
