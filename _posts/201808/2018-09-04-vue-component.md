@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Vue Component(元件) & Template(樣板)
-date:       2018-09-03 10:37:19
+date:       2018-09-04 10:37:19
 author:     Mike Chen
 summary:    
 categories: javascript
