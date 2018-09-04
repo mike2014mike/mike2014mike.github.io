@@ -11,8 +11,6 @@ tags:
  - Vue Component & Template
 ---
 
-### 筆記
-
 #### 區域註冊 Component
 
 ```html
@@ -143,6 +141,7 @@ var vm = new Vue({
 
 
 #### Script Template
+* `<script type="text/x-template" id="component"></script>` 的寫法也可以換成 `<template id="component"></template>`
 
 ```html
 <div id="app">
@@ -391,8 +390,9 @@ var vm = new Vue({
 
 #### emit event 傳值到父層
 
-* 透過 `this.$parent.$emit('事件名稱', 要傳的值)` 傳值給父層
-* 父層在 mounted 中加入監聽 `this.$on('事件名稱', 要執行的 function);`，該 function(value) 會得到一個由子層傳來的 value。
+* 透過 `this.$parent.$emit('事件名稱', 要傳的值)` 傳值給父層。
+
+* 父層在 mounted 中加入監聽 `this.$on('事件名稱', 要執行的程式);`，該 function(value) 會得到一個由子層傳來的 value。
 
 ```html
 
@@ -465,6 +465,256 @@ var vm = new Vue({
 </div>
 
 
+#### 子層可透過 Event Bus 互傳值
+
+* 舊版 Vue 如果子層要互傳值，必須先傳回父層，再由父層傳到另一個子層。
+* 新版 Vue 可利用 Event Bus，讓子層不需透過父層互相傳值。
+* Event Bus 建立方式： `var bus = new Vue();`，無須帶入任何參數。
+* 在子層一 `bus.$emit('事件名稱', 要傳的值);`。
+* 在子層二的 created 中監聽 `bus.$on('事件名稱', 要執行的程式)`。
+* Event Bus 可以有很多個，要注意在同一個 Event Bus 中註冊的事件名稱是否重複。
+
+```html
+
+<div id="app">
+  
+  <my-component1></my-component1>
+  <my-component2></my-component2>
+</div>
+
+<script type="text/x-template" id="my-component1">
+  <div class="component">
+    <span>Child1:</span>
+    <input type="text" v-model="message">
+    <button @click="emit2Child2">更新Child2</button>
+  </div>
+</script>
+
+<script type="text/x-template" id="my-component2">
+  <div class="component">
+    <span>Child2:</span>
+    <input type="text" v-model="message">
+  </div>
+</script>
+```
+
+```sass
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
+```
+
+```js
+// Event Bus
+var bus = new Vue();
+
+Vue.component('my-component1',{
+  template:'#my-component1',
+  data: function(){
+    return {
+      message: '這是 Child1 的預設內容'
+    }
+  },
+  methods:{
+    emit2Child2(){
+      bus.$emit('update', this.message);
+    }
+  }
+})
+
+
+Vue.component('my-component2',{
+  template:'#my-component2',
+  data: function(){
+    return {
+      message: '這是 Child2 的預設內容'
+    }
+  },
+  created(){
+    // var self = this;
+    // 注意這裡是 callback function， this 不會是原本的 this。
+    // 除了在外部另外宣告外，也可使用箭頭函式避掉。
+    // bus.$on('update', function(value){
+    //   self.message = value;
+    // })
+    bus.$on('update', (value)=>{
+      this.message = value;
+    })
+  }
+})
+// 父層
+var vm = new Vue({
+  el: '#app'
+})
+```
+
+<div class="iframe-rwd">
+<iframe height='265' scrolling='no' title='Vue Component - Event Bus(子層互傳值)' src='//codepen.io/mikechen2017/embed/zJweWd/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/zJweWd/'>Vue Component - Event Bus(子層互傳值)</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+
+#### 利用 :is 切換顯示的元件 + keep-alive
+* 切換元件預設無法保留在該元件操作的狀態，可透過在元件外面加上 `keep-alive` 標籤解決，不會再次執行 `created` 階段。
+
+```html
+
+<div id="app">
+  <button @click="currentView = 'view1'">View1</button>
+  <button @click="currentView = 'view2'">View2</button>
+  <button @click="currentView = 'view3'">View3</button>
+  <keep-alive>
+    <my-component :is="currentView"></my-component>
+  </keep-alive>  
+</div>
+
+<script type="text/x-template" id="view1">
+  <div class="component">
+    <h1>View 1</h1>
+    <input type="text" placeholder="輸入文字，並切換 View 試試！">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cumque eius illo officia consequuntur similique illum sint assumenda harum placeat doloremque blanditiis earum, quaerat minus, fugiat voluptate, nesciunt sit enim!</p>    
+    <img src="http://lorempixel.com/400/200/sports/" alt="">
+  </div>
+</script>
+
+<script type="text/x-template" id="view2">
+  <div class="component">
+    <h1>View 2</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cumque eius illo officia consequuntur similique illum sint assumenda harum placeat doloremque blanditiis earum, quaerat minus, fugiat voluptate, nesciunt sit enim!</p>    
+    <img src="http://lorempixel.com/400/200/sports/" alt="">
+  </div>
+</script>
+
+<script type="text/x-template" id="view3">
+  <div class="component">
+    <h1>View 3</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cumque eius illo officia consequuntur similique illum sint assumenda harum placeat doloremque blanditiis earum, quaerat minus, fugiat voluptate, nesciunt sit enim!</p>    
+    <img src="http://lorempixel.com/400/200/sports/" alt="">
+  </div>
+</script>
+
+
+```
+
+```sass
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
+  >img
+    width: 100%
+```
+
+```js
+Vue.component('view1',{
+  template:'#view1'
+})
+
+Vue.component('view2',{
+  template:'#view2'
+})
+
+Vue.component('view3',{
+  template:'#view3'
+})
+
+// 父層
+var vm = new Vue({
+  el: '#app',
+  data:{
+    currentView: 'view1'
+  }
+})
+
+```
+
+<div class="iframe-rwd">
+<iframe height='265' scrolling='no' title='Vue Component - :is 切換顯示的元件' src='//codepen.io/mikechen2017/embed/RYVdGb/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/RYVdGb/'>Vue Component - :is 切換顯示的元件</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+#### 使用 slot 在元件挖洞填入
+
+* 原本在元件的 Tag 中輸入任何文字都不會被編譯的，但如果在元件中某處放入 slot 的 Tag，就可以被傳入。
+* 可以有多個 slot ，只要給它們對應的 name 即可。
+
+```html
+
+<div id="app">
+  <my-component>
+    <h1 slot="title">用 slot 挖洞</h1>
+    <p slot="subtitle">副標題被我替換掉了，哈哈哈...</p>
+  </my-component>
+</div>
+
+<template id="my-component">
+  <div class="component">
+    <slot name="title">這邊放標題文字</slot>
+    <slot name="subtitle">這邊放副標題</slot>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cumque eius illo officia consequuntur similique illum sint assumenda harum placeat doloremque blanditiis earum, quaerat minus, fugiat voluptate, nesciunt sit enim!</p>    
+    <img src="http://lorempixel.com/400/200/sports/" alt="">
+  </div>
+</template>
+
+
+```
+
+```sass
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
+  >img
+    width: 100%
+```
+
+```js
+Vue.component('my-component',{
+  template:'#my-component'
+})
+
+// 父層
+var vm = new Vue({
+  el: '#app',
+  data:{
+    
+  }
+})
+
+
+```
+
+<div class="iframe-rwd">
+<iframe height='265' scrolling='no' title='Vue Component - 用 slot 挖洞' src='//codepen.io/mikechen2017/embed/VGbNzP/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/VGbNzP/'>Vue Component - 用 slot 挖洞</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+</div>
+
+
+#### 元件可以寫成單一 vue 檔
+* vue 檔可以透過 http-vue-loader 套件進行編譯。
+* 直接引入 `<script src="https://unpkg.com/http-vue-loader"></script>` ，透過 `httpVueLoader('hello.vue')` 即可。
+
+```html
+
+```
+
+```sass
+
+```
+
+```js
+
+
+```
+
+<div class="iframe-rwd">
+
+</div>
+
 #### 標題
 
 ```html
@@ -477,12 +727,12 @@ var vm = new Vue({
 
 ```js
 
+
 ```
 
 <div class="iframe-rwd">
 
 </div>
-
 
 #### 標題
 
@@ -496,14 +746,50 @@ var vm = new Vue({
 
 ```js
 
+
 ```
 
 <div class="iframe-rwd">
 
 </div>
 
+#### 標題
+
+```html
+
+```
+
+```sass
+
+```
+
+```js
 
 
+```
+
+<div class="iframe-rwd">
+
+</div>
+
+#### 標題
+
+```html
+
+```
+
+```sass
+
+```
+
+```js
+
+
+```
+
+<div class="iframe-rwd">
+
+</div>
 
 ### 參考
 * [Vue.js 教學 - 從 Vuejs 初探 Web Component 的世界](https://youtu.be/T2JsTE0Hq58)
