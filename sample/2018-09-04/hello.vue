@@ -12,7 +12,7 @@
 module.exports = {
   data: function() {
     return {
-      imgurl: "http://lorempixel.com/400/200/sports/",
+      imgurl: "https://lorempixel.com/400/200/sports/",
       content:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cumque eius illo officia consequuntur similique illum sint assumenda harum placeat doloremque blanditiis earum, quaerat minus, fugiat voluptate, nesciunt sit enim!"
     };
