@@ -716,6 +716,7 @@ var vm = new Vue({
 })
 ```
 
+
 <div class="iframe-rwd">
 <iframe height='265' scrolling='no' title='http-vue-loader sample' src='//codepen.io/mikechen2017/embed/wEdbBN/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/wEdbBN/'>http-vue-loader sample</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
