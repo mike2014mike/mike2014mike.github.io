@@ -3,8 +3,7 @@
   <div class="component">
     <h1>{{ title }}</h1>
     <p>{{ subtitle }}</p>
-    <p>{{ content }}</p>    
-    <img src="{{imgurl}}" alt="">
+    <p>{{ content }}</p> 
   </div>
 </template>
 
@@ -14,7 +13,6 @@ module.exports = {
     return {
       title: "這是標題",
       subtitle: "這是副標題",
-      imgurl: "https://lorempixel.com/400/200/sports/",
       content:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis cumque eius illo officia consequuntur similique illum sint assumenda harum placeat doloremque blanditiis earum, quaerat minus, fugiat voluptate, nesciunt sit enim!"
     };
