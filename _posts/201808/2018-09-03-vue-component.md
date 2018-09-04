@@ -240,41 +240,152 @@ var vm = new Vue({
 #### 追蹤物件變化 Object.defineProperty
 ![Object.defineProperty](https://i.imgur.com/kCVsFHy.png)
 
-#### 標題
+#### props 傳值基本用法
 
 ```html
+<div id="app">
+<!--   注意：如果這裡沒用 v-bind: ，將會直接把 "msg" 當作字串傳入元件 -->
+  <my-component v-bind:parent-msg="msg"></my-component>
+</div>
 
+<script type="text/x-template" id="my-component">
+  <div>
+    <div class="component parent">parentMsg: {{parentMsg}}</div>
+    <div class="component">childMsg: {{msg}}</div>
+  </div>  
+</script>
 ```
 
 ```sass
-
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
+  
+.parent
+  color: red
 ```
 
 ```js
+//全域 component
+Vue.component('my-component',{
+  template:'#my-component',
+  // 在 JS 裡面 parent-msg 是不合法的變數名稱，需改用駝峰式命名 parentMsg
+  props: ['parentMsg'],
+  data: function(){
+    return {
+      msg: 'This is a child msg!'
+    }
+  }
+})
+
+var vm = new Vue({
+  el: '#app',
+  data:{
+    msg: 'This is a parent msg!'
+  }
+})
 
 ```
 
 <div class="iframe-rwd">
-
+<iframe height='265' scrolling='no' title='Vue Component - props' src='//codepen.io/mikechen2017/embed/zJwmww/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/zJwmww/'>Vue Component - props</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 
 
-#### 標題
+#### props 型別驗證
 
 ```html
 
+<div id="app">
+<!--   注意：如果這裡沒用 v-bind: ，將會直接把 "msg" 當作字串傳入元件 -->
+  <my-component :parent-msg="msg" :prop-a="pa" 
+                :prop-b="pb" :prop-c="pc"
+                :prop-d="pd" :prop-e="pe"
+                :prop-f="pf">    
+  </my-component>
+</div>
+
+<script type="text/x-template" id="my-component">
+  <div>
+    <div class="component">parentMsg: {{propA}}</div>
+    <div class="component">propB: {{propB}}</div>
+    <div class="component">propC: {{propC}}</div>
+    <div class="component">propD: {{propD}}</div>
+    <div class="component">propE: {{propE}}</div>
+    <div class="component">propF: {{propF}}</div>
+  </div>  
+</script>
 ```
 
 ```sass
-
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
 ```
 
 ```js
+//全域 component
+Vue.component('my-component',{
+  template:'#my-component',
+  props: {
+    parentMsg: null, // null 表示不檢查型別
+    propA: Number, // 限定數字
+    propB: [String, Number], // 可以多種型別
+    propC: {
+      type: String,
+      required: true // 必要欄位
+    },
+    propD: {
+      type: Number,
+      default: 100 // 預設值
+    },
+    propE: {
+      type: Object,
+      default: function(){
+        return {
+          message: 'Hello'
+        }
+      }
+    },
+    propF: {
+      // 自訂驗證條件
+      validator: function(value){
+        return value > 10
+      }
+    },
+  },
+  data: function(){
+    return {
+      msg: 'This is a child msg!'
+    }
+  }
+})
+
+var vm = new Vue({
+  el: '#app',
+  data:{
+    msg: 'This is a parent msg!',
+    pa: 123,
+    pb: 'Mike',
+    pc: 'Nicole',
+    pd: 10,
+    pe: {
+      message: 'Hi'
+    },
+    pf: 100
+  }
+})
 
 ```
 
 <div class="iframe-rwd">
-
+<iframe height='265' scrolling='no' title='Vue Component - props validation(型別驗證)' src='//codepen.io/mikechen2017/embed/QVvZBy/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/QVvZBy/'>Vue Component - props validation(型別驗證)</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 
 
