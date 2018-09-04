@@ -389,22 +389,79 @@ var vm = new Vue({
 </div>
 
 
-#### 標題
+#### emit event 傳值到父層
+
+* 透過 `this.$parent.$emit('事件名稱', 要傳的值)` 傳值給父層
+* 父層在 mounted 中加入監聽 `this.$on('事件名稱', 要執行的 function);`，該 function(value) 會得到一個由子層傳來的 value。
 
 ```html
 
+<div id="app">
+  <div class="component">
+    <span>Parent: {{msg}}</span>
+    <input type="text" v-model="msg">
+  </div>
+  <my-component :parent-msg="msg"></my-component>
+</div>
+
+<script type="text/x-template" id="my-component">
+  <div>
+    <div class="component">
+      <span>Child: {{parentMsg}}</span>
+      <input type="text" v-model="message">
+      <button @click="emit2Parent">更新到父層</button>
+    </div>
+  </div>  
+</script>
 ```
 
 ```sass
-
+.component
+  border: 1px solid #000
+  padding: 10px
+  margin: 10px
+  color: blue
 ```
 
 ```js
+//全域 component
+Vue.component('my-component',{
+  template:'#my-component',
+  props: {
+    parentMsg: String
+  },
+  data: function(){
+    return {
+      message: this.parentMsg
+    }
+  },
+  methods:{
+    emit2Parent(){
+      this.$parent.$emit('update', this.message);
+    }
+  }
+})
+
+var vm = new Vue({
+  el: '#app',
+  data:{
+    msg: 'This is a parent msg!'
+  },
+  methods:{
+    update(value){
+      this.msg = value;
+    }
+  },
+  mounted(){
+    this.$on('update', this.update);
+  }
+})
 
 ```
 
 <div class="iframe-rwd">
-
+<iframe height='265' scrolling='no' title='Vue Component - emit event' src='//codepen.io/mikechen2017/embed/MqmZRY/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/MqmZRY/'>Vue Component - emit event</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 
 
