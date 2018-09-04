@@ -694,102 +694,34 @@ var vm = new Vue({
 </div>
 
 
-#### 元件可以寫成單一 vue 檔
-* vue 檔可以透過 http-vue-loader 套件進行編譯。
+#### http-vue-loader
+* 元件可以寫成單一 vue 檔，但通常需要使用 Webpack + Vue loader 做編譯。
+* 現在 vue 檔可以直接透過 `http-vue-loader` 套件進行編譯，方便測試。
 * 直接引入 `<script src="https://unpkg.com/http-vue-loader"></script>` ，透過 `httpVueLoader('hello.vue')` 即可。
+* 正式上線的網站，建議還是以 Webpack + Vue loader 做編譯。
+* 在 vue 裡頭設定 style 如果加上 scoped，表示該樣式設定就僅限於該元件使用，就算名稱與父層或其他元件相同也不會互相汙染。
 
 ```html
-
-```
-
-```sass
-
+<div id="app">
+  <my-component></my-component>
+</div>
 ```
 
 ```js
-
-
+var vm = new Vue({
+  el: '#app',
+  components:{
+    'my-component': httpVueLoader('https://mike2014mike.github.io/sample/2018-09-04/hello.vue')
+  }
+})
 ```
 
 <div class="iframe-rwd">
-
+<iframe height='265' scrolling='no' title='http-vue-loader sample' src='//codepen.io/mikechen2017/embed/wEdbBN/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/mikechen2017/pen/wEdbBN/'>http-vue-loader sample</a> by Mike Chen (<a href='https://codepen.io/mikechen2017'>@mikechen2017</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 </div>
 
-#### 標題
 
-```html
-
-```
-
-```sass
-
-```
-
-```js
-
-
-```
-
-<div class="iframe-rwd">
-
-</div>
-
-#### 標題
-
-```html
-
-```
-
-```sass
-
-```
-
-```js
-
-
-```
-
-<div class="iframe-rwd">
-
-</div>
-
-#### 標題
-
-```html
-
-```
-
-```sass
-
-```
-
-```js
-
-
-```
-
-<div class="iframe-rwd">
-
-</div>
-
-#### 標題
-
-```html
-
-```
-
-```sass
-
-```
-
-```js
-
-
-```
-
-<div class="iframe-rwd">
-
-</div>
 
 ### 參考
 * [Vue.js 教學 - 從 Vuejs 初探 Web Component 的世界](https://youtu.be/T2JsTE0Hq58)
@@ -820,3 +752,5 @@ var vm = new Vue({
     * [線上共筆文件](https://paper.dropbox.com/doc/Vue-ADvo0tRHmXqoJGIfAs4N9)
     * [免費影片回顧](https://www.youtube.com/watch?v=mEjVUt_rsKs)
     * [範例程式碼](https://github.com/hexschool/hexschool_vuex_demo)
+
+* [不需編譯也能載入 .vue 元件檔](https://kuro.tw/posts/2017/07/11/%E4%B8%8D%E9%9C%80%E7%B7%A8%E8%AD%AF%E4%B9%9F%E8%83%BD%E8%BC%89%E5%85%A5-vue-%E5%85%83%E4%BB%B6%E6%AA%94-%E4%BD%BF%E7%94%A8-http-vue-loader/)
