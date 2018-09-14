@@ -31,7 +31,10 @@ tags:
 * .Net Core SDK 2.1.3
 
 ### 第一個錯誤訊息
-出師不利，依照[這篇](https://oomusou.io/vscode/netcore/)實作，系統安裝了  `.Net Core SDK` 、VS Code 安裝 `C#`, `保哥 .NET Core Extension Pack`，隨手寫個 Hello World 執行 `dotnet new` 指令，結果出現下面的錯誤訊息。查其原因是需要安裝 .NET Framework 4.6.1 以上版本。
+* 出師不利，依照[這篇](https://oomusou.io/vscode/netcore/)實作。
+* 系統安裝了  `.Net Core SDK` 、VS Code 安裝 `C#`, `保哥 .NET Core Extension Pack`。
+* 隨手寫個 Hello World 執行 `dotnet new` 指令，結果出現下面的錯誤訊息。
+* 查其原因是需要安裝 .NET Framework 4.6.1 以上版本。
 
 ```
 Failed to load the dll from [C:\Program Files\dotnet\host\fxr\2.1.3\hostfxr.dll], HRESULT: 0x8007007E
