@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      用 VSCode 來寫 C# 之紀錄
-date:       2018-09-13 09:37:19
+date:       2018-09-14 09:37:19
 author:     Mike Chen
 summary:    
 categories: vscode
@@ -9,6 +9,11 @@ thumbnail:  vscode
 tags:
  - VSCode
  - C#
+ - .Net Core SDK
+ - .NET Framework
+ - KB2919442
+ - KB2919355
+ - KB2999226
 ---
 
 ### 緣由
@@ -117,6 +122,11 @@ KB2919355 若安裝完成，記得回去安裝 .NET Framework。
 
 ### 編譯目標系統 Windows RID
 ![Windows RID](https://i.imgur.com/YCVVtNU.png)
+
+### IntelliSense 失效的解决方法
+* 按 `F1` 輸入： `OmniSharp:Restart OmniSharp`
+* 重新啟動 VSCode。
+
 
 ### 參考
 * [如何使用 VS Code 建立 .NET Core 開發環境 ?](https://oomusou.io/vscode/netcore/)
