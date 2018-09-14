@@ -12,15 +12,16 @@ tags:
 ---
 
 ### 緣由
-小弟一直以來只要開發 C# 程式都是使用 Visual Studio 201x，但最近辦公室搬家，到新廠區，入網申請竟然說要先用程式檢查是否有安裝不合法軟體。令人感到詭異的是 Visual Studio 不論是安裝 `正式版` 或 `Express 版` 都會被說是不合法軟體，只能忍痛移除這地表最強開發神器。惟 Visual Studio Code (簡稱 VSCode ) 可以安然無恙的使用，這才讓我開始了想用 VSCode + .Net Core 開發 C#。只是光是環境建置，就遇到不少問題，這裡做些紀錄。
+* 一直以來，只要開發 C# 程式，小弟都是使用 Visual Studio 201x，但最近辦公室搬家，到新廠區，入網申請竟然說要先用程式檢查是否有安裝不合法軟體。令人感到詭異的是 Visual Studio 不論是安裝 `正式版` 或 `Express 版` 都會被說是不合法軟體，只能忍痛移除這地表最強開發神器。
+* 惟 Visual Studio Code (簡稱 VSCode ) 可以安然無恙的使用，這才讓我開始動了想用 `VSCode + .Net Core` 開發 C# 的念頭。但光是環境建置，就遇到不少問題，這裡做些紀錄。
 
-### 基本訊息
+### 系統基本訊息
 * Windows 8.1 x64
 * VS Code 1.26.1
 * .Net Core SDK 2.1.3
 
 ### 第一個錯誤訊息
-出師不利，依照[這篇](https://oomusou.io/vscode/netcore/)實作，安裝了 .Net Core、保哥 .NET Core Extension Pack，執行 `dotnet new` ，結果出現下面的錯誤訊息。查其原因是需要安裝 .NET Framework 4.6.1 以上版本。
+出師不利，依照[這篇](https://oomusou.io/vscode/netcore/)實作，系統安裝了  `.Net Core SDK` 、VS Code 安裝 `C#`, `保哥 .NET Core Extension Pack`，隨手寫個 Hello World 執行 `dotnet new` 指令，結果出現下面的錯誤訊息。查其原因是需要安裝 .NET Framework 4.6.1 以上版本。
 
 ```
 Failed to load the dll from [C:\Program Files\dotnet\host\fxr\2.1.3\hostfxr.dll], HRESULT: 0x8007007E
