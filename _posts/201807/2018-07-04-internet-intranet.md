@@ -12,7 +12,9 @@ tags:
  - intranet
 ---
 
-### 打開記事本輸入下方內容
+### 同時內外網
+
+打開記事本輸入下方內容
 
 ```
 @echo off
@@ -33,10 +35,66 @@ echo 設定完成！！
 echo. & pause
 ```
 
-另存為 `網路設定.bat` ，按右鍵 `以系統管理員身分執行` 即可。
+另存為 `同時內外網.bat` ，按右鍵 `以系統管理員身分執行` 即可。
 
 
 
+### 只連內網
+
+打開記事本輸入下方內容
+
+```
+@echo off
+
+echo 正在進行內外網設定中，請稍候……
+
+echo 啟用乙太網路
+netsh interface set interface "乙太網路" enabled
+
+echo 停用 Wi-Fi
+netsh interface set interface "Wi-Fi" disabled
+
+echo 刪除所有0.0.0.0的路由
+route delete 0.0.0.0
+
+echo 加入內網
+route -p add 0.0.0.0 mask 0.0.0.0 10.61.17.254
+
+echo 設定完成！！
+
+echo. & pause
+```
+
+另存為 `只連內網.bat` ，按右鍵 `以系統管理員身分執行` 即可。
+
+
+### 只連外網
+
+打開記事本輸入下方內容
+
+```
+@echo off
+
+echo 正在進行內外網設定中，請稍候……
+
+echo 停用乙太網路
+netsh interface set interface "乙太網路" disabled
+
+echo 啟用 Wi-Fi
+netsh interface set interface "Wi-Fi" enabled
+
+echo 刪除所有0.0.0.0的路由
+route delete 0.0.0.0
+
+echo 加入外網(wifi)
+route -p add 0.0.0.0 mask 0.0.0.0 192.168.1.1
+
+echo 設定完成！！
+
+echo. & pause
+```
+
+另存為 `只連外網.bat` ，按右鍵 `以系統管理員身分執行` 即可。
 
 
 
