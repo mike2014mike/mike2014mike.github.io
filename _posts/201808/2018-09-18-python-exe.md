@@ -107,3 +107,4 @@ debug 用，需執行 exe 才會看見
 ### 參考
 * [如何將python腳本「打包」成可執行程序(.exe)](https://kknews.cc/zh-tw/tech/4ybyrv.html)
 * [如何把Python腳本導出為exe程序](https://kknews.cc/other/qopa42o.html)
+* [PyInstaller 教學](http://zwindr.blogspot.com/2016/01/python-pyinstaller.html)
