@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      JavaScript 也能玩機器學習 - Tensorflow.js
+title:      JavaScript 也能玩機器學習 - TensorFlow.js
 date:       2018-09-19 10:37:19
 author:     Mike Chen
 summary:    
@@ -10,22 +10,35 @@ tags:
  - javascript
  - 深度學習
  - 機器學習
- - Tensorflow.js
+ - TensorFlow.js
 ---
 
-### 官網
-* [https://js.tensorflow.org/](https://js.tensorflow.org/)
+### 關於 TensorFlow.js
 
-### 筆記
+* [TensorFlow.js](https://js.tensorflow.org/) 是在 2018 年 3 月發表的開源程序庫(library)，前身是 [deeplearn.js](https://twitter.com/deeplearnjs)。
 
 * TensorFlow.js 分成低階與高階兩組 API。
   1. 低階 API：由 deeplearn.js 衍生，負責處理一些低階如線性代數的資料運算等等，來協助我們處理機器學習中的數學運算部分。
 
   2. 高階 API：則是用來包裝一些常用的機器學習演算法，同時允許我們載入訓練好的模型，像是由Keras訓練的模型等等。
 
-* 目前 TensorFlow.js 不支援 Node.js 開發，因此我們只能在瀏覽器上使用，未來會支援 Node.js，但時程未定。
+* TensorFlow.js 剛推出時不支援 Node.js 開發，因此我們只能在瀏覽器上使用。
 
-* 簡單的問題，Learning Rate 不宜過大。
+* Node.js 上最近也可使用 TensorFlow.js 了，套件名稱為 `tfjs-node` ，但請注意此為 alpha 測試版本。
+
+  1. `@tensorflow/tfjs` - Core TensorFlow.js library
+  2. `@tensorflow/tfjs-node` - TensorFlow.js Node.js extension
+  3. `@tensorflow/tfjs-node-gpu` - TensorFlow.js Node.js extension with GPU support
+
+```
+npm install @tensorflow/tfjs @tensorflow/tfjs-node
+// or...
+npm install @tensorflow/tfjs @tensorflow/tfjs-node-gpu
+```
+
+### 筆記
+
+* 簡單的問題，例如一元一次方程式，`Learning Rate` 不宜過大。
 
 ### code
 
@@ -60,7 +73,7 @@ tags:
     // 要被訓練的參數，這個參數隨著訓練次數增加會越來越準確
     let trainingAnswer;
 
-    // 產生一個一元一次模型公式 y = a * x
+    // 產生一個一元一次預測模型公式 y = a * x
     function predict(x) {
       return tf.tidy(() => {
         return trainingAnswer.mul(x)
@@ -221,3 +234,7 @@ function predict(input) {
 * [如何利用TensorFlow.js实现简版的谷歌「猜画小哥」图像识别应用](http://www.techug.com/post/tensorflow-js-ai-you-paint-i-guess.html)
 
 * [Tensorflow.js系列课程](https://www.youtube.com/watch?v=Qt3ZABW5lD0&list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ)
+
+* [用攝像頭和Tensorflow.js在瀏覽器上實現目標檢測](https://hk.saowen.com/a/ff4809f079475ff7c6beb653b63061fa000ced08be2b46b72d6c009004e0b94b)
+
+* [Machine Learning In Node.js With TensorFlow.js](https://hk.saowen.com/a/d79c2e029bd7ccbb9519239c7f179d145d87b6d1cfd6c3080c49d9fbcc975e0c)
