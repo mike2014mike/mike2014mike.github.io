@@ -26,18 +26,6 @@ tags:
 
 * Node.js 上最近也可使用 TensorFlow.js 了，套件名稱為 `tfjs-node` ，但請注意此為 alpha 測試版本。
 
-  1. `@tensorflow/tfjs` - Core TensorFlow.js library
-  2. `@tensorflow/tfjs-node` - TensorFlow.js Node.js extension
-  3. `@tensorflow/tfjs-node-gpu` - TensorFlow.js Node.js extension with GPU support
-
-```
-npm install @tensorflow/tfjs @tensorflow/tfjs-node
-// or...
-npm install @tensorflow/tfjs @tensorflow/tfjs-node-gpu
-```
-
-### 筆記
-
 * 簡單的問題，例如一元一次方程式，`Learning Rate` 不宜過大。
 
 ### code
