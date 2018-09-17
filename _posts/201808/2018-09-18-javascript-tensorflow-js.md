@@ -60,7 +60,7 @@ tags:
     // 要被訓練的參數，這個參數隨著訓練次數增加會越來越準確
     let trainingAnswer;
 
-    // 產生一個模型公式 y = a * x
+    // 產生一個一元一次模型公式 y = a * x
     function predict(x) {
       return tf.tidy(() => {
         return trainingAnswer.mul(x)
@@ -156,12 +156,13 @@ tags:
 ```
 
 
-### y = a * x ^ 2 + b * x + c
+### 一元二次方程式
 
 ```js
+// y = a * x ^ 2 + b * x + c
 // Define function
 function predict(input) {
-  // y = a * x ^ 2 + b * x + c
+  
   // More on tf.tidy in the next section
   return tf.tidy(() => {
     const x = tf.scalar(input);
@@ -186,9 +187,10 @@ result.print() // Output: 24
 ```
 
 
-### y = a * x ^ 3 + b * x ^ 2 + c * x + d
+### 一元三次方程式
 
 ```js
+// y = a * x ^ 3 + b * x ^ 2 + c * x + d
 // Define function
 function predict(input) {
   return tf.tidy(() => {
