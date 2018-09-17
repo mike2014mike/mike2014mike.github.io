@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      python 編譯為執行檔 exe
-date:       2018-09-18 09:37:19
+date:       2018-09-20 09:37:19
 author:     Mike Chen
 summary:    python 編譯為執行檔 exe
 categories: python
