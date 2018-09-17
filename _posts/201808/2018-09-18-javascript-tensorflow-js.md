@@ -215,3 +215,7 @@ function predict(input) {
 * [A Gentle Introduction to TensorFlow.js](https://medium.com/tensorflow/a-gentle-introduction-to-tensorflow-js-dba2e5257702)
 
 * [Mean Squared Error (MSE)](https://developers.google.com/machine-learning/glossary/#MSE)
+
+* [如何利用TensorFlow.js实现简版的谷歌「猜画小哥」图像识别应用](http://www.techug.com/post/tensorflow-js-ai-you-paint-i-guess.html)
+
+* [Tensorflow.js系列课程](https://www.youtube.com/watch?v=Qt3ZABW5lD0&list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ)
