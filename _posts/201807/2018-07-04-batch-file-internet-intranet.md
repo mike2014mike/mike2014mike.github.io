@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      公司網路設定(同時外內網)
-date:2018-07-04 09:37:19
+title:      批次檔設定公司網路(同時外內網)
+date:       2018-07-04 09:37:19
 author:     Mike Chen
-summary:    公司網路設定(同時外內網)
+summary:    批次檔設定公司網路(同時外內網)
 categories: tips
 thumbnail:  sitemap
 tags:
