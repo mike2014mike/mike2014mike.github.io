@@ -37,3 +37,5 @@ get_prime(num)
 
 ### 參考
 * [輸入一數字 n，印出 2 到 n 之間的質數](https://gist.github.com/uranusjr/581ba170cc5a42bdd3ff56ede01994ae)
+
+* [Python 质数判断](http://www.runoob.com/python3/python3-prime-number.html)
