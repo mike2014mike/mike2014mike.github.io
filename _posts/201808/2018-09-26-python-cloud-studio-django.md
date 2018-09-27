@@ -167,8 +167,6 @@ urlpatterns = [
 ]
 ```
 
-* 新網址 = `訪問連結 + /hello`
-
 ![新網址](https://i.imgur.com/slLrzq1.png)
 
 * 新增 base.html
