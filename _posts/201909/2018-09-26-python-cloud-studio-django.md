@@ -28,7 +28,7 @@ tags:
 
 ### 起手式步驟
 
-* 在 Cloud Studio 安裝
+* 在 Cloud Studio 安裝 Django
 
 ```
 python -m pip install --upgrade pip setuptools
@@ -36,7 +36,7 @@ python -m pip install --upgrade pip setuptools
 python -m pip install django
 ```
 
-* 利用查看版本，確認是否安裝成功
+* 利用查看版本指令，檢查是否安裝成功
 
 ```
 django-admin --version
@@ -60,11 +60,11 @@ cd HelloWorld/
 python manage.py runserver 0.0.0.0:8080
 ```
 
-![run service](https://i.imgur.com/OUeK9lu.png)
+![runserver](https://i.imgur.com/OUeK9lu.png)
 
 * 添加訪問連結
 
-![link](https://i.imgur.com/PA4e9yu.png)
+![addlink](https://i.imgur.com/PA4e9yu.png)
 
 
 * setting.py 設定 ALLOWED_HOSTS
