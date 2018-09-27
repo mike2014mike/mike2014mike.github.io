@@ -79,10 +79,11 @@ ALLOWED_HOSTS = ['*']
 
 ![welcome](https://i.imgur.com/AT4X9Qh.png)
 
-* 增加 HelloWorld/HelloWorld/view.py
+* 增加 view.py
 
 ```
-echo "" > view.py
+cd HelloWorld/
+echo > view.py
 ```
 
 * view.py 程式碼
@@ -118,9 +119,10 @@ urlpatterns = [
 
 ### 模板 Template
 
-* 在 HelloWorld 目錄底下創建 templates 目錄並建立 hello.html
+* 回到 HelloWorld 專案根目錄，創建 templates 目錄，並建立 hello.html
 
 ```
+cd ..
 mkdir templates
 cd templates/
 echo > hello.html
