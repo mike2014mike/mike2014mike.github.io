@@ -123,7 +123,7 @@ urlpatterns = [
 ```
 mkdir templates
 cd templates/
-echo "" > hello.html
+echo > hello.html
 ```
 
 * 目前目錄架構
@@ -167,38 +167,16 @@ urlpatterns = [
 ]
 ```
 
-
 ![new link](https://i.imgur.com/slLrzq1.png)
 
 * 新增 base.html
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>這是 base.html</title>
-</head>
-<body>
-    <h1>base.html 的 h1 Tag</h1>
-    <p>base.html 的 p Tag</p>
-    {% block mainbody %}
-       <p>base.html 的 mainbody 內容</p>
-    {% endblock %}
-</body>
-</html>
-```
+![base.html](https://i.imgur.com/YMvLpmt.png)
 
 
 * 修改 hello.html
 
-```html
-{%extends "base.html" %}
- 
-{% block mainbody %}
-  <p>這邊改掉了 base.html 的內容</p>
-{% endblock %}
-```
+![hello.html](https://i.imgur.com/kCmgpwX.png)
 
 * 網頁畫面
 
