@@ -60,7 +60,7 @@ cd HelloWorld/
 python manage.py runserver 0.0.0.0:8080
 ```
 
-![啟動服務](https://i.imgur.com/OUeK9lu.png)
+![run service](https://i.imgur.com/OUeK9lu.png)
 
 * 添加訪問連結
 
@@ -77,7 +77,7 @@ ALLOWED_HOSTS = ['*']
 
 * 預設網頁歡迎畫面
 
-![預設網頁歡迎畫面](https://i.imgur.com/AT4X9Qh.png)
+![welcome](https://i.imgur.com/AT4X9Qh.png)
 
 * 增加 HelloWorld/HelloWorld/view.py
 
@@ -108,11 +108,11 @@ urlpatterns = [
 
 * 目前的目錄架構
 
-![目錄架構](https://i.imgur.com/s3u4XPp.png)
+![folder](https://i.imgur.com/s3u4XPp.png)
 
 * 目前網頁畫面
 
-![網頁畫面](https://i.imgur.com/1gfXUwX.png)
+![new](https://i.imgur.com/1gfXUwX.png)
 
 
 
@@ -128,7 +128,7 @@ echo "" > hello.html
 
 * 目前目錄架構
 
-![目錄架構](https://i.imgur.com/i3wG2BL.png)
+![folder](https://i.imgur.com/i3wG2BL.png)
 
 * hello.html
 
@@ -167,7 +167,8 @@ urlpatterns = [
 ]
 ```
 
-![新網址](https://i.imgur.com/slLrzq1.png)
+
+![new link](https://i.imgur.com/slLrzq1.png)
 
 * 新增 base.html
 
@@ -201,7 +202,7 @@ urlpatterns = [
 
 * 網頁畫面
 
-![網頁畫面](https://i.imgur.com/jD6q6Na.png)
+![new](https://i.imgur.com/jD6q6Na.png)
 
 
 ### 建立 APP
@@ -212,7 +213,7 @@ urlpatterns = [
 python manage.py startapp myAPP
 ```
 
-![APP目錄](https://i.imgur.com/IgvhiWJ.png)
+![APP folder](https://i.imgur.com/IgvhiWJ.png)
 
 * 修改 settings.py
 
