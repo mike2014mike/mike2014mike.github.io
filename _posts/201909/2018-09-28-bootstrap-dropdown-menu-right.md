@@ -15,7 +15,9 @@ tags:
 
 * 下拉選單最右邊的按鈕如果剛好切齊螢幕，其選單會超出螢幕，視覺效果不是很好。故找了一下方法，讓它可以靠右切齊。
 
-* 關鍵就是加上 `dropdown-menu-right`
+* 關鍵就是加上 `dropdown-menu-right` 。
+
+* 本範例以 Bootstrap 4 示範，但 Bootstrap 3 也是一樣加上`dropdown-menu-right` 即可。
 
 ### Sample
 
