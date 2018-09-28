@@ -15,7 +15,7 @@ tags:
 
 ### 緣由
 
-* 最近發現一個好用的東西 - 騰訊雲(Cloud Studio)，可線上快速創建開發環境，編程並測試。
+* 最近發現一個好用的東西 - 騰訊雲([Cloud Studio](https://studio.coding.net/ws/default))，可線上快速創建開發環境，編程並測試。
 
 * 現在註冊可以免費使用 180 天。
 

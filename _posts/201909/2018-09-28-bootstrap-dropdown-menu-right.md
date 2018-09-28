@@ -1,3 +1,24 @@
+---
+layout:     post
+title:      Bootstrap 下拉選單靠右切齊
+date:       2018-09-29 10:37:19
+author:     Mike Chen
+summary:    
+categories: css
+thumbnail:  css3
+tags:
+ - css
+---
+
+### 緣由
+
+* 下拉選單最右邊的按鈕如果剛好切齊螢幕，其選單會超出螢幕，視覺效果不是很好。故找了一下方法，讓它可以靠右切齊。
+
+* 關鍵就是加上 `dropdown-menu-right`
+
+### Sample
+
+```html
 <!DOCTYPE html>
 <html>
 
@@ -48,3 +69,8 @@
 </body>
 
 </html>
+```
+
+### 參考
+
+* [bootstrap dropdown bubble align right (not push-right)](https://stackoverflow.com/questions/18892351/bootstrap-dropdown-bubble-align-right-not-push-right)
