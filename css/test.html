@@ -2,46 +2,33 @@
 <html>
 
 <head>
-  <title>Bootstrap dropdown-menu</title>
+  <title>Bootstrap 实例</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- 新 Bootstrap4 核心 CSS 文件 -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-  <!-- jQuery文件。務必在bootstrap.min.js 之前引入 -->
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- popper.min.js 用於 對話框、提示、下拉選單 -->
   <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
-
-  <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
   <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <style>
+    #demo {
+      border: 1px solid green;
+      background-color: green;
+      color: #fff;
+    }
+  </style>
+
 </head>
 
 <body>
 
-  <div class="container-fluid">
-    <!-- BS4 的靠左由 pull-left 改為 float-left -->
-    <div class="btn-group float-left">
-      <button type="button" class="btn btn-primary dropdown-toggle pull-right" data-toggle="dropdown">
-        Left Button
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">xxxxxxxxxxxxxxxxxxxxx</a>
-        <a class="dropdown-item" href="#">xxxxxxxxxxxxxxxxxxxxx</a>
-      </div>
-    </div>
-
-    <!-- BS4 的靠右由 pull-right 改為 float-right -->
-    <div class="btn-group float-right">
-      <button type="button" class="btn btn-primary dropdown-toggle pull-right" data-toggle="dropdown">
-        Right Button
-      </button>
-      <!-- 重點在這 -->
-      <div class="dropdown-menu dropdown-menu-right">
-        <a class="dropdown-item" href="#">xxxxxxxxxxxxxxxxxxxxx</a>
-        <a class="dropdown-item" href="#">xxxxxxxxxxxxxxxxxxxxx</a>
-      </div>
+  <div class="container">
+    <h2>简单的折叠</h2>
+    <p>点击按钮内容会再显示与隐藏之间切换。</p>
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">简单的折叠</button>
+    <div id="demo" class="collapse">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </div>
   </div>
 

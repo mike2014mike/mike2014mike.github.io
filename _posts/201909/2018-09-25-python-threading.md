@@ -13,7 +13,78 @@ tags:
 
 當串接兩個 API，要做資料整合處理的時候，必須兩個 API 都收到 response 才能進行處理，這時候就會用到多執行緒的概念。
 
-### 建立子執行緒
+### Python3 的二種 Thread 模組
+
+* _thread：
+
+```python
+import _thread
+import time
+
+# 為執行緒定義一個函數
+def print_time( threadName, delay):
+   count = 0
+   while count < 5:
+      time.sleep(delay)
+      count += 1
+      print ("%s: %s" % ( threadName, time.ctime(time.time()) ))
+
+# 創建兩個執行緒
+try:
+   _thread.start_new_thread( print_time, ("Thread-1", 2, ) )
+   _thread.start_new_thread( print_time, ("Thread-2", 4, ) )
+except:
+   print ("Error: 無法啟動執行緒")
+
+while 1:
+   pass
+```
+
+* threading (建議使用)：
+
+```python
+import threading
+import time
+
+exitFlag = 0
+
+class myThread (threading.Thread):
+    def __init__(self, threadID, name, counter):
+        threading.Thread.__init__(self)
+        self.threadID = threadID
+        self.name = name
+        self.counter = counter
+    def run(self):
+        print ("開始執行緒：" + self.name)
+        print_time(self.name, self.counter, 5)
+        print ("退出執行緒：" + self.name)
+
+def print_time(threadName, delay, counter):
+    while counter:
+        if exitFlag:
+            threadName.exit()
+        time.sleep(delay)
+        print ("%s: %s" % (threadName, time.ctime(time.time())))
+        counter -= 1
+
+# 創建新執行緒
+thread1 = myThread(1, "Thread-1", 1)
+thread2 = myThread(2, "Thread-2", 2)
+
+# 開啟新執行緒
+thread1.start()
+thread2.start()
+thread1.join()
+thread2.join()
+print ("退出主執行緒")
+
+
+```
+
+
+### 循序漸進
+
+* 建立子執行緒
 
 ```python
 import threading
@@ -43,8 +114,7 @@ print("Done.")
 
 ```
 
-
-### 多個子執行緒與參數
+* 多個子執行緒與參數
 
 ```python
 import threading
@@ -72,7 +142,7 @@ print("Done.")
 ```
 
 
-### 物件導向
+* 物件導向
 
 ```python
 import threading
@@ -105,7 +175,7 @@ print("Done.")
 ```
 
 
-### 佇列（Queue）
+* 佇列（Queue）
 
 ```python
 import time
@@ -151,7 +221,7 @@ print("Done.")
 ```
 
 
-### 鎖定（Lock）
+* 鎖定（Lock）
 
 ```python
 import time
@@ -201,7 +271,7 @@ print("Done.")
 ```
 
 
-### 旗標（Semaphore）
+* 旗標（Semaphore）
 
 ```python
 import time
@@ -257,3 +327,5 @@ print("Done.")
 
 ### 參考
 * [Python 多執行緒 threading 模組平行化程式設計教學](https://blog.gtwang.org/programming/python-threading-multithreaded-programming-tutorial/)
+
+* [Python3 多线程](http://www.runoob.com/python3/python3-multithreading.html)
