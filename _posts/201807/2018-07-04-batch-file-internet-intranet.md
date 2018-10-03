@@ -38,6 +38,52 @@ echo. & pause
 另存為 `同時內外網.bat` ，按右鍵 `以系統管理員身分執行` 即可。
 
 
+### 定時執行版本
+
+打開記事本輸入下方內容
+
+```
+@echo off
+
+:: 時間格式化
+for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
+set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
+set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%" & set "MS=%dt:~15,3%"
+set "datestamp=%YYYY%%MM%%DD%" & set "timestamp=%HH%%Min%%Sec%" & set "fullstamp=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%-%MS%"
+:: echo datestamp: "%datestamp%"
+:: echo timestamp: "%timestamp%"
+:: echo fullstamp: "%fullstamp%"
+
+:_start
+
+echo [%fullstamp%]
+echo 正在進行內外網設定中，請稍候……
+
+echo 刪除所有0.0.0.0的路由
+route delete 0.0.0.0
+
+echo 加入外網(wifi)
+route -p add 0.0.0.0 mask 0.0.0.0 192.168.1.1
+
+echo 降低內網優先權(值越低優先權越高)
+route -p add 10.0.0.0 mask 255.0.0.0 10.61.17.254 metric 60
+
+echo 設定完成！！
+
+ping 127.0.0.1 -n 300 -w 1000 > nul
+
+echo [%fullstamp%]
+
+echo 300 秒到了！！ 
+
+GOTO _start
+
+
+echo. & pause
+```
+
+另存為 `同時內外網_定時執行.bat` ，按右鍵 `以系統管理員身分執行` 即可。
+
 
 ### 只連內網
 
