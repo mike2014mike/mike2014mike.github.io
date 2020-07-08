@@ -13,13 +13,13 @@ tags:
 ---
 
 
-![斗羅大陸](https://imgur.com/0EC6eee)
+![斗羅大陸](https://i.imgur.com/0EC6eee.jpg)
 
 
 > 遊戲角色名稱：酷壽司
 
 
-![切磋排行](https://imgur.com/I4ksb3h)
+![切磋排行](https://i.imgur.com/I4ksb3h.png)
 
 
 ### 陣容搭配心得
