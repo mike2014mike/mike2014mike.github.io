@@ -17,10 +17,10 @@ var files = [
     './manifest.json',
     './search.json',
     './404.html',
-    './experience.html',
-    './posts.html',
-    './post-by-categories.html',
-    './search.html',
+    // './experience.html',
+    // './posts.html',
+    // './post-by-categories.html',
+    // './search.html',
 ];
 
 //Adding `install` event listener
