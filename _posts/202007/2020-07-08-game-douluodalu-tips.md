@@ -21,7 +21,7 @@ tags:
 
 
 ![切磋排行](https://i.imgur.com/I4ksb3h.png)
-
+![長老推薦萬年魂環](https://i.imgur.com/yEsG1TS.png)
 
 ### 陣容搭配心得
 摘自[暢聊先鋒官](https://kknews.cc/zh-tw/game/zpg9gal.html)
