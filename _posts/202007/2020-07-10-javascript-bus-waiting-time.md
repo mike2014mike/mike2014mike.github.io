@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      廣告機接駁車等待時間更新
+title:      廣告機-接駁車等待時間更新
 date:       2020-07-10 10:37:19
 author:     Mike Chen
 summary:    
