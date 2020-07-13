@@ -12,7 +12,9 @@ tags:
  - 親子閱讀
 ---
 
-![老爸念書](https://i.imgur.com/VxPIuZ7.jpg)
+![老爸陪讀](https://i.imgur.com/VxPIuZ7.jpg)
+![老爸陪讀](https://i.imgur.com/B5R2zp6.jpg)
+
 
 研究指出：
 * 爸爸陪孩子閱讀比媽媽效果更好
