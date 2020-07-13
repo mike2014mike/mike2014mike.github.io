@@ -1,22 +1,22 @@
 //Cache polyfil to support cacheAPI in all browsers
 importScripts('./cache-polyfill.js');
 
-var cacheName = 'mikeBlog-20200713-v1';
+var cacheName = 'mikeBlog-20200713-v2';
 
 //Files to save in cache
 var files = [
-    './',
-    './index.html?utm=homescreen',
-    './js/jekyll-search.js',
-    './js/jquery.mmenu.min.all.js',
-    './css/style.css',
-    './css/highlightjs.piperita.css',
-    './css/jquery.mmenu.all.css',
-    './images/wechat-sql-n.png',
-    './favicon/android-chrome-192x192.png',
-    './manifest.json',
-    './search.json',
-    './404.html',
+    // './',
+    // './index.html?utm=homescreen',
+    // './js/jekyll-search.js',
+    // './js/jquery.mmenu.min.all.js',
+    // './css/style.css',
+    // './css/highlightjs.piperita.css',
+    // './css/jquery.mmenu.all.css',
+    // './images/wechat-sql-n.png',
+    // './favicon/android-chrome-192x192.png',
+    // './manifest.json',
+    // './search.json',
+    // './404.html',
     // './experience.html',
     // './posts.html',
     // './post-by-categories.html',
