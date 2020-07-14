@@ -7,10 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - Youtube
  - 寶寶
- - 卡通
- - 動畫
 
 ---
 

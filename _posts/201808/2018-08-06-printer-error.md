@@ -7,7 +7,7 @@ summary:
 categories: tips
 thumbnail:  windows
 tags:
- - printer
+ - 印表機
 ---
 
 列印文件時常會遇到某筆列印卡住，按取消或刪除都還是一直顯示[刪除中 - 列印]，可以下列方式處理。

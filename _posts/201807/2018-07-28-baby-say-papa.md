@@ -7,9 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - Youtube
  - 寶寶
- - 叫爸爸
 
 ---
 

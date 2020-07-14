@@ -7,9 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - baby
- - 武魂融合技
- - 蝸牛戰車
+ - 斗羅大陸
 ---
 
 某日，我正趴在客廳看電視，寶貝兒子突然爬到我背上，做了這個姿勢。

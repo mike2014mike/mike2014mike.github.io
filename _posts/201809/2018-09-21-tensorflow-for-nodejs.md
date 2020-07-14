@@ -10,7 +10,7 @@ tags:
  - Node.js
  - 深度學習
  - 機器學習
- - TensorFlow.js
+ - TensorFlow
 ---
 
 ### 關於 Node.js 版本的 TensorFlow

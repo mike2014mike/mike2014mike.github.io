@@ -8,7 +8,6 @@ categories: javascript
 thumbnail:  code
 tags:
  - javascript
- - Google Form
  - Vue
 ---
 

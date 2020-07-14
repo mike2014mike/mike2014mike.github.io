@@ -8,8 +8,6 @@ categories: javascript
 thumbnail:  code
 tags:
  - javascript
- - Spread
- - Rest
 ---
 
 [MDN - Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)

@@ -8,8 +8,6 @@ categories: android
 thumbnail:  android
 tags:
  - android
- - Chrome
- - autoplay
 ---
 
 手機上的Chrome瀏覽器，可能是考慮到並非所有人都是上網吃到飽，所以預設不會自動播放網頁中的影片。

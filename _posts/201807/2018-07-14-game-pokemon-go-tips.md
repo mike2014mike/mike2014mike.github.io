@@ -8,10 +8,8 @@ categories: game
 thumbnail:  gamepad
 tags:
  - game
- - Pokemon GO
- - tips
  - Pokémon Go
- - 精靈寶可夢
+ - 寶可夢
 ---
 
 

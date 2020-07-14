@@ -8,9 +8,8 @@ categories: game
 thumbnail:  gamepad
 tags:
  - game
- - COC
- - tips
- - Clash of Clans
+ - 部落衝突
+ 
 ---
 
 

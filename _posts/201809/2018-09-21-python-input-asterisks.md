@@ -8,7 +8,6 @@ categories: python
 thumbnail:  python
 tags:
  - python
- - asterisks
 ---
 
 ```python

@@ -7,9 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - baby
- - DOOBY
- - 大眼蛙水壺
+ - 寶寶
 ---
 
 ![寶寶喝水](https://i.imgur.com/IdLSxZH.jpg)

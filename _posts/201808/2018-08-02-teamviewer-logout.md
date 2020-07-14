@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  sign-out-alt
 tags:
  - TeamViewer
- - logout
 ---
 
 某次更新後，TeamViewer遠端斷線後會自動登出Windows，在某些情況下我們是不希望它登出的，該如何設定呢？

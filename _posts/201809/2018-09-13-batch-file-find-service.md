@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  sitemap
 tags:
  - 批次檔
- - 系統服務啟動
 ---
 
 ### Batch File code

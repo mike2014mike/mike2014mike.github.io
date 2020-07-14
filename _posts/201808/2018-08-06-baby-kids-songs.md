@@ -7,9 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - baby
- - songs
- - 英文兒歌
+ - 寶寶
 ---
 
 這幾首兒歌我兒子特別喜歡，其中幾首我也做了改編，在此紀錄。

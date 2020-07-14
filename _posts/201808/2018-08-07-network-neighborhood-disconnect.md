@@ -7,7 +7,7 @@ summary:
 categories: tips
 thumbnail:  windows
 tags:
- - Network Neighborhood
+ - 網路芳鄰
 ---
 
 1. 鍵入 gpedit.msc 叫出《本機群組原則編輯器》

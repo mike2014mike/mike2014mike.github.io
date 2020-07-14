@@ -8,7 +8,7 @@ categories: linux
 thumbnail:  joomla
 tags:
  - linux
- - Joomla相關
+ - Joomla
 
 ---
 

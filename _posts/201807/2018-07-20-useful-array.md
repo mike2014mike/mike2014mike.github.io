@@ -9,7 +9,6 @@ thumbnail:  code
 tags:
  - javascript
  - ALERTIFY.js
- - alert
 ---
 
 

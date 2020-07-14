@@ -7,8 +7,7 @@ summary:
 categories: tips
 thumbnail:  lightbulb
 tags:
- - big file
- - usb
+
 ---
 
 ### 問題

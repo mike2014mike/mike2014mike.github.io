@@ -8,8 +8,7 @@ categories: game
 thumbnail:  gamepad
 tags:
  - game
- - sangokush
- - tips
+ - 新三國志
 ---
 
 

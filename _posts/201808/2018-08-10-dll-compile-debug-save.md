@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  windows
 tags:
  - dll
- - Debug
 ---
 
 1. 外部引入之 xxxxxxxx.dll 編譯後，不會自動存入Debug資料夾內。

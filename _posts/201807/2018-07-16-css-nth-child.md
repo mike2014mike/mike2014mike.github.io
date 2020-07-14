@@ -9,7 +9,6 @@ thumbnail:  css3
 tags:
  - CodePen
  - css
- - nth-child(an+b)
 ---
 
 :nth-child(an+b)代表 `「每a個的第b個」` 。<br>

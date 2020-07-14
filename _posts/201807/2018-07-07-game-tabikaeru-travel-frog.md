@@ -8,9 +8,6 @@ categories: game
 thumbnail:  gamepad
 tags:
  - game
- - tabikaeru
- - travel frog
- - tips
 ---
 
 

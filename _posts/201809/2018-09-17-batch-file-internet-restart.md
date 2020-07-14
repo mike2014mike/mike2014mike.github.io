@@ -8,9 +8,6 @@ categories: tips
 thumbnail:  sitemap
 tags:
  - Ping
- - internet
- - Google DNS 判斷是否斷線
- - 時間格式化
 ---
 
 ### 邏輯

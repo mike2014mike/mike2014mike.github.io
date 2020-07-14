@@ -8,7 +8,6 @@ categories: C#
 thumbnail:  code
 tags:
  - C#
- - TimeSpan
 ---
 
 ```csharp

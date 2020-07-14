@@ -8,7 +8,6 @@ categories: python
 thumbnail:  python
 tags:
  - python
- - 執行檔
  - PyInstaller
 ---
 

@@ -11,9 +11,6 @@ tags:
  - C#
  - .Net Core SDK
  - .NET Framework
- - KB2919442
- - KB2919355
- - KB2999226
 ---
 
 ### 緣由

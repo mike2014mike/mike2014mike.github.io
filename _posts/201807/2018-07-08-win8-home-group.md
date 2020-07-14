@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  windows
 tags:
  - win8
- - 家用群組
 ---
 
 Windows 8 桌面上出現的家用群組，覺得很礙眼嗎？

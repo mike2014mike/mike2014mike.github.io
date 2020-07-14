@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  windows
 tags:
  - system
- - garbled
 ---
 
 明明檢查Windows系統的語系和地區都設定無誤，為何程式開啟會變亂碼呢？

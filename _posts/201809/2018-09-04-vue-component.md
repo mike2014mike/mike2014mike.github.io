@@ -8,7 +8,7 @@ categories: javascript
 thumbnail:  code
 tags:
  - javascript
- - Vue Component & Template
+ - vue
 ---
 
 #### 區域註冊 Component

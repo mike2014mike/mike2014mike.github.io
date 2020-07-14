@@ -7,8 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - baby
- - 遊戲地墊
+ - 寶寶
 ---
 
 ![遊戲地墊](https://i.imgur.com/cixNac7.jpg)

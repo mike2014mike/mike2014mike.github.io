@@ -10,7 +10,6 @@ tags:
  - CodePen
  - css
  - flex
- - center
 ---
 
 只要外面div的 `display設flex` ，裡面div的 `margin設auto` ，就會水平垂直置中。<br>

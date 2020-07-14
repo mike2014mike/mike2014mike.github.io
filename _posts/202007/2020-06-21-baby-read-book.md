@@ -7,8 +7,6 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - baby
- - 讀書
  - 親子閱讀
 ---
 

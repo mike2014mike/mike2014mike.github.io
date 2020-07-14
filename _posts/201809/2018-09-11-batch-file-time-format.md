@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  sitemap
 tags:
  - 批次檔
- - 時間格式化
 ---
 
 ### Batch File code

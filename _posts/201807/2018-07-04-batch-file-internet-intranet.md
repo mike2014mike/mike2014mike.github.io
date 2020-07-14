@@ -7,9 +7,7 @@ summary:    批次檔設定公司網路(同時外內網)
 categories: tips
 thumbnail:  sitemap
 tags:
- - setting
- - internet
- - intranet
+
 ---
 
 ### 同時內外網

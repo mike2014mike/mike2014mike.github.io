@@ -8,7 +8,7 @@ categories: python
 thumbnail:  python
 tags:
  - python
- - prime number
+ - 質數
 ---
 
 ```python

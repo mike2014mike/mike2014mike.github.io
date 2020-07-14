@@ -8,8 +8,6 @@ categories: javascript
 thumbnail:  code
 tags:
  - javascript
- - 簡體
- - 繁體
 ---
 
 使用JavaScript 判斷瀏覽器是簡體或繁體

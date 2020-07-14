@@ -7,7 +7,7 @@ summary:
 categories: tips
 thumbnail:  windows
 tags:
- - Advanced installer
+ - AVG
 ---
 
 ### 處理無法連區網問題

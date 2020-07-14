@@ -7,10 +7,7 @@ summary:    寶寶舞獅
 categories: baby
 thumbnail:  heart
 tags:
- - Youtube
  - 寶寶
- - 舞獅
- - 五個月
 
 ---
 

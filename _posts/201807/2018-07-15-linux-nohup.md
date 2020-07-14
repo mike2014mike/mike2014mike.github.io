@@ -8,7 +8,6 @@ categories: linux
 thumbnail:  linux
 tags:
  - linux
- - nohup
 ---
 
 > nohup(no hang up，意思就是不要掛斷)

@@ -8,7 +8,6 @@ categories: baby
 thumbnail:  heart
 tags:
  - 寶寶
- - 親子停車位識別證
 
 ---
 ![新北市親子停車位識別證](https://i.imgur.com/OaUYVc6.jpg)

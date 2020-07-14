@@ -10,7 +10,6 @@ tags:
  - javascript
  - Node.js 
  - handlebars
- - Partial View
 ---
 
 ### 檔案架構

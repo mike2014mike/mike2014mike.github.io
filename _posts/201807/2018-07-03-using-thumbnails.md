@@ -7,7 +7,6 @@ categories: jekyll
 thumbnail: jekyll
 tags:
  - thumbnails
- - carte noire
 ---
 
 Carte Noire is designed to start each article with an all-white image as a

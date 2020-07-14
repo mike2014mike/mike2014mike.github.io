@@ -8,9 +8,6 @@ categories: python
 thumbnail:  python
 tags:
  - python
- - opendata
- - json
- - file
 ---
 
 ```python

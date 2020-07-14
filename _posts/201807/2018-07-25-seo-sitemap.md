@@ -8,7 +8,7 @@ categories: SEO
 thumbnail:  sitemap
 tags:
  - SEO
- - Sitemap製作
+ - Sitemap
 ---
 
 ## 使用Sitemap製作工具來快速製作Sitemap

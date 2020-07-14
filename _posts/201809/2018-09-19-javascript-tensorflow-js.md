@@ -10,7 +10,7 @@ tags:
  - javascript
  - 深度學習
  - 機器學習
- - TensorFlow.js
+ - TensorFlow
 ---
 
 ### 關於 TensorFlow.js

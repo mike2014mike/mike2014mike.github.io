@@ -8,8 +8,6 @@ categories: tips
 thumbnail:  trash
 tags:
  - OfficeScan
- - remove
- - uninstall
 ---
 
 OfficeScan密碼忘記了怎麼辦？免驚，按照下面方法就可以免密碼移除囉！

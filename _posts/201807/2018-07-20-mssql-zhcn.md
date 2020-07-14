@@ -8,7 +8,6 @@ categories: MSSQL
 thumbnail:  database
 tags:
  - MSSQL
- - 簡體字
 ---
 
 先來個WeChat上的對話

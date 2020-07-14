@@ -8,8 +8,6 @@ categories: android
 thumbnail:  android
 tags:
  - android
- - Chrome
- - devtool
 ---
 
 平常在PC上開發網頁，常常會使用到Chrome瀏覽器的開發者工具，看看錯誤訊息，或進行測試。<br>

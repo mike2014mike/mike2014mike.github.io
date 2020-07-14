@@ -8,8 +8,7 @@ categories: game
 thumbnail:  gamepad
 tags:
  - game
- - douluodalu
- - tips
+ - 斗羅大陸
 ---
 
 

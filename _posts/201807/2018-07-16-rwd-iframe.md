@@ -9,9 +9,6 @@ thumbnail:  css3
 tags:
  - CodePen
  - RWD
- - iframe
- - Google Map
- - Youtube
 ---
 
 Google Map, YouTube提供了以iframe的方式讓用戶嵌入自己的網頁中。<br>

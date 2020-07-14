@@ -7,8 +7,7 @@ summary:
 categories: baby
 thumbnail:  heart
 tags:
- - baby
- - 世界上最遙遠的距離
+ - 寶寶
 ---
 
 ![世界上最遙遠的距離](https://i.imgur.com/GzvmKW8.jpg)

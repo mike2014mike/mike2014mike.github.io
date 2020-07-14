@@ -8,7 +8,6 @@ categories: tips
 thumbnail:  windows
 tags:
  - win8
- - clean
 ---
 
 Windows系統用久了，都會產生許多系統暫存檔，而常常這些檔案根本用不到，只會佔用空間。
