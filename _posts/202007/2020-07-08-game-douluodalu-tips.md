@@ -12,9 +12,9 @@ tags:
 ---
 
 
-![斗羅大陸](https://i.imgur.com/0EC6eee.jpg)
-
 看了斗羅大陸動畫以後，就一頭栽進它的手遊，而我老婆則是一頭栽進它的小說。
+
+![斗羅大陸](https://i.imgur.com/0EC6eee.jpg)
 
 > 遊戲角色名稱：酷壽司
 

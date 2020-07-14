@@ -10,10 +10,6 @@ tags:
  - 親子閱讀
 ---
 
-![老爸陪讀](https://i.imgur.com/VxPIuZ7.jpg)
-
-![老爸陪讀](https://i.imgur.com/B5R2zp6.jpg)
-
 
 研究指出：
 * 爸爸陪孩子閱讀比媽媽效果更好
@@ -23,6 +19,10 @@ tags:
 * 參與親子閱讀有益父親給自己減壓
 
 所以，寶貝兒子讓老爸唸書給你聽吧！
+
+![老爸陪讀](https://i.imgur.com/VxPIuZ7.jpg)
+
+![老爸陪讀](https://i.imgur.com/B5R2zp6.jpg)
 
 ### 參考
 * [哈佛研究：為什麼爸爸做親子閱讀，效果更佳](https://ek21.com/news/1/85371/)
