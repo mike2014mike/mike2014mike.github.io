@@ -41,8 +41,8 @@ language: zh-TW    ## blog site languages: en, zh-CN, zh-TW, de
 #### Menu
 menu:
   首頁 | Home: /
-  Archives: /archives
-  About: /about
+  歸檔 | Archives: /archives
+  關於 | About: /about
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
