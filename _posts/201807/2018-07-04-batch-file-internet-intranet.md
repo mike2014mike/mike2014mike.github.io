@@ -4,7 +4,7 @@ title:      批次檔設定公司網路(同時外內網)
 date:       2018-07-04 09:37:19
 author:     Mike Chen
 summary:    批次檔設定公司網路(同時外內網)
-categories: Batch File
+categories: 批次檔
 thumbnail:  sitemap
 tags:
 

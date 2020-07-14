@@ -4,7 +4,7 @@ title:      批次檔時間格式化
 date:       2018-09-11 09:37:19
 author:     Mike Chen
 summary:    批次檔時間格式化
-categories: Batch File
+categories: 批次檔
 thumbnail:  sitemap
 tags:
  - 批次檔

@@ -4,7 +4,7 @@ title:      NMEA 轉 KML
 date:       2018-07-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: GIS
+categories: GPS
 thumbnail:  map-marked-alt
 tags:
  - GIS

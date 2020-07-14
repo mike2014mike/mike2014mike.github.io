@@ -4,7 +4,7 @@ title:      TypeScript 入坑
 date:       2018-08-03 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: TypeScript
 thumbnail:  code
 tags:
  - JavsScript

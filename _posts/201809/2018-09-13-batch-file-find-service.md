@@ -4,7 +4,7 @@ title:      批次檔判斷系統服務是否啟動
 date:       2018-09-13 09:37:19
 author:     Mike Chen
 summary:    批次檔判斷系統服務是否啟動
-categories: Batch File
+categories: 批次檔
 thumbnail:  sitemap
 tags:
  - 批次檔
