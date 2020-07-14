@@ -25,7 +25,7 @@ defaults:
       layout: "post"
 
 #### Pagination
-paginate: 20
+paginate: 10
 
 #### Site
 title : Mike's Notes
