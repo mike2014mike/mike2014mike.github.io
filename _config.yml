@@ -34,7 +34,9 @@ description: 這是麥克的筆記本，主要紀錄一些學習筆記與小技�
 assets: /assets
 url: 
 baseurl: 
-google_analytics: UA-122457148-1
+google_analytics:
+  enable: true
+  id: UA-122457148-1
 
 #### Language
 language: zh-TW    ## blog site languages: en, zh-CN, zh-TW, de
