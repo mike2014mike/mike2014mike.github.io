@@ -7,7 +7,7 @@
 
 # Site settings
 title: 麥克的筆記本
-brief-intro: 全端工程師（Full Stack Engineer）#其實就是什麼都要做的雜工
+brief-intro: Full Stack Engineer
 baseurl: "https://mike2014mike.github.io" # the subpath of your site, e.g. /blog
 url: "https://mike2014mike.github.io" # the base hostname & protocol for your site
 
