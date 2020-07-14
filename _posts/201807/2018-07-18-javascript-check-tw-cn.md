@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      javascript 判斷瀏覽器是簡體或繁體
+title:      JavaScript 判斷瀏覽器是簡體或繁體
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

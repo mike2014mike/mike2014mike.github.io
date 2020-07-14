@@ -4,10 +4,10 @@ title:      【Node.js】request + cheerio 爬蟲
 date:       2018-09-12 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: Node.js
 thumbnail:  code
 tags:
- - javascript
+ - Node.js
  - request
  - cheerio
 ---

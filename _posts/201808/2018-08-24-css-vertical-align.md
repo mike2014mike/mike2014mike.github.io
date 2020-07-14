@@ -4,7 +4,7 @@ title:      CSS 垂直置中 8 種方法
 date:       2018-08-24 09:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - css

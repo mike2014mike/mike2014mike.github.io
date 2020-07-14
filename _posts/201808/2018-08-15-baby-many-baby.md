@@ -4,7 +4,7 @@ title:      寶貝兒子的影分身之術！
 date:       2018-08-15 09:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

@@ -4,7 +4,7 @@ title:      【手遊】旅行青蛙
 date:       2018-07-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: game
+categories: Game
 thumbnail:  gamepad
 tags:
  - game

@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      javascript 爬資料透過RegExp轉JSON
+title:      JavaScript 爬資料透過RegExp轉JSON
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

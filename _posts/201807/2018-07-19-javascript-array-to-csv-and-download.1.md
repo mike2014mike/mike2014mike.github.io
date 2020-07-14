@@ -1,19 +1,19 @@
 ---
 layout:     post
-title:      javascript Array轉CSV並下載
+title:      JavaScript Array轉CSV並下載
 date:       2018-07-19 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - Array
  - CSV
  - echarts
 ---
 
-繪製圖表的數據常常是Array形式，如何透過Javascript轉換為CSV，並讓使用者下載成CSV檔案呢？
+繪製圖表的數據常常是Array形式，如何透過JavaScript轉換為CSV，並讓使用者下載成CSV檔案呢？
 請看下方code：
 
 ```javascript

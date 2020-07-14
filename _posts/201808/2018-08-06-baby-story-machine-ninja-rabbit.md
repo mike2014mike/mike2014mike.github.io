@@ -4,7 +4,7 @@ title:      寶寶故事機-忍者兔
 date:       2018-08-06 09:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

@@ -4,10 +4,10 @@ title:      JavaScript - apply, call 和 bind
 date:       2018-08-27 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - apply
  - call
  - bind

@@ -4,7 +4,7 @@ title:      無法刪除 wwwroot 底下資料之解法
 date:       2018-08-08 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - wwwroot

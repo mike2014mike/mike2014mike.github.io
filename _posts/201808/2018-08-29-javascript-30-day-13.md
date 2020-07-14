@@ -4,10 +4,10 @@ title:      JavaScript 30 - Day 13.Slide in on Scroll 捲軸動畫
 date:       2018-08-29 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
 ---
 
 ### 步驟

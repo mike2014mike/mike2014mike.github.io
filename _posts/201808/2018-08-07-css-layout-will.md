@@ -4,7 +4,7 @@ title:      學習 CSS 版面配置
 date:       2018-08-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - css

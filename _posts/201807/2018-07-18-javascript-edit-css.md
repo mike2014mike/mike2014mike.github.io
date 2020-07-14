@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      javascript 修改 CSS
+title:      JavaScript 修改 CSS
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

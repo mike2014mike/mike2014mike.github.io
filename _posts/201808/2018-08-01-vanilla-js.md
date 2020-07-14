@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      VanillaJS 新函式庫/框架？
+title:      VanillaJS 是新的函式庫/框架？
 date:       2018-08-01 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

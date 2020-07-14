@@ -4,7 +4,7 @@ title:      Bootstrap 3 爬 Code
 date:       2018-08-20 09:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - css

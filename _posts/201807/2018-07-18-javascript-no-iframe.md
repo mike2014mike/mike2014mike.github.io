@@ -1,17 +1,17 @@
 ---
 layout:     post
-title:      javascript 防止心血被人iframe借走
+title:      JavaScript 防止心血被人iframe借走
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript
  - iframe
 ---
 
-如果不想要網站內容被人使用iframe「借走」，以往的作法是使用javascript判斷網頁如果位在iframe 標籤裡，就直接跳轉到原始的網頁。
+如果不想要網站內容被人使用iframe「借走」，以往的作法是使用JavaScript判斷網頁如果位在iframe 標籤裡，就直接跳轉到原始的網頁。
 
 ```javascript
 <script>
@@ -23,7 +23,7 @@ if (top.location !== self.location) {
 ```
 
 ## 不可靠的原因：
-當別人用如下類似代碼做iframe嵌入時，就可能躲過你的頁面的javascript代碼。
+當別人用如下類似代碼做iframe嵌入時，就可能躲過你的頁面的JavaScript代碼。
 
 ```html
 <iframe src="你的頁面地址" name="tv" marginwidth="0" marginheight="0" scrolling="No" noResize frameborder="0" id="tv"  framespacing="0" width="580" height="550" VSPACE=-145 HSPACE=-385></iframe>

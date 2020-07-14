@@ -4,7 +4,7 @@ title:      DOOBY 大眼蛙水壺
 date:       2018-08-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

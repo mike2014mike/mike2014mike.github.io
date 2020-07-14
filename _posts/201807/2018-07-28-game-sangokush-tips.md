@@ -4,7 +4,7 @@ title:      【手遊】新三國志手機版攻略彙整
 date:       2018-07-28 09:37:19
 author:     Mike Chen
 summary:    
-categories: game
+categories: Game
 thumbnail:  gamepad
 tags:
  - game

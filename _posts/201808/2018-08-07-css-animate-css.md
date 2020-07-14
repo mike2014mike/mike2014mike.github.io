@@ -4,7 +4,7 @@ title:      用 Animate.css 做純 CSS 微動畫
 date:       2018-08-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - css

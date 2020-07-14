@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      偵測瀏覽器
+title:      JavaScript 偵測瀏覽器
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

@@ -1,18 +1,18 @@
 ---
 layout:     post
-title:      javascript JSON轉CSV並下載
+title:      JavaScript JSON轉CSV並下載
 date:       2018-07-19 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - JSON
  - CSV
 ---
 
-JSON是網路上常用的交換格式，如何透過Javascript轉換為CSV，並自動下載成CSV檔案呢？
+JSON是網路上常用的交換格式，如何透過JavaScript轉換為CSV，並自動下載成CSV檔案呢？
 請看下方code：
 
 ```javascript

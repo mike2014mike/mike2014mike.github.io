@@ -4,7 +4,7 @@ title:      Google表單客製化介面
 date:       2018-07-27 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

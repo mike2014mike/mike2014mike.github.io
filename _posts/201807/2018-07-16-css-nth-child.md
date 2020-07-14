@@ -4,7 +4,7 @@ title:      CSS :nth-child(an+b)的用法
 date:       2018-07-16 10:37:19
 author:     Mike Chen
 summary:    nth-child(an+b)的用法
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - CodePen

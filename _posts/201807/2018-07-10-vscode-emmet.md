@@ -4,7 +4,7 @@ title:      VSCode內建Emmet用法
 date:       2018-07-10 09:37:19
 author:     Mike Chen
 summary:    VSCode內建Emmet用法
-categories: vscode
+categories: VSCode
 thumbnail:  vscode
 tags:
  - VSCode

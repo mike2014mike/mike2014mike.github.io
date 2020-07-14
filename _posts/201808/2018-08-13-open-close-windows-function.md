@@ -4,7 +4,7 @@ title:      開啟或關閉windows功能空白
 date:       2018-08-13 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
 

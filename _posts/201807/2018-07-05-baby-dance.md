@@ -4,7 +4,7 @@ title:      寶寶舞獅
 date:       2018-07-05 12:37:19
 author:     Mike Chen
 summary:    寶寶舞獅
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

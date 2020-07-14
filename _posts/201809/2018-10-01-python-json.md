@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - JSON
+title:      Python - JSON
 date:       2018-10-01 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - JSON
 ---
 

@@ -4,7 +4,7 @@ title:      OfficeScan免密碼卸載方法
 date:       2018-07-02 09:37:19
 author:     Mike Chen
 summary:    OfficeScan免密碼卸載方法
-categories: tips
+categories: Tips
 thumbnail:  trash
 tags:
  - OfficeScan

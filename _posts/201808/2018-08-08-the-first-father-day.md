@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      第一次父親節
+title:      第一次過父親節
 date:       2018-08-08 09:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

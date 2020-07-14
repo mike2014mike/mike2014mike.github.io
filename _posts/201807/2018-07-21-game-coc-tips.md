@@ -4,10 +4,10 @@ title:      【手遊】COC部落衝突攻略彙整
 date:       2018-07-21 09:37:19
 author:     Mike Chen
 summary:    
-categories: game
+categories: Game
 thumbnail:  gamepad
 tags:
- - game
+ - Game
  - 部落衝突
  
 ---

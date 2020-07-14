@@ -4,11 +4,11 @@ title:      JavaScript 30 - Day 3.CSS Variables
 date:       2018-08-22 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
- - CSS Variables
+ - JavaScript
+ - CSS
 ---
 
 

@@ -4,7 +4,7 @@ title:      以Advanced installer封裝程式
 date:       2018-08-10 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - Advanced installer

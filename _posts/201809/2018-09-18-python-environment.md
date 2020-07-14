@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python 開發環境 - Jupyter Notebook
+title:      Python 開發環境 - Jupyter Notebook
 date:       2018-09-18 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
 ---
 
 ### 安裝 Anaconda

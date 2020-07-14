@@ -4,10 +4,10 @@ title:      JavaScript - Closure (閉包)
 date:       2018-08-27 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - Closure
 ---
 

@@ -4,7 +4,7 @@ title:      CSS 圖片失效提示
 date:       2018-07-17 10:37:19
 author:     Mike Chen
 summary:    CSS圖片失效提示
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - CodePen

@@ -4,7 +4,7 @@ title:      TeamViewer斷線後登出Windows之解法
 date:       2018-08-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  sign-out-alt
 tags:
  - TeamViewer

@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - class
+title:      Python - class
 date:       2018-10-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - class
 ---
 

@@ -4,7 +4,7 @@ title:      用 Bootstrap 做出毛玻璃效果
 date:       2018-08-14 09:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - css

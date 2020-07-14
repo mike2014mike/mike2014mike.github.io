@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      javascript array常用方法
+title:      JavaScript Array常用方法
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - ALERTIFY.js
 ---
 

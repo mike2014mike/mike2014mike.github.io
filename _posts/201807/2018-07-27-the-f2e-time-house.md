@@ -4,7 +4,7 @@ title:      The F2E - 前端修練精神時光屋
 date:       2018-07-27 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

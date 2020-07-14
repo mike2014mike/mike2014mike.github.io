@@ -4,7 +4,7 @@ title:      Win7網路芳鄰連不上處理方式
 date:       2018-08-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - 網路芳鄰

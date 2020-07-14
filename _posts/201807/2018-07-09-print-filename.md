@@ -4,7 +4,7 @@ title:      列出資料夾內檔名的方法
 date:       2018-07-09 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  file
 tags:
 ---

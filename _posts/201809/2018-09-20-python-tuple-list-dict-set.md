@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - tuple, list, dict, set
+title:      Python - tuple, list, dict, set
 date:       2018-09-20 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - tuple
  - list
  - dict

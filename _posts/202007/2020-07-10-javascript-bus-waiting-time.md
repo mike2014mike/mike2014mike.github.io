@@ -4,10 +4,10 @@ title:      廣告機-接駁車等待時間更新
 date:       2020-07-10 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - 廣告機
 ---
 

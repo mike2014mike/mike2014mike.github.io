@@ -4,10 +4,10 @@ title:      用Velocity.js來玩動畫吧！
 date:       2018-08-01 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - Velocity.js 
 ---
 

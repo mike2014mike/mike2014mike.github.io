@@ -4,7 +4,7 @@ title:      Chrome在console載入jQuery的方法
 date:       2018-07-11 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  chrome
 tags:
  - Chrome

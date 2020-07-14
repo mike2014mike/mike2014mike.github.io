@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Joomla相關
+title:      Joomla 相關整理
 date:       2018-08-14 09:37:19
 author:     Mike Chen
 summary:    
-categories: linux
+categories: Linux
 thumbnail:  joomla
 tags:
  - linux

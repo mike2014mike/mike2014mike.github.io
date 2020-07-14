@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - 輸入密碼顯示為星號
+title:      Python - 輸入密碼顯示為星號
 date:       2018-09-21 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
 ---
 
 ```python

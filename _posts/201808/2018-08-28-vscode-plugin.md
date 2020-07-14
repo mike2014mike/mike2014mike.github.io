@@ -4,7 +4,7 @@ title:      VSCode 好用外掛
 date:       2018-08-28 09:37:19
 author:     Mike Chen
 summary:    
-categories: vscode
+categories: VSCode
 thumbnail:  vscode
 tags:
  - VSCode

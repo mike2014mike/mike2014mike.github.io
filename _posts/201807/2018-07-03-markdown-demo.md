@@ -3,7 +3,7 @@ layout:     post
 title:      Markdown使用方法
 date:       2018-07-03 10:31:19
 summary:    See what the different elements looks like.
-categories: jekyll
+categories: Jekyll
 thumbnail: cogs
 tags:
  - demo

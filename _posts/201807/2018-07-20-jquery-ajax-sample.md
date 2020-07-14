@@ -4,7 +4,7 @@ title:      jQuery AJAX Sample
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - jQuery

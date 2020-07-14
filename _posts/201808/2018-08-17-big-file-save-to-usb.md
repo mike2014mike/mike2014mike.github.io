@@ -4,7 +4,7 @@ title:      大檔案無法複製到隨身硬碟裡
 date:       2018-08-17 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  lightbulb
 tags:
 

@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      javascript ES6之展開(Spread)、其餘(Rest)
+title:      JavaScript ES6之展開(Spread)、其餘(Rest)
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
 ---
 
 [MDN - Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)

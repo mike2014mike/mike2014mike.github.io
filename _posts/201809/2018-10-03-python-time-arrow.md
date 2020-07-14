@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - 人性化的時間庫 arrow
+title:      Python - 人性化的時間庫 arrow
 date:       2018-10-03 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - condition
 ---
 

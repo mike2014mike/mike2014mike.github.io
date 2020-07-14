@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      以JavaScript產生可下載檔案-Object URL
+title:      以 JavaScript 產生可下載檔案-Object URL
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - Object URL
 ---
 

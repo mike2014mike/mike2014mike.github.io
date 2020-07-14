@@ -4,7 +4,7 @@ title:      家樂福樹林店父親節活動-父子臉比一比
 date:       2018-07-31 12:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

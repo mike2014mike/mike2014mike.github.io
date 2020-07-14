@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      javascript replace() 字串取代
+title:      JavaScript replace() 字串取代
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - 正規表示法
  - replace
  - RegExp

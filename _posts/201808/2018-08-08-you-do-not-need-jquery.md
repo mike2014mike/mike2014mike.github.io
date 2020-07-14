@@ -4,7 +4,7 @@ title:      你其實可以不用 jQuery
 date:       2018-08-08 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - jquery

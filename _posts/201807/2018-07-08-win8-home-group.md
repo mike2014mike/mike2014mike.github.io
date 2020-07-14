@@ -4,7 +4,7 @@ title:      移除Windows 8桌面上家用群組的方法
 date:       2018-07-08 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - win8

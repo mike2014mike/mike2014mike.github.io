@@ -4,7 +4,7 @@ title:      【手遊】斗羅大陸/鬥羅大陸攻略彙整
 date:       2020-07-08 09:37:19
 author:     Mike Chen
 summary:    
-categories: game
+categories: Game
 thumbnail:  gamepad
 tags:
  - game

@@ -3,7 +3,7 @@ layout:     post
 title:      什麼是Jekyll?
 date:       2018-07-03 10:32:18
 summary:    說明甚麼是Jekyll.
-categories: jekyll
+categories: Jekyll
 thumbnail: jekyll
 tags:
  - about

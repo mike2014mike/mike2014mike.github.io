@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - 質數
+title:      Python - 質數
 date:       2018-09-25 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - 質數
 ---
 

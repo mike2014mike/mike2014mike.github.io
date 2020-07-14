@@ -4,7 +4,7 @@ title:      「準公共化」托育補助整理
 date:       2018-08-02 12:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 準公共化

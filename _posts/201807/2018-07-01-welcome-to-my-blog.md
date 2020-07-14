@@ -4,12 +4,9 @@ title:      歡迎來到麥克的筆記本
 date:       2018-07-01 09:37:19
 author:     Mike Chen
 summary:    歡迎來到麥克的筆記本
-categories: welcome
+categories: Tips
 thumbnail:  heart
 tags:
- - welcome
- - to
- - blog
 ---
 > 小小工程師，努力朝全端工程師(Full Stack Developer)邁進！
 

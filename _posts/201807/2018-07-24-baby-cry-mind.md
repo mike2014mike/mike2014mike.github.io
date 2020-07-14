@@ -4,7 +4,7 @@ title:      寶寶心事誰人知
 date:       2018-07-24 12:37:19
 author:     Mike Chen
 summary:    寶寶心事誰人知
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

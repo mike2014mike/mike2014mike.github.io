@@ -4,7 +4,7 @@ title:      Android Chrome 開發者工具
 date:       2018-07-12 10:37:19
 author:     Mike Chen
 summary:    
-categories: android
+categories: Android
 thumbnail:  android
 tags:
  - android

@@ -4,7 +4,7 @@ title:      Ubuntu Server如何備份/還原系統
 date:       2018-08-15 09:37:19
 author:     Mike Chen
 summary:    
-categories: linux
+categories: Linux
 thumbnail:  linux
 tags:
  - linux

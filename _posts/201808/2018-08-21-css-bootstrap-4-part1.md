@@ -4,7 +4,7 @@ title:      Bootstrap 4 爬 Code [Part1]
 date:       2018-08-21 09:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - css

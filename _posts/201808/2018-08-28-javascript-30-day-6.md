@@ -4,10 +4,10 @@ title:      JavaScript 30 - Day 6.Type Ahead & Vue框架作法比較
 date:       2018-08-28 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
 ---
 
 之前 JS30 系列都是純 JS，但因為這次涉及到介接 API 與資料處理(讀取、篩選等)的部分，而 Vue 等框架最擅長的就是資料處理的部分，所以跟框架做比較。

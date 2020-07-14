@@ -4,7 +4,7 @@ title:      用 slick 來做輪播效果吧！
 date:       2018-08-03 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - jquery

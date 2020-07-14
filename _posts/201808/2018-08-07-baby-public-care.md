@@ -4,7 +4,7 @@ title:      公托通知錄取，但...
 date:       2018-08-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

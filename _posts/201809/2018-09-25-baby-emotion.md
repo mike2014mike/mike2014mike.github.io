@@ -4,7 +4,7 @@ title:      親子教養 - 從小培養好情緒
 date:       2018-09-25 12:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

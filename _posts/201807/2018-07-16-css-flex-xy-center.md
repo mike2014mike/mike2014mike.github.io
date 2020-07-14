@@ -4,7 +4,7 @@ title:      CSS :flex 水平垂直置中
 date:       2018-07-16 10:37:19
 author:     Mike Chen
 summary:    flex水平垂直置中
-categories: css
+categories: CSS
 thumbnail:  css3
 tags:
  - CodePen

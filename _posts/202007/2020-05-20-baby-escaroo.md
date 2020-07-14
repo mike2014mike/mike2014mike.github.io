@@ -4,7 +4,7 @@ title:      把拔！讓大家看看我們的武魂融合技
 date:       2020-05-20 09:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 斗羅大陸

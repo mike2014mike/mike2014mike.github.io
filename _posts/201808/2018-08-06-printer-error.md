@@ -4,7 +4,7 @@ title:      印表機列印卡住解法
 date:       2018-08-06 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - 印表機

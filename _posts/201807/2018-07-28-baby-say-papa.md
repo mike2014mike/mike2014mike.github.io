@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      寶寶叫爸爸
+title:      寶貝兒子叫爸爸了！
 date:       2018-07-28 12:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

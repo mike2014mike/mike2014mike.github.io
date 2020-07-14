@@ -4,7 +4,7 @@ title:      寶寶跳恰恰
 date:       2018-07-06 12:37:19
 author:     Mike Chen
 summary:    寶寶跳恰恰
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

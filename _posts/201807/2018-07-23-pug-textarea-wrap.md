@@ -1,15 +1,13 @@
 ---
 layout:     post
-title:      Pug之textarea換行方法
+title:      Pug 之 textarea 換行方法
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
- - javascript
- - textarea
- - wrap
+ - JavaScript
 ---
 
 

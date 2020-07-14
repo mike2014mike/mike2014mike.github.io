@@ -4,7 +4,7 @@ title:      Bootstrap 下拉選單靠右切齊
 date:       2018-09-29 10:37:19
 author:     Mike Chen
 summary:    
-categories: css
+categories: Bootstrap
 thumbnail:  css3
 tags:
  - css

@@ -4,7 +4,7 @@ title:      隨身碟無法顯示隱藏檔案之解決方法
 date:       2018-07-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  file
 tags:
  - usb

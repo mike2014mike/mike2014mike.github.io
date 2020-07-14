@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Javascript 手刻動畫
+title:      JavaScript 手刻動畫
 date:       2018-08-10 09:37:19
 author:     Mike Chen
 summary:    
-categories: javascript
+categories: JavaScript
 thumbnail:  code
 tags:
  - javascript

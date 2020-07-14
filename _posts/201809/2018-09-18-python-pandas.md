@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python - pandas 使用方式
+title:      Python - pandas 使用方式
 date:       2018-09-18 09:37:19
 author:     Mike Chen
 summary:    
-categories: python
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - numpy
  - pandas
 ---

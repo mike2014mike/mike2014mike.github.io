@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python 編譯為執行檔 exe
+title:      Python 編譯為執行檔 exe
 date:       2018-09-20 09:37:19
 author:     Mike Chen
-summary:    python 編譯為執行檔 exe
-categories: python
+summary:    Python 編譯為執行檔 exe
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - PyInstaller
 ---
 

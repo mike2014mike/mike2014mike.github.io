@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      寶寶看卡通
+title:      蒐集給寶貝兒子看的卡通
 date:       2018-07-30 12:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 寶寶

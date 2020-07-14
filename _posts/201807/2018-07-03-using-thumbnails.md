@@ -3,7 +3,7 @@ layout:     post
 title:      thumbnails使用方法
 date:       2018-07-03 10:32:18
 summary:    Using thumbnails in your Carte Noire articles.
-categories: jekyll
+categories: Jekyll
 thumbnail: jekyll
 tags:
  - thumbnails

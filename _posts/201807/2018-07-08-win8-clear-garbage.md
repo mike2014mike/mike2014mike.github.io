@@ -4,7 +4,7 @@ title:      清除Windows 8系統垃圾的方法
 date:       2018-07-08 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - win8

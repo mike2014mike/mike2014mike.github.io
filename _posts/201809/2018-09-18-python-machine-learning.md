@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      python 機器學習
+title:      Python 機器學習
 date:       2018-09-18 09:37:19
 author:     Mike Chen
-summary:    python 機器學習
-categories: python
+summary:    Python 機器學習
+categories: Python
 thumbnail:  python
 tags:
- - python
+ - Python
  - 機器學習
 ---
 

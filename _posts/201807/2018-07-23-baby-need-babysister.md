@@ -4,7 +4,7 @@ title:      寶寶需要保母
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: baby
+categories: Baby
 thumbnail:  heart
 tags:
  - 保母

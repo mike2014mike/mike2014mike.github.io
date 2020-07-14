@@ -4,7 +4,7 @@ title:      中文程式變亂碼解決方案
 date:       2018-08-03 09:37:19
 author:     Mike Chen
 summary:    
-categories: tips
+categories: Tips
 thumbnail:  windows
 tags:
  - system
