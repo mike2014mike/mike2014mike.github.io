@@ -53,13 +53,13 @@ menu:
 
 #### Widgets
 widgets:
-# - github-card
-# - category
+- github-card
+- category
 # - tag
 # - tagcloud
-# - links
+- links
 # - douban
-# - rss
+- rss
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
