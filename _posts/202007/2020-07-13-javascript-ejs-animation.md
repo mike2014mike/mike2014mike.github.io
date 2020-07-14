@@ -22,6 +22,16 @@ tags: javascript EJ2 Animation
 var animation = new ej.base.Animation({ duration: 3000 });
 animation.animate('#element1', { name: 'FadeIn' });
 ```
+
+
+
+
+
+
+
+
+
+
 ## CodePen
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="mikechen2017" data-slug-hash="XWXBpqj" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="EJ2 Animation">
   <span>See the Pen <a href="https://codepen.io/mikechen2017/pen/XWXBpqj">
