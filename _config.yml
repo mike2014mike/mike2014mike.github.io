@@ -34,9 +34,6 @@ description: 這是麥克的筆記本，主要紀錄一些學習筆記與小技�
 assets: /assets
 url: 
 baseurl: 
-google_analytics:
-  enable: true
-  id: UA-122457148-1
 
 #### Language
 language: zh-TW    ## blog site languages: en, zh-CN, zh-TW, de
@@ -132,8 +129,8 @@ jiathis:
 
 #### Analytics
 google_analytics:
-  enable: false
-  id:        ## e.g. UA-46321946-2 your google analytics ID.
+  enable: true
+  id: UA-122457148-1       ## e.g. UA-46321946-2 your google analytics ID.
   site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
