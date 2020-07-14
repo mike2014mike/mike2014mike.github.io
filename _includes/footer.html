@@ -13,19 +13,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 <script type="text/javascript">
-   $(document).ready(function() {
-      $("#my-menu").mmenu().on( "closed.mm", function() {
-            $(".menu-button").show();
-         });
-      $(".menu-button").click(function() {
-        $(".menu-button").hide();
-        $("#my-menu").trigger("open.mm");
-      });
-   });
+  $(document).ready(function () {
+    $("#my-menu").mmenu().on("closed.mm", function () {
+      $(".menu-button").show();
+    });
+    $(".menu-button").click(function () {
+      $(".menu-button").hide();
+      $("#my-menu").trigger("open.mm");
+    });
+  });
 </script>
+<!-- AdSense 不夠格使用，先關閉 -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 個人部落格賺點咖啡錢 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-6917081171236631"
@@ -34,7 +34,7 @@
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 {% if page.make-smaller-titles %}
 <script type="text/javascript">
@@ -72,7 +72,7 @@
       startingFontSize = parseInt($(document.getElementsByClassName("articles")[0].getElementsByTagName("a")[0]).css("font-size"));
       setFontSize();
       window.addEventListener('resize', setFontSize, true);
-    } catch (e) {}
+    } catch (e) { }
   }
 
   $(document).ready(getStartFontSize);
@@ -84,15 +84,15 @@
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
-          _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageview']);
   (function () {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
   })();
 </script>
 {% endif %}
