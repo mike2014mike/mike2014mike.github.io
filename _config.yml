@@ -54,12 +54,12 @@ menu:
 #### Widgets
 widgets:
 # - github-card
-- category
+# - category
 # - tag
 # - tagcloud
 # - links
 # - douban
-- rss
+# - rss
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
 
