@@ -29,8 +29,9 @@ paginate: 20
 
 #### Site
 title : Mike's Notes
-tagline: 這裡記錄著我的全端之路與寶貝兒子的日常
-description: 這裡主要紀錄一些學習筆記與小技巧，包含網站開發、Javascript、jQuery、CSS、RWD、Android、Linux、SQL等各種工作上遇到的問題與解決方案。除了工作筆記外，也記錄了寶寶成長日記與相關文件，甚至還包含了遊戲攻略。可以方便日後自己查閱外，也希望可以幫助到各位朋友，謝謝。
+tagline: 這裡記錄著我的學習筆記與寶貝兒子的日常
+page:
+  description: 這裡主要紀錄一些學習筆記與小技巧，包含網站開發、Javascript、jQuery、CSS、RWD、Android、Linux、SQL等各種工作上遇到的問題與解決方案。除了工作筆記外，也記錄了寶寶成長日記與相關文件，甚至還包含了遊戲攻略。可以方便日後自己查閱外，也希望可以幫助到各位朋友，謝謝。
 assets: /assets
 url: 
 baseurl: 
