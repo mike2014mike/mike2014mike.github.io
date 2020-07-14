@@ -41,6 +41,7 @@ language: zh-TW    ## blog site languages: en, zh-CN, zh-TW, de
 #### Menu
 menu:
   首頁 | Home: /
+  分類 | Categories: /categories
   歸檔 | Archives: /archives
   關於 | About: /about
 ## you can create `tags` and `categories` folders (I had created them already).
