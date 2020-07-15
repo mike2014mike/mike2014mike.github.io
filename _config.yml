@@ -77,7 +77,7 @@ banner_img: img/coffee_banner.jpg ## size:1920px*200px+. Banner Picture
 
 #### index post is expanding or not
 index:
-  expand: false           ## default is unexpanding,so you can only see the short description of each post.
+  expand: true           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More
 
 close_aside: true  #close sidebar in post page if true
