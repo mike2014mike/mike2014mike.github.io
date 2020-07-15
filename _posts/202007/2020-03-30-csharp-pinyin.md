@@ -4,10 +4,10 @@ title:      C# 漢語拼音轉換
 date:       2020-03-30 10:37:19
 author:     Mike Chen
 summary:    
-categories: C#
+categories: C-Sharp
 thumbnail:  code
 tags:
- - C#
+ - C-Sharp
  - Pinyin
  - 漢語拼音轉換
 ---

@@ -4,10 +4,10 @@ title:      C# WPF的滑鼠、觸控事件偵測和自訂縮小放大關閉等�
 date:       2020-07-15 10:37:19
 author:     Mike Chen
 summary:    
-categories: C#
+categories: C-Sharp
 thumbnail:  code
 tags:
- - C#
+ - C-Sharp
  - WPF
  - TOUCH
  - MOUSE

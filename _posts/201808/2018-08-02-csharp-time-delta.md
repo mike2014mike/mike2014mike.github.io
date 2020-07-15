@@ -4,10 +4,10 @@ title:      C# 日期時間相減 (TimeSpan)
 date:       2018-08-02 10:37:19
 author:     Mike Chen
 summary:    
-categories: C#
+categories: C-Sharp
 thumbnail:  code
 tags:
- - C#
+ - C-Sharp
 ---
 
 ```csharp

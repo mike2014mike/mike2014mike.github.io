@@ -4,10 +4,10 @@ title:      C# 應用微軟臉部辨識API實作
 date:       2018-08-02 10:37:19
 author:     Mike Chen
 summary:    
-categories: C#
+categories: C-Sharp
 thumbnail:  code
 tags:
- - C#
+ - C-Sharp
 ---
 
 ### Code
