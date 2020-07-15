@@ -56,7 +56,7 @@
     {% if paginator.page == 1 %}
     <a href="#" class="page-number disabled current">1</a>
     {% else %}
-    <a href="{{ base_path }}/" class="page-number disabled current">1</a>
+    <a href="{{ base_path }}/" class="page-number disabled">1</a>
     {% endif %}
 
     {% assign page_start = 2 %}
@@ -99,11 +99,11 @@
 
     {% comment %} Link next page {% endcomment %}
     {% if paginator.next_page %}
-    <a class="extend prev"
+    <a class="extend next"
       href="{{ base_path }}/page{{ paginator.next_page }}/">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
 
     {% else %}
-    <a href="#" class="extend prev disabled"><span
+    <a href="#" class="extend next disabled"><span
         aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span></a>
     {% endif %}
 
