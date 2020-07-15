@@ -4,7 +4,7 @@ title:      外部引入之DLL編譯後不會存到Debug資料夾
 date:       2018-08-10 09:37:19
 author:     Mike Chen
 summary:    
-categories: Tips
+categories: DLL
 thumbnail:  windows
 tags:
  - dll

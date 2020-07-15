@@ -4,7 +4,7 @@ title:      手動註冊DLL檔的方法
 date:       2018-08-03 09:37:19
 author:     Mike Chen
 summary:    
-categories: Tips
+categories: DLL
 thumbnail:  windows
 tags:
  - DLL
