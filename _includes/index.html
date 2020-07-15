@@ -37,7 +37,9 @@
 
     {% comment %} Link for previous page {% endcomment %}
     {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
+    <a class="extend prev"
+      href="{{ base_path }}/">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    <!-- {% if paginator.previous_page == 1 %}
     <a class="extend prev"
       href="{{ base_path }}/">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
 
@@ -48,7 +50,7 @@
     {% endif %}
     {% else %}
     <a href="#" class="extend prev disabled"><span
-        aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span></a>
+        aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span></a> -->
 
     {% endif %}
 
@@ -102,9 +104,9 @@
     <a class="extend next"
       href="{{ base_path }}/page{{ paginator.next_page }}/">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
 
-    {% else %}
+    <!-- {% else %}
     <a href="#" class="extend next disabled"><span
-        aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span></a>
+        aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span></a> -->
     {% endif %}
 
   </nav>
