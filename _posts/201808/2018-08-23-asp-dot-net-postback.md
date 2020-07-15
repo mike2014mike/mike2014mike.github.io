@@ -4,9 +4,10 @@ title:      ASP.NET PostBack 畫面會往上跳解法
 date:       2018-08-23 09:37:19
 author:     Mike Chen
 summary:    
-categories: ASP.NET
+categories: C-Sharp
 thumbnail:  browser
 tags:
+ - C-Sharp
  - ASP.NET
  - PostBack
 ---

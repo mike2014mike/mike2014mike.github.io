@@ -4,7 +4,7 @@ title:      批次檔 Ping Google DNS 判斷是否斷線
 date:       2018-09-17 09:37:19
 author:     Mike Chen
 summary:    批次檔 Ping Google DNS 判斷是否斷線
-categories: 批次檔
+categories: Batch-file
 thumbnail:  sitemap
 tags:
  - Ping
