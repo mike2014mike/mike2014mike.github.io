@@ -77,7 +77,7 @@ banner_img: img/coffee_banner.jpg ## size:1920px*200px+. Banner Picture
 
 #### index post is expanding or not
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: false           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More
 
 close_aside: true  #close sidebar in post page if true
@@ -105,7 +105,7 @@ author:
 
 #### Toc
 toc:
-  article: true   ## show contents in article.
+  article: false   ## show contents in article.
   aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
