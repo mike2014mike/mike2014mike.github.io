@@ -4,7 +4,7 @@ title:      Paros - 網站安全性掃瞄工具
 date:       2018-08-28 09:37:19
 author:     Mike Chen
 summary:    
-categories: ASP.NET
+categories: Tool
 thumbnail:  browser
 tags:
  - Paros
