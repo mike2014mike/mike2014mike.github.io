@@ -4,11 +4,11 @@ title:      Python - 人性化的條件式
 date:       2018-10-03 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - condition
+ - Condition
 ---
 
 ### 說明

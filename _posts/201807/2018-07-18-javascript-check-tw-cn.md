@@ -4,10 +4,10 @@ title:      JavaScript 判斷瀏覽器是簡體或繁體
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
 ---
 
 使用JavaScript 判斷瀏覽器是簡體或繁體

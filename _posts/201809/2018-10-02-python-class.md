@@ -4,11 +4,11 @@ title:      Python - class
 date:       2018-10-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - class
+ - Class
 ---
 
 ### Python class

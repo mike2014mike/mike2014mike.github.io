@@ -4,10 +4,10 @@ title:      Progressive Web App (PWA)
 date:       2018-07-25 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - PWA
 ---
 

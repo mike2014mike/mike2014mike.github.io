@@ -4,11 +4,10 @@ title:      RWD - 嵌入iframe (Google Map, YouTube)
 date:       2018-07-16 10:37:19
 author:     Mike Chen
 summary:    CodePen test
-categories: CSS
+categories: Work
 thumbnail:  css3
 tags:
- - CodePen
- - RWD
+ - CSS
 ---
 
 Google Map, YouTube提供了以iframe的方式讓用戶嵌入自己的網頁中。<br>

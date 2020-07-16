@@ -4,14 +4,10 @@ title:      Python - tuple, list, dict, set
 date:       2018-09-20 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - tuple
- - list
- - dict
- - set
 ---
 
 ### tuple(元組)

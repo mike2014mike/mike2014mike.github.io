@@ -4,12 +4,12 @@ title:      【Node.js】handlebars 傳值給 View 和 Partial View
 date:       2018-08-02 10:37:19
 author:     Mike Chen
 summary:    
-categories: NodeJS
+categories: Work
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - NodeJS
- - handlebars
+ - Handlebars
 ---
 
 ### 檔案架構

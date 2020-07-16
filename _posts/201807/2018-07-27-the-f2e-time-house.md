@@ -4,11 +4,11 @@ title:      The F2E - 前端修練精神時光屋
 date:       2018-07-27 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Study
 thumbnail:  code
 tags:
- - javascript
- - css
+ - JavaScript
+ - CSS
 ---
 
 ![Logo](https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/blog%2F2018%2F05%2FTheF2E_banner.png?alt=media&token=4e663e89-554e-4bed-83ac-000fddabd8ab)

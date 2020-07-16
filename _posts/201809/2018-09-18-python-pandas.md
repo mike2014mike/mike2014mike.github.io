@@ -4,7 +4,7 @@ title:      Python - pandas 使用方式
 date:       2018-09-18 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python

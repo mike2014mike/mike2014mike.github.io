@@ -4,10 +4,10 @@ title:      Android Chrome 瀏覽器允許影片 autoplay
 date:       2018-07-12 10:37:19
 author:     Mike Chen
 summary:    
-categories: Android
+categories: Work
 thumbnail:  android
 tags:
- - android
+ - Android
 ---
 
 手機上的Chrome瀏覽器，可能是考慮到並非所有人都是上網吃到飽，所以預設不會自動播放網頁中的影片。

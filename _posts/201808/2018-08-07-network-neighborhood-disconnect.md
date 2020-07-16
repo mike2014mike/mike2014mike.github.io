@@ -7,7 +7,7 @@ summary:
 categories: Tips
 thumbnail:  windows
 tags:
- - 網路芳鄰
+ - gpedit
 ---
 
 1. 鍵入 gpedit.msc 叫出《本機群組原則編輯器》

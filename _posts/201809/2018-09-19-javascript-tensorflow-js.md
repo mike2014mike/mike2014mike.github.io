@@ -4,12 +4,11 @@ title:      JavaScript 也能玩機器學習 - TensorFlow.js
 date:       2018-09-19 10:37:19
 author:     Mike Chen
 summary:    
-categories: TensorFlow
+categories: Study
 thumbnail:  code
 tags:
  - JavaScript
- - 深度學習
- - 機器學習
+ - Machine-Learning
  - TensorFlow
 ---
 

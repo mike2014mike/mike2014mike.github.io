@@ -7,6 +7,7 @@ summary:
 categories: Tips
 thumbnail:  file
 tags:
+- CMD
 ---
 
 有時候在整理資料時，會希望可以列出這個資料夾內所有檔案的檔名，該如何做呢？<br>

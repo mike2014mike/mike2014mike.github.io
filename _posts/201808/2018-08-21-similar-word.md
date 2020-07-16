@@ -4,11 +4,11 @@ title:      「巿」和「市」傻傻分不清
 date:       2018-08-21 09:37:19
 author:     Mike Chen
 summary:    
-categories: MSSQL
+categories: Work
 thumbnail:  database
 tags:
- - database
- - similar-word
+ - Database
+ - MSSQL
 ---
 
 ### 問題

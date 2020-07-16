@@ -4,11 +4,10 @@ title:      CSS 圖片失效提示
 date:       2018-07-17 10:37:19
 author:     Mike Chen
 summary:    CSS圖片失效提示
-categories: CSS
+categories: Work
 thumbnail:  css3
 tags:
- - CodePen
- - css
+ - CSS
 ---
 
 利用before和after兩個偽元素，做圖片失效提示。<br>

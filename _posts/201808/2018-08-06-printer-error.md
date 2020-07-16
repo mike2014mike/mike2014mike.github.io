@@ -4,10 +4,10 @@ title:      印表機列印卡住解法
 date:       2018-08-06 09:37:19
 author:     Mike Chen
 summary:    
-categories: Batch-file
+categories: Tips
 thumbnail:  windows
 tags:
- - 印表機
+ - Batch-file
 ---
 
 列印文件時常會遇到某筆列印卡住，按取消或刪除都還是一直顯示[刪除中 - 列印]，可以下列方式處理。

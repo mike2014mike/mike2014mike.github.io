@@ -4,13 +4,11 @@ title:      NMEA 轉 KML
 date:       2018-07-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: GPS
+categories: Work
 thumbnail:  map-marked-alt
 tags:
  - GIS
- - NMEA
  - GPS
- - KML
 ---
 
 ### 需求

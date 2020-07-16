@@ -4,7 +4,7 @@ title:      JavaScript 30 - Day 27.滑鼠拖曳與座標計算 v1
 date:       2018-09-03 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Study
 thumbnail:  code
 tags:
  - JavaScript

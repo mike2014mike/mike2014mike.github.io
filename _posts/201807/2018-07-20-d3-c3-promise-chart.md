@@ -4,12 +4,10 @@ title:      d3.js + c3.js Promise Sample
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - d3.js
- - c3.js
+ - d3
  - Pormise
 ---
 

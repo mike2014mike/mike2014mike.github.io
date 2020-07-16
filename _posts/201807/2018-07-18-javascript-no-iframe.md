@@ -4,11 +4,10 @@ title:      JavaScript 防止心血被人iframe借走
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - iframe
+ - JavaScript
 ---
 
 如果不想要網站內容被人使用iframe「借走」，以往的作法是使用JavaScript判斷網頁如果位在iframe 標籤裡，就直接跳轉到原始的網頁。

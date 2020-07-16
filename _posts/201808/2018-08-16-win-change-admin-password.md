@@ -4,10 +4,13 @@ title:      Windows 修改管理者帳密方法
 date:       2018-08-16 09:37:19
 author:     Mike Chen
 summary:    
-categories: Tips
+categories: Work
 thumbnail:  windows
 tags:
- - windows
+ - Windows
+ - Server
+ - BIOS
+ - Ubuntu
 ---
 
 ### Windows 2008 Server修改管理者帳密方法

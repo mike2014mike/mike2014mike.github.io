@@ -4,11 +4,10 @@ title:      JavaScript 偵測瀏覽器
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - borwser
+ - JavaScript
 ---
 
 

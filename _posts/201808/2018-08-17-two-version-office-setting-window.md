@@ -4,10 +4,10 @@ title:      開啟 Office 出現設定進度視窗之解法
 date:       2018-08-17 09:37:19
 author:     Mike Chen
 summary:    
-categories: Office
+categories: Tips
 thumbnail:  lightbulb
 tags:
- - office
+ - Office
 ---
 
 ### 問題

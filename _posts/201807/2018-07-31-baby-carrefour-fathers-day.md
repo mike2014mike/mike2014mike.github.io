@@ -7,8 +7,7 @@ summary:
 categories: Baby
 thumbnail:  heart
 tags:
- - 寶寶
- - 父親節
+ - Baby
 
 ---
 

@@ -4,7 +4,7 @@ title:      SEO - Sitemap 製作
 date:       2018-07-25 10:37:19
 author:     Mike Chen
 summary:    
-categories: SEO
+categories: Work
 thumbnail:  sitemap
 tags:
  - SEO

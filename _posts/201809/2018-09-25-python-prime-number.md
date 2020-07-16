@@ -4,11 +4,11 @@ title:      Python - 質數
 date:       2018-09-25 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - 質數
+ - Prime
 ---
 
 ```python

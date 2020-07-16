@@ -4,11 +4,11 @@ title:      Vue Component(元件) & Template(樣板)
 date:       2018-09-04 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Study
 thumbnail:  code
 tags:
  - JavaScript
- - vue
+ - Vue
 ---
 
 #### 區域註冊 Component

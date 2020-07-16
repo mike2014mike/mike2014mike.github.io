@@ -4,11 +4,12 @@ title:      “菓”這個字寫入資料庫會變問號
 date:       2018-08-17 09:37:19
 author:     Mike Chen
 summary:    
-categories: MSSQL
+categories: Work
 thumbnail:  database
 tags:
- - database
- - unicode
+ - Database
+ - Unicode
+ - MSSQL
 ---
 
 ### 問題

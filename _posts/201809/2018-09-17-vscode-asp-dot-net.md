@@ -4,13 +4,11 @@ title:      用 VSCode 來寫 ASP.NET Core 網站
 date:       2018-09-17 09:37:19
 author:     Mike Chen
 summary:    
-categories: VSCode
+categories: Work
 thumbnail:  vscode
 tags:
  - VSCode
- - C#
- - .Net Core SDK
- - ASP.NET Core
+ - C-Sharp
 ---
 ## 從 Hello World 開始
 

@@ -7,8 +7,7 @@ summary:
 categories: Game
 thumbnail:  gamepad
 tags:
- - game
- - 斗羅大陸
+ - Game
 ---
 
 ## 說明

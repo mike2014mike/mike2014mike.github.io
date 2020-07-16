@@ -1,14 +1,13 @@
 ---
 layout:     post
-title:      Paros - 網站安全性掃瞄工具
+title:      Paros - 網站安全性弱點掃瞄工具
 date:       2018-08-28 09:37:19
 author:     Mike Chen
 summary:    
-categories: Tool
+categories: Work
 thumbnail:  browser
 tags:
  - Paros
- - 弱點掃描
 ---
 
 ### 參考

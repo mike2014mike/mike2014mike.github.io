@@ -7,6 +7,9 @@ summary:
 categories: Tips
 thumbnail:  lightbulb
 tags:
+- FAT32
+- NTFS
+- CMD
 
 ---
 

@@ -7,9 +7,8 @@ summary:
 categories: Game
 thumbnail:  gamepad
 tags:
- - game
- - Pokémon Go
- - 寶可夢
+ - Game
+ - Pokémon
 ---
 
 

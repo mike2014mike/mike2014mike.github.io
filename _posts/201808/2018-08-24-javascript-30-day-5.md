@@ -4,11 +4,12 @@ title:      JavaScript 30 - Day 5.Flex Panel Gallery
 date:       2018-08-24 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Study
 thumbnail:  code
 tags:
  - JavaScript
- - CSS Flex
+ - CSS
+ - Flex
 ---
 
 

@@ -7,7 +7,7 @@ summary:
 categories: Baby
 thumbnail:  heart
 tags:
- - 寶寶
+ - Baby
 ---
 
 無意間發現，我兒子只要聽到「哈啾」打噴嚏聲就會嘎嘎大笑。

@@ -4,10 +4,11 @@ title:      Pug 之 textarea 換行方法
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
+ - Pug
 ---
 
 

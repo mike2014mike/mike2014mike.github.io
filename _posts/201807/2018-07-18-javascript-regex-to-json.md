@@ -4,14 +4,11 @@ title:      JavaScript 爬資料透過RegExp轉JSON
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - 正規表示法
+ - JavaScript
  - RegExp
- - 爬蟲
- - JSON
 ---
 
 假設我們爬到的網頁程式碼如下：

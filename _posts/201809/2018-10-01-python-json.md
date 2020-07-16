@@ -4,7 +4,7 @@ title:      Python - JSON
 date:       2018-10-01 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python

@@ -4,7 +4,7 @@ title:      MSSQL 寫入簡體字變問號之解法
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: MSSQL
+categories: Work
 thumbnail:  database
 tags:
  - MSSQL

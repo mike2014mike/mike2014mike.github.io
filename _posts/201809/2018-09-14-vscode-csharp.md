@@ -4,13 +4,11 @@ title:      用 VSCode 來寫 C# 之紀錄
 date:       2018-09-14 09:37:19
 author:     Mike Chen
 summary:    
-categories: VSCode
+categories: Work
 thumbnail:  vscode
 tags:
  - VSCode
- - C#
- - .Net Core SDK
- - .NET Framework
+ - C-Sharp
 ---
 
 ### 緣由

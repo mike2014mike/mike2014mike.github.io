@@ -4,10 +4,10 @@ title:      JavaScript 修改 CSS
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - CSS
 ---
 

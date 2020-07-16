@@ -4,11 +4,10 @@ title:      以 JavaScript 產生可下載檔案-Object URL
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
- - Object URL
 ---
 
 

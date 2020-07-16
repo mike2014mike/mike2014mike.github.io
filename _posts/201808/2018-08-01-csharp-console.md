@@ -4,7 +4,7 @@ title:      C# 之 Console 基本用法整理
 date:       2018-08-01 09:37:19
 author:     Mike Chen
 summary:    
-categories: C-Sharp
+categories: Work
 thumbnail:  vscode
 tags:
  - VSCode

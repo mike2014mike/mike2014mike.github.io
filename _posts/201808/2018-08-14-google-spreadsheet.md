@@ -4,10 +4,11 @@ title:      用 Google 試算表爬資料
 date:       2018-08-14 09:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
+ - GoogleSheet
 ---
 
 

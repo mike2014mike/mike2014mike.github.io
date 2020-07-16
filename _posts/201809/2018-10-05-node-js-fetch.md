@@ -4,10 +4,10 @@ title:      在 Node.js 使用 fetch - node-fetch
 date:       2018-10-05 10:37:19
 author:     Mike Chen
 summary:    
-categories: NodeJS
+categories: Study
 thumbnail:  code
 tags:
- - Node.js
+ - NodeJS
  - fetch
 ---
 

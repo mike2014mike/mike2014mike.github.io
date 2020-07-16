@@ -4,11 +4,11 @@ title:      Bootstrap 4 爬 Code [Part2]
 date:       2018-08-30 09:37:19
 author:     Mike Chen
 summary:    
-categories: Bootstrap
+categories: Study
 thumbnail:  css3
 tags:
- - css
- - Bootstrap 4
+ - CSS
+ - Bootstrap
 ---
 
 看 Amos 大大的影片作筆記，下面的擷取內容是以 `Bootstrap-4.1.3` 為準。

@@ -4,10 +4,10 @@ title:      Google表單客製化介面
 date:       2018-07-27 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
  - Vue
 ---
 

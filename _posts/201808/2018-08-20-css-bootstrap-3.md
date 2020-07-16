@@ -4,11 +4,11 @@ title:      Bootstrap 3 爬 Code
 date:       2018-08-20 09:37:19
 author:     Mike Chen
 summary:    
-categories: Bootstrap
+categories: Study
 thumbnail:  css3
 tags:
- - css
- - Bootstrap 3
+ - CSS
+ - Bootstrap
 ---
 
 看 Amos 大大的影片作筆記，下面的擷取內容是以 `Bootstrap-3.3.7` 為準。

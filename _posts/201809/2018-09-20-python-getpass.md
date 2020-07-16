@@ -4,7 +4,7 @@ title:      Python - getpass 隱藏輸入文字
 date:       2018-09-20 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python

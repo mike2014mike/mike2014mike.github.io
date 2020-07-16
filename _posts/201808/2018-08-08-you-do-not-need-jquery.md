@@ -4,10 +4,11 @@ title:      你其實可以不用 jQuery
 date:       2018-08-08 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - jquery
+ - JavaScript
+ - jQuery
 ---
 
 jQuery 很好用，我也有在用，但如果您只是喜歡它可以將

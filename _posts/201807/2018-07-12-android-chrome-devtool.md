@@ -4,10 +4,10 @@ title:      Android Chrome 開發者工具
 date:       2018-07-12 10:37:19
 author:     Mike Chen
 summary:    
-categories: Android
+categories: Work
 thumbnail:  android
 tags:
- - android
+ - Android
 ---
 
 平常在PC上開發網頁，常常會使用到Chrome瀏覽器的開發者工具，看看錯誤訊息，或進行測試。<br>

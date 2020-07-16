@@ -4,10 +4,10 @@ title:      JavaScript 手刻動畫
 date:       2018-08-10 09:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
+ - JavaScript
 ---
 
 ### requestAnimationFrame

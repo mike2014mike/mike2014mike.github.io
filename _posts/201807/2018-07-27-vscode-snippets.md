@@ -4,7 +4,7 @@ title:      VSCode Emmet 進階版 - 自訂使用者程式碼片段（Snippets�
 date:       2018-07-27 09:37:19
 author:     Mike Chen
 summary:    
-categories: VSCode
+categories: Study
 thumbnail:  vscode
 tags:
  - VSCode

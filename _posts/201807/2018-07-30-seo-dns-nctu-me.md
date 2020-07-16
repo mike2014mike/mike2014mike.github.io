@@ -4,13 +4,11 @@ title:      SEO - nctu.me 免費網域名稱
 date:       2018-07-30 10:37:19
 author:     Mike Chen
 summary:    
-categories: SEO
+categories: Work
 thumbnail:  sitemap
 tags:
  - SEO
- - nctu.me
  - DNS
- - Domain Name
 ---
 
 

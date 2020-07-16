@@ -4,12 +4,11 @@ title:      用騰訊雲 Cloud Studio 玩 Django
 date:       2018-09-26 09:37:19
 author:     Mike Chen
 summary:    
-categories: Django
+categories: Study
 thumbnail:  python
 tags:
  - python
- - 騰訊雲
- - Cloud Studio
+ - CloudStudio
  - Django
 ---
 

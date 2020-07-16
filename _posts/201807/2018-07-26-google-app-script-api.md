@@ -4,12 +4,12 @@ title:      以Google APP Script API撰寫投票結果API
 date:       2018-07-26 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
- - Google APP Script API
- - Google Chart
+ - GoogleAPPScriptAPI
+ - GoogleChart
  - Vue
 ---
 

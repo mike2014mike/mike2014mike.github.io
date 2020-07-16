@@ -4,7 +4,7 @@ title:      Python 編譯為執行檔 exe
 date:       2018-09-20 09:37:19
 author:     Mike Chen
 summary:    Python 編譯為執行檔 exe
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python

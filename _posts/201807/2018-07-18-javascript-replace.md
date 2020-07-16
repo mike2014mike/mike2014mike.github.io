@@ -4,12 +4,10 @@ title:      JavaScript replace() 字串取代
 date:       2018-07-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
- - 正規表示法
- - replace
  - RegExp
 ---
 

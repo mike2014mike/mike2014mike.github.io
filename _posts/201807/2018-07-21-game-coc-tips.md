@@ -8,7 +8,7 @@ categories: Game
 thumbnail:  gamepad
 tags:
  - Game
- - 部落衝突
+ - COC
  
 ---
 

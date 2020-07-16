@@ -4,12 +4,10 @@ title:      ALERTIFY.js - 取代傳統alert對話框
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
- - ALERTIFY.js
- - alert
 ---
 
 > ALERTIFY.js是為了美化通知訊息而生的套件

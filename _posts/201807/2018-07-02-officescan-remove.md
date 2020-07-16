@@ -4,13 +4,15 @@ title:      OfficeScan免密碼卸載方法
 date:       2018-07-02 09:37:19
 author:     Mike Chen
 summary:    OfficeScan免密碼卸載方法
-categories: Tips
+categories: Work
 thumbnail:  trash
 tags:
  - OfficeScan
 ---
 
-OfficeScan密碼忘記了怎麼辦？免驚，按照下面方法就可以免密碼移除囉！
+## 說明
+* 公司派IT來幫每個人電腦強制安裝 OfficeScan，並且設定了密碼！
+* OfficeScan 不知道密碼/忘記了怎麼辦？免驚，按照下面方法就可以免密碼移除囉！
 
 ## 【步驟】
 

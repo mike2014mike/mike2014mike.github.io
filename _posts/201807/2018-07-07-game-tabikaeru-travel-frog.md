@@ -7,7 +7,7 @@ summary:
 categories: Game
 thumbnail:  gamepad
 tags:
- - game
+ - Game
 ---
 
 

@@ -4,11 +4,10 @@ title:      VanillaJS 是新的函式庫/框架？
 date:       2018-08-01 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - VanillaJS
+ - JavaScript
 ---
 
 這個名詞其實在多年前(大約2013年?)就提出了，但還是很多人沒聽過，這邊做個小整理。

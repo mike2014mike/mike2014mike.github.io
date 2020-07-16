@@ -4,10 +4,12 @@ title:      Python - 串接 JSON API 與檔案讀寫
 date:       2018-09-25 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
+ - JSON
+ - API
 ---
 
 ```python

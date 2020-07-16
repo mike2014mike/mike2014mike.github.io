@@ -1,18 +1,19 @@
 ---
 layout:     post
-title:      開啟或關閉windows功能空白
+title:      開啟或關閉 Windows 功能空白
 date:       2018-08-13 09:37:19
 author:     Mike Chen
 summary:    
 categories: Tips
 thumbnail:  windows
 tags:
-
+- ArcGIS
+- Regedit
 ---
 
 ### 問題
 
-開啟或關閉windows功能空白，導致無法安裝.Net Framework 4.，或開啟其他功能
+開啟或關閉 windows 功能空白，導致無法安裝.Net Framework 4.，或開啟其他功能
 
 ### 原因
 

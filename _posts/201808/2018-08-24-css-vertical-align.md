@@ -4,11 +4,10 @@ title:      CSS 垂直置中 8 種方法
 date:       2018-08-24 09:37:19
 author:     Mike Chen
 summary:    
-categories: CSS
+categories: Study
 thumbnail:  css3
 tags:
- - css
- - 垂直置中
+ - CSS
 ---
 
 CSS 的垂直置中一直是讓工程師很頭大的問題，Amos 大神列出了 23 種方法，但這邊只列出幾個我比較常用的 8 種方法，應該足夠應付大多數情況了。

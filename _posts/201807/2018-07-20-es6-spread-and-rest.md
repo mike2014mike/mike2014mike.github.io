@@ -4,7 +4,7 @@ title:      JavaScript ES6之展開(Spread)、其餘(Rest)
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript

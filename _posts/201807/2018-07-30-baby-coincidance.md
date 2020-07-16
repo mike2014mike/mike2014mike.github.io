@@ -7,10 +7,8 @@ summary:    Coincidance
 categories: Baby
 thumbnail:  heart
 tags:
- - 寶寶
+ - Baby
  - Coincidance
- - 甩肩舞
- - 抖肩舞
 
 ---
 

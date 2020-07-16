@@ -4,12 +4,10 @@ title:      CSS :flex 水平垂直置中
 date:       2018-07-16 10:37:19
 author:     Mike Chen
 summary:    flex水平垂直置中
-categories: CSS
+categories: Work
 thumbnail:  css3
 tags:
- - CodePen
- - css
- - flex
+ - CSS
 ---
 
 只要外面div的 `display設flex` ，裡面div的 `margin設auto` ，就會水平垂直置中。<br>

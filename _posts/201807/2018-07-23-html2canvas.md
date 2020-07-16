@@ -4,7 +4,7 @@ title:      利用 html2canvas 將網頁部分轉圖片
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript

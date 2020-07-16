@@ -4,11 +4,10 @@ title:      CSS :nth-child(an+b)的用法
 date:       2018-07-16 10:37:19
 author:     Mike Chen
 summary:    nth-child(an+b)的用法
-categories: CSS
+categories: Work
 thumbnail:  css3
 tags:
- - CodePen
- - css
+ - CSS
 ---
 
 :nth-child(an+b)代表 `「每a個的第b個」` 。<br>

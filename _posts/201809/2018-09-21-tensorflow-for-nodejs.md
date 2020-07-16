@@ -4,12 +4,11 @@ title:      Node.js 版本的 TensorFlow
 date:       2018-09-21 10:37:19
 author:     Mike Chen
 summary:    
-categories: TensorFlow
+categories: Study
 thumbnail:  code
 tags:
- - Node.js
- - 深度學習
- - 機器學習
+ - NodeJS
+ - Machine-Learning
  - TensorFlow
 ---
 

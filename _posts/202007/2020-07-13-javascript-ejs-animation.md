@@ -4,7 +4,7 @@ title:      EJ2 Animation
 date:       2020-07-13 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript

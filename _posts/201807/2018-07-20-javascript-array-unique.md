@@ -4,11 +4,11 @@ title:      JavaScript 取得array不重複元素值
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - array
+ - JavaScript
+ - Array
 ---
 
 

@@ -4,11 +4,10 @@ title:      (SuperGIS Server)自Array畫點+標記，並依屬性畫不同顏色
 date:       2018-07-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: GIS
+categories: Work
 thumbnail:  map-marked-alt
 tags:
  - GIS
- - SuperGIS Server
 ---
 
 

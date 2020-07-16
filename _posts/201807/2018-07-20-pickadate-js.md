@@ -4,11 +4,10 @@ title:      pickadate.js - 日期/時間選擇器
 date:       2018-07-20 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
- - javascript
- - pickadate.js
+ - JavaScript
 ---
 
 > pickadate.js是對行動裝置友善、響應式且輕量化的日期/時間選擇器

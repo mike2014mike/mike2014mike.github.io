@@ -4,7 +4,7 @@ title:      歡迎來到麥克的筆記本
 date:       2018-07-01 09:37:19
 author:     Mike Chen
 summary:    歡迎來到麥克的筆記本
-categories: Tips
+categories: Life
 thumbnail:  heart
 tags:
 ---

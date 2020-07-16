@@ -4,10 +4,11 @@ title:      SQL Server出現「不允許儲存變更」的處理方法
 date:       2018-08-22 09:37:19
 author:     Mike Chen
 summary:    
-categories: MSSQL
+categories: Work
 thumbnail:  database
 tags:
- - database
+ - Database
+ - MSSQL
 ---
 
 ### 問題

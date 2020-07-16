@@ -4,11 +4,10 @@ title:      JavaScript 模組化
 date:       2018-07-23 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Work
 thumbnail:  code
 tags:
  - JavaScript
- - module
 ---
 
 

@@ -4,10 +4,10 @@ title:      Linux 使用 nohup 讓指令不因登出而中斷
 date:       2018-07-15 10:37:19
 author:     Mike Chen
 summary:    
-categories: Linux
+categories: Work
 thumbnail:  linux
 tags:
- - linux
+ - Linux
 ---
 
 > nohup(no hang up，意思就是不要掛斷)

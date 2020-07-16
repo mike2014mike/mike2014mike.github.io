@@ -4,7 +4,7 @@ title:      JavaScript 30 - Day 1.JavaScript Drum Kit
 date:       2018-08-22 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Study
 thumbnail:  code
 tags:
  - JavaScript

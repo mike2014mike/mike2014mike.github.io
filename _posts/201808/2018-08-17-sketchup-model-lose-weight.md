@@ -4,7 +4,7 @@ title:      SketchUp 模型減肥方法
 date:       2018-08-17 09:37:19
 author:     Mike Chen
 summary:    
-categories: SketchUp
+categories: Work
 thumbnail:  lightbulb
 tags:
  - SketchUp
@@ -12,7 +12,7 @@ tags:
 
 ### 問題
 
-SketchUp 做出的整個社區的 3D 模型，檔案太過龐大，應用到 AR (Augmented Reality) 時過於 Lag，需幫它減肥一下。
+* 客戶使用SketchUp 做出的整個社區的 3D 模型，檔案太過龐大，應用到 AR (Augmented Reality) 時過於 Lag，需幫它減肥一下。
 
 ### 解法
 

@@ -7,8 +7,7 @@ summary:
 categories: Game
 thumbnail:  gamepad
 tags:
- - game
- - 新三國志
+ - Game
 ---
 
 

@@ -4,11 +4,11 @@ title:      SEO - 結構化資料 JSON-LD
 date:       2018-07-26 10:37:19
 author:     Mike Chen
 summary:    
-categories: SEO
+categories: Work
 thumbnail:  sitemap
 tags:
  - SEO
- - JSON-LD
+ - JSON
 ---
 
 ## 參考

@@ -7,7 +7,7 @@ summary:
 categories: Tips
 thumbnail:  windows
 tags:
- - Acronis True Image
+ - AcronisTrueImage
 ---
 
 ### 問題

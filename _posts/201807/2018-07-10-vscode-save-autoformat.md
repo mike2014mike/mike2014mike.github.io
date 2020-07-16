@@ -4,7 +4,7 @@ title:      VSCode存檔自動縮排
 date:       2018-07-10 10:37:19
 author:     Mike Chen
 summary:    VSCode存檔自動縮排
-categories: VSCode
+categories: Work
 thumbnail:  vscode
 tags:
  - VSCode

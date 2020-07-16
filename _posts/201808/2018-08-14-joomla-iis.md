@@ -4,10 +4,10 @@ title:      Joomla 相關整理
 date:       2018-08-14 09:37:19
 author:     Mike Chen
 summary:    
-categories: Joomla
+categories: Work
 thumbnail:  joomla
 tags:
- - linux
+ - Linux
  - Joomla
 
 ---

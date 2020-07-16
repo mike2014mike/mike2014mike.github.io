@@ -4,11 +4,11 @@ title:      Python 機器學習
 date:       2018-09-18 09:37:19
 author:     Mike Chen
 summary:    Python 機器學習
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - 機器學習
+ - Machine-Learning
 ---
 
 ### 筆記

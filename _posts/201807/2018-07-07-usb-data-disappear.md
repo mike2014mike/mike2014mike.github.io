@@ -7,7 +7,7 @@ summary:
 categories: Tips
 thumbnail:  file
 tags:
- - usb
+ - USB
 ---
 
 只需要在 `命令提示字元` 下簡單幾個指令，

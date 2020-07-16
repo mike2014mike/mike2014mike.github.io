@@ -4,7 +4,7 @@ title:      VSCode Snippets - Markdown
 date:       2018-08-23 09:37:19
 author:     Mike Chen
 summary:    
-categories: VSCode
+categories: Work
 thumbnail:  vscode
 tags:
  - VSCode

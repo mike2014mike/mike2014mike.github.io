@@ -4,12 +4,12 @@ title:      自製口罩地圖
 date:       2020-02-12 10:37:19
 author:     Mike Chen
 summary:    
-categories: JavaScript
+categories: Side-Project
 thumbnail:  code
 tags:
  - JavaScript
  - leaflet
- - 口罩地圖
+ - MaskMap
 ---
 
 

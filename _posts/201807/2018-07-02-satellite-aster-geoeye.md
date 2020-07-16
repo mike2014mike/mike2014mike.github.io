@@ -4,13 +4,10 @@ title:      衛星影像查詢流程
 date:       2018-07-02 09:37:19
 author:     Mike Chen
 summary:    
-categories: GIS
+categories: Work
 thumbnail:  map-marked-alt
 tags:
  - GIS
- - Aster
- - GeoEye
- - Satellite 
 ---
 
 以下連結可能都已經失效，僅記錄之前查詢的方式！

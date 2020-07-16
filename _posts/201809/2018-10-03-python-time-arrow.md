@@ -4,11 +4,10 @@ title:      Python - 人性化的時間庫 arrow
 date:       2018-10-03 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - condition
 ---
 
 ### Python 內建的 time 用法

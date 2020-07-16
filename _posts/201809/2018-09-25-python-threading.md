@@ -4,11 +4,12 @@ title:      Python - threading
 date:       2018-09-25 09:37:19
 author:     Mike Chen
 summary:    
-categories: Python
+categories: Study
 thumbnail:  python
 tags:
  - Python
- - threading
+ - Threading
+ - API
 ---
 
 當串接兩個 API，要做資料整合處理的時候，必須兩個 API 都收到 response 才能進行處理，這時候就會用到多執行緒的概念。

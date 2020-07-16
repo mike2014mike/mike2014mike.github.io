@@ -4,10 +4,10 @@ title:      中文程式變亂碼解決方案
 date:       2018-08-03 09:37:19
 author:     Mike Chen
 summary:    
-categories: Tips
+categories: Work
 thumbnail:  windows
 tags:
- - system
+ - Registry
 ---
 
 明明檢查Windows系統的語系和地區都設定無誤，為何程式開啟會變亂碼呢？

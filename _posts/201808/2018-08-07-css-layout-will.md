@@ -4,10 +4,10 @@ title:      學習 CSS 版面配置
 date:       2018-08-07 09:37:19
 author:     Mike Chen
 summary:    
-categories: CSS
+categories: Study
 thumbnail:  css3
 tags:
- - css
+ - CSS
 ---
 
 * 大神 Will 保哥所翻譯的文章 [學習 CSS 版面配置](http://zh-tw.learnlayout.com/)

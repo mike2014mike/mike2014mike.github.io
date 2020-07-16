@@ -4,11 +4,10 @@ title:      SEO - robots.txt製作
 date:       2018-07-26 10:37:19
 author:     Mike Chen
 summary:    
-categories: SEO
+categories: Work
 thumbnail:  sitemap
 tags:
  - SEO
- - robots.txt
 ---
 
 ## 參考
