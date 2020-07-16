@@ -78,7 +78,8 @@ if (page.archive){
 
   <ul class="archive-list">
     <div class="archiveslist archive-float clearfix">
-      {% for tag in site.tags  %}
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags  %}
       <li class="archive-list-item">
         <a class="archive-list-link" href="#{{ tag[0] }}">{{ tag[0] }}</a>
         <span class="archive-list-count">{{ tag[1] | size }}</span>
