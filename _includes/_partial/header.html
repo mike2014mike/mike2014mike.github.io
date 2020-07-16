@@ -22,9 +22,7 @@
 					<form class="search" action="{{ site.baseurl }}/search/" method="get" accept-charset="utf-8">
 						<label>Search</label>
 						<input type="search" id="search" autocomplete="off" name="q" maxlength="20"
-							placeholder="{{ lang.search }}" style="border-radius: 5px;
-							box-shadow: none;height: 16px;font-weight: 400;box-sizing: content-box;
-							padding: 7px 11px 7px 28px;" />
+							placeholder="{{ lang.search }}" />
 					</form>
 					{% elsif site.baidu_search.enable %}
 					<form class="search" action="{{ site.baidu_search.site }}" target="_blank">
@@ -40,7 +38,9 @@
 					{% elsif site.simple_jekyll_search.enable %}
 					<form class="search" action="{{ site.baseurl }}/search" method="get" accept-charset="utf-8">
 						<input type="search" id="search" name="q" autocomplete="off" maxlength="20"
-							placeholder="{{ lang.search }}" />
+							placeholder="{{ lang.search }}" style="border-radius: 5px;
+							box-shadow: none;height: 16px;font-weight: 400;box-sizing: content-box;
+							padding: 7px 11px 7px 28px;" />
 					</form>
 					{% else %}
 					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
