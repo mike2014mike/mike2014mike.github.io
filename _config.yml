@@ -55,8 +55,8 @@ menu:
 widgets:
 - github-card
 - category
-# - tag
-# - tagcloud
+- tag
+- tagcloud
 - links
 # - douban
 - google-adsense
