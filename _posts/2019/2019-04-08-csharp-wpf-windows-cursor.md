@@ -222,4 +222,4 @@ namespace WPF_Cursors
 
 
 ## 執行畫面
-![執行畫面預覽]()
+![執行畫面預覽](https://i.imgur.com/xZliYBk.png)
