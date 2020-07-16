@@ -59,6 +59,7 @@ widgets:
 # - tagcloud
 - links
 # - douban
+- google-adsense
 - rss
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
@@ -102,6 +103,10 @@ author:
   # google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   # stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
+
+
+
+google_ad_client: ca-pub-6917081171236631
 
 #### Toc
 toc:
