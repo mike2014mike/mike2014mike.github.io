@@ -6,7 +6,7 @@
 		{% for item in sorted_cats %}
 		{% if item[1] | size != 0 %}
 		<li><a href="{{ site.baseurl }}/categories/#{{ item[0] }}"
-				title="{{ item[0]  | replace: 'Study', '學習 | Study' }}">{{ item[0] }}<sup>{{ item[1] | size }}</sup></a>
+				title="{{ item[0] }}">{{ item[0]  | replace: 'Study', '學習 | Study'}}<sup>{{ item[1] | size }}</sup></a>
 		</li>
 		{% endif %}
 		{% endfor %}
