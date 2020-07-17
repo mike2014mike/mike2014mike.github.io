@@ -9,6 +9,7 @@ thumbnail:  code
 tags:
  - JavaScript
  - KIOSK
+ - Digital-Signage
 ---
 
 
