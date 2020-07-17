@@ -51,9 +51,6 @@ tags:
 
 ## 會議系統 DM
 <ul>
-    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_20140903.pdf">VrConference_20140903(中)</a>
-        <font color="#808080">版本/日期：2014/09/03</font>
-    </li>
     <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_TW-A-20171117.pdf">彩頁_VrConference_TW-A-20171117(中)</a>
         <font color="#808080">版本/日期：2017/11/17</font>
     </li>
@@ -81,14 +78,5 @@ tags:
     </li>
     <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_V75B- 英文 .pdf">V75B - 75" 電子白板(英)</a>
         <font color="#808080">版本/日期：2018/08/09</font>
-    </li>
-    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q380_20141118_繁.pdf">Q380 - 80" 電子白板</a>
-        <font color="#808080">版本/日期：2014/11/18</font>
-    </li>
-    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q370_20141118_繁.pdf">Q370 - 70" 電子白板</a>
-        <font color="#808080">版本/日期：2014/11/18</font>
-    </li>
-    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q320_20141118_繁.pdf">Q320 - 70" 電子白板</a>
-        <font color="#808080">版本/日期：2014/11/18</font>
     </li>
 </ul>
