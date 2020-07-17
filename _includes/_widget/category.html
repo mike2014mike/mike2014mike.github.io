@@ -5,8 +5,15 @@
 	<ul>
 		{% for item in sorted_cats %}
 		{% if item[1] | size != 0 %}
-		<li><a href="{{ site.baseurl }}/categories/#{{ item[0] }}"
-				title="{{ item[0] }}">{{ item[0]  | replace: 'Study', '學習 | Study'}}<sup>{{ item[1] | size }}</sup></a>
+		<li><a href="{{ site.baseurl }}/categories/#{{ item[0] }}" title="{{ item[0] }}">
+				{{ item[0] 
+				| replace: 'Study', '學習 | Study' 
+				| replace: 'Work', '工作 | Work' 
+				| replace: 'Baby'', '育兒 | Baby' 
+				| replace: 'Tips''', '密技 | Tips' 
+				| replace: 'Other'', '其他 | Other'
+				| replace: 'Game'', '遊戲 | Game'}}
+				<sup>{{ item[1] | size }}</sup></a>
 		</li>
 		{% endif %}
 		{% endfor %}
