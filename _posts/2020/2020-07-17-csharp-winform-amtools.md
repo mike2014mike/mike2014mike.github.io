@@ -36,48 +36,55 @@ tags:
 
 ## 工商時間
 
-如果有需要電子白板和視訊會議系統的，可以與我聯繫(網頁最下方有各種聯繫管道)，我會請業務同仁來跟您服務，謝謝。
+如果有需要廣告機、電子白板和視訊會議系統的，可以與我聯繫(網頁最下方有各種聯繫管道)，我會請業務同仁來跟您服務，謝謝。
+
+## 廣告機 DM
+<ul>    
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q410-151123-00.pdf">Q410 - 50" 落地式廣告機</a>
+        <font color="#808080">版本/日期：2015/12/22</font>
+    </li>
+</ul>
 
 ## 會議系統 DM
 <ul>
-    <li><a href="8EDM/彩頁_VrConference_20140903.pdf">VrConference_20140903(中)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_20140903.pdf">VrConference_20140903(中)</a>
         <font color="#808080">版本/日期：2014/09/03</font>
     </li>
-    <li><a href="8EDM/彩頁_VrConference_TW-A-20171117.pdf">彩頁_VrConference_TW-A-20171117(中)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_TW-A-20171117.pdf">彩頁_VrConference_TW-A-20171117(中)</a>
         <font color="#808080">版本/日期：2017/11/17</font>
     </li>
-    <li><a href="8EDM/彩頁_VrConference_TW-A-20171117_英文.pdf">彩頁_VrConference_TW-A-20171117(英)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_TW-A-20171117_英文.pdf">彩頁_VrConference_TW-A-20171117(英)</a>
         <font color="#808080">版本/日期：2018/08/09</font>
     </li>
-    <li><a href="8EDM/彩頁_VrConference_TW-B-20171117.pdf">VrConference_TW-B-20171117(中)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_TW-B-20171117.pdf">VrConference_TW-B-20171117(中)</a>
         <font color="#808080">版本/日期：2017/11/17</font>
     </li>
-    <li><a href="8EDM/彩頁_VrConference_TW-B-20180802_英文.pdf">VrConference_TW-B-20180802(英)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_VrConference_TW-B-20180802_英文.pdf">VrConference_TW-B-20180802(英)</a>
         <font color="#808080">版本/日期：2018/08/02</font>
     </li>
 </ul>
 
 ## 電子白板 DM
 <ul>
-    <li><a href="8EDM/彩頁_V70D- 繁中 all.pdf">V70D - 70" 電子白板(中)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_V70D- 繁中 all.pdf">V70D - 70" 電子白板(中)</a>
         <font color="#808080">版本/日期：2018/07/27</font>
     </li>
-    <li><a href="8EDM/彩頁_V70C- 英文.pdf">V70C - 70" 電子白板(英)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_V70C- 英文.pdf">V70C - 70" 電子白板(英)</a>
         <font color="#808080">版本/日期：2018/08/09</font>
     </li>
-    <li><a href="8EDM/彩頁_V75A- 繁中 all.pdf">V75A - 75" 電子白板(中)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_V75A- 繁中 all.pdf">V75A - 75" 電子白板(中)</a>
         <font color="#808080">版本/日期：2018/07/27</font>
     </li>
-    <li><a href="8EDM/彩頁_V75B- 英文 .pdf">V75B - 75" 電子白板(英)</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_V75B- 英文 .pdf">V75B - 75" 電子白板(英)</a>
         <font color="#808080">版本/日期：2018/08/09</font>
     </li>
-    <li><a href="8EDM/彩頁_Q380_20141118_繁.pdf">Q380 - 80" 電子白板</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q380_20141118_繁.pdf">Q380 - 80" 電子白板</a>
         <font color="#808080">版本/日期：2014/11/18</font>
     </li>
-    <li><a href="8EDM/彩頁_Q370_20141118_繁.pdf">Q370 - 70" 電子白板</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q370_20141118_繁.pdf">Q370 - 70" 電子白板</a>
         <font color="#808080">版本/日期：2014/11/18</font>
     </li>
-    <li><a href="8EDM/彩頁_Q320_20141118_繁.pdf">Q320 - 70" 電子白板</a>
+    <li><a href="http://210.80.95.211/vdivs/8EDM/彩頁_Q320_20141118_繁.pdf">Q320 - 70" 電子白板</a>
         <font color="#808080">版本/日期：2014/11/18</font>
     </li>
 </ul>
