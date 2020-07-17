@@ -41,3 +41,6 @@ tags:
 
 ## 範例系統連結
 [KiKiStroe - 線上購物平台](https://kikistore-2020.herokuapp.com/)
+
+## 程式碼
+前端閹割版的部分程式碼，有放在 [GitHub](https://github.com/mike2014mike/kikistore)，可參考。
