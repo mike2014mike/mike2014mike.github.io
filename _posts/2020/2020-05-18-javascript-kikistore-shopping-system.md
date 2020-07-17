@@ -17,7 +17,7 @@ tags:
 ## 說明
 * 朋友的副業需要線上購物平台，委託我幫他構想與實作。
 * 開發期能省則省，先使用 Heroku 當主機，資料庫也先使用 Firebase 的免費方案。
-* CSS 框架採用 Bootstrap，JS 框架採用 Vue，Server端程式使用 Node.js。
+* CSS 框架採用 Bootstrap，JS 框架採用 Vue，Server 端使用 Node.js。
 * 目前的商品內容、圖片、價格均是假的，只是網路上找來做範例的，並非實際商品。
 
 ## 需求
