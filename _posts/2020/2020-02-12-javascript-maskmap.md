@@ -14,10 +14,11 @@ tags:
 
 
 ## 說明
-身為攻城獅/碼農，跟風自己寫一個口罩地圖是理所當然的。
-
-* CSS 框架採用 Bootstrap。
+* 武漢肺炎/新冠狀病毒(COVID-19)全球肆虐，人人都需要口罩。
+* 身為攻城獅/碼農，跟風自己寫一個口罩地圖方便買口罩是一定要的啦！
+* CSS 框架採用 Bootstrap，JS 採用了 jQuery。
 * 地圖採用 leaflet，這是整合 OpenStreetMap 的地圖套件。
+* 因為需要 Cluster 的功能，需要額外引入 MarkerCluster 才能使用。
 
 
 ## Code
