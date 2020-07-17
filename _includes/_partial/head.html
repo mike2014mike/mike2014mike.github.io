@@ -13,7 +13,8 @@
   {% if page.layout == 'tags' %}
   {% assign title = lang.tags %}
   {% endif %}
-  <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if title %}{{ title }} | {% endif %}{{ site.title | replace: 'Mike's Notes', '麥克的筆記本 | Mike's Notes'  }}
+  </title>
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
