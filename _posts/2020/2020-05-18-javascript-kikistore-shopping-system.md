@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      KiKiStroe - 線上購物平台
+title:      KiKiStore - 線上購物平台
 date:       2020-05-18 10:37:19
 author:     Mike Chen
 summary:    
@@ -40,7 +40,7 @@ tags:
 
 
 ## 範例系統連結
-[KiKiStroe - 線上購物平台](https://kikistore-2020.herokuapp.com/)
+[KiKiStore - 線上購物平台](https://kikistore-2020.herokuapp.com/)
 
 ## 程式碼
 前端閹割版的部分程式碼，有放在 [GitHub](https://github.com/mike2014mike/kikistore)，可參考。
