@@ -25,7 +25,7 @@ tags:
 
 ```csharp
 
-private void btnTest_Click(object sender, RoutedEventArgs e)
+private void btnJsonTest_Click(object sender, RoutedEventArgs e)
         {
             //要傳遞的參數Sample
             Object postData =
@@ -34,7 +34,7 @@ private void btnTest_Click(object sender, RoutedEventArgs e)
                     name = "mike",
                     pw = "abc"
                 };
-            string response = PostJson("http://localhost:8080/jsonTest", postData);
+            string response = PostJson("http://localhost:8080/checkJson", postData);
             MessageBox.Show(response);
 
         }
@@ -62,6 +62,39 @@ public string PostJson(string url, Object postData)
 
 
         }
+
+private void btnParamTest_Click(object sender, RoutedEventArgs e)
+        {
+            //要傳遞的參數Sample
+            string postData "name=mike&pw=abc";
+            string response = PostParam("http://localhost:8080/checkParam", postData);
+            MessageBox.Show(response);
+
+        }
+
+public string PostParam(string url, string param)
+        {            
+            byte[] bs = Encoding.ASCII.GetBytes(param);
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.Method = "POST";
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.ContentLength = bs.Length;
+
+            using (Stream rs = request.GetRequestStream())
+            {
+                rs.Write(bs, 0, bs.Length);
+            }
+
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            using (StreamReader sr = new StreamReader(response.GetResponseStream()))
+            {
+                string result = sr.ReadToEnd();
+                return result;
+            }
+
+
+        }
 ```
 
 
@@ -79,10 +112,17 @@ var jsonParser = bodyParser.json();
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 //以 JSON 傳來的用 jsonParser
-app.post('/jsonTest', jsonParser, function (req, res) {
+app.post('/checkJson', jsonParser, function (req, res) {
 
   console.log(req.body.name, req.body.pw);
   res.send("收到 JSON 啦");
+})
+
+//以 x-www-form-urlencoded 傳來的用 urlencodedParser
+app.post('/checkParam', urlencodedParser, function (req, res) {
+
+  console.log(req.body.name, req.body.pw);
+  res.send("收到 x-www-form-urlencoded 啦");
 })
 
 var port = 8080;
