@@ -11,6 +11,7 @@ tags:
  - GET
  - POST
  - JSON
+ - Param
  - NodeJS
 ---
 
@@ -20,6 +21,7 @@ tags:
 * 這邊紀錄了如何從 C# GET/POST 參數到伺服器以及伺服器端如何接收 GET/POST 過來的參數並回傳值。
 * POST 的部分分別示範了，傳 JSON 和利用組字串的方式 POST 傳送與接收方法。
 * 伺服器端可依據傳送的類型，使用不同的 Parser 處理參數。
+* GET 用 `req.query.xxx` 取值；POST 用 `req.body.xxx` 取值；
 
 ## Package
 * Newtonsoft.Json
