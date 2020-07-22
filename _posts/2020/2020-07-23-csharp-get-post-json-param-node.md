@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      C# POST JSON to Node.js
+title:      C# GET/POST JSON/Param to Node.js
 date:       2020-07-23 10:37:19
 author:     Mike Chen
 summary:    
@@ -8,6 +8,7 @@ categories: Work
 thumbnail:  code
 tags:
  - C-Sharp
+ - GET
  - POST
  - JSON
  - NodeJS
