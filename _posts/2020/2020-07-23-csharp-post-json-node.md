@@ -84,4 +84,10 @@ app.post('/jsonTest', jsonParser, function (req, res) {
   console.log(req.body.name, req.body.pw);
   res.send("收到 JSON 啦");
 })
+
+var port = 8080;
+
+server.listen(port, function () {
+  console.log('Express started on http://localhost:' + port + ' \r\npress Ctrl+C to terminate.');
+});
 ```
