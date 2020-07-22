@@ -16,8 +16,7 @@ tags:
 
 ## 說明
 * 目前專案上的架構是 WPF(C#) 應用程式要與 Node.js 伺服器溝通。
-* 這邊紀錄了如何從 C# POST JSON 到伺服器。
-* 同時伺服器端如何接收 POST 過來的 JSON 並回傳值。
+* 這邊紀錄了如何從 C# POST JSON 到伺服器以及伺服器端如何接收 POST 過來的 JSON 經過 Parser 取值並回傳值。
 
 ## Package
 * Newtonsoft.Json
