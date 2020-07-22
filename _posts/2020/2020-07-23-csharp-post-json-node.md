@@ -68,6 +68,8 @@ public string PostJson(string url, Object postData)
 ## Node.js 端
 
 ```js
+var express = require('express');
+var app = express();
 var bodyParser = require('body-parser');
 
 // 建立 application/json parser
