@@ -17,6 +17,7 @@ tags:
 ## 說明
 * 目前專案上的架構是 WPF(C#) 應用程式要與 Node.js 伺服器溝通。
 * 這邊紀錄了如何從 C# POST JSON 到伺服器以及伺服器端如何接收 POST 過來的 JSON 經過 Parser 取值並回傳值。
+* 程式中也示範了，如果不傳 JSON ，利用組字串的方式 POST 傳送與接收方法。
 
 ## Package
 * Newtonsoft.Json
@@ -24,7 +25,7 @@ tags:
 ## WPF 端
 
 ```csharp
-
+// JSON
 private void btnJsonTest_Click(object sender, RoutedEventArgs e)
         {
             //要傳遞的參數Sample
@@ -63,6 +64,7 @@ public string PostJson(string url, Object postData)
 
         }
 
+//組字串
 private void btnParamTest_Click(object sender, RoutedEventArgs e)
         {
             //要傳遞的參數Sample
