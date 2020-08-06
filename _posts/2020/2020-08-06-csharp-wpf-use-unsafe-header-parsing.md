@@ -17,7 +17,7 @@ tags:
 
 ![伺服器認可通訊協定違規](https://i.imgur.com/HlttfI5.png)
 
-* 找到解決的方式是在 Web.Config 或 App.Config 裡面加上下面這串設定值，也就是要設定 `useUnsafeHeaderParsing="true"`。
+* 請示 Google 大神後，找到解決的方式是在 Web.Config 或 App.Config 裡面加上下面這串設定值，也就是要設定 `useUnsafeHeaderParsing="true"`。
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -48,4 +48,5 @@ private void Window_Loaded(object sender, RoutedEventArgs e)
 ```
 
 * 編譯後可發現會產生 `appname.vshost.exe.Config` 這個檔案，將其複製一份，更名為 `appname.exe.Config` 即可，內容其實跟前面的 xml 是一樣的。
+
 *  註： appname 就是你自己的專案名稱/應用程式名稱。
