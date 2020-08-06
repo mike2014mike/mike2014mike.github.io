@@ -13,7 +13,7 @@ tags:
 
 
 ## 說明
-* 雲端電子白板專案遇到向伺服器抓圖更新的時候，遇到「伺服器認可通訊協定違規. Section=ResponseStatusLine」的例外而報錯。
+* 雲端電子白板專案遇到向伺服器抓圖更新的時候，遇到 `「伺服器認可通訊協定違規. Section=ResponseStatusLine」` 的例外而報錯。
 
 ![伺服器認可通訊協定違規](https://i.imgur.com/HlttfI5.png)
 
