@@ -14,15 +14,14 @@ tags:
 
 ## 說明
 * 白板專案上有個功能，是要從 Resources 複製一初始圖片檔案另存。
+
 ![Resources 中的圖片](https://i.imgur.com/SkubYQj.png)
 
 ## 思路
 * 利用 `Properties.Resources.Whiteboard` 找到該資源，圖片型別為 `System.Drawing.Bitmap`。
-* 使用 `File.WriteAllBytes` 存檔，第一個參數是存檔路徑，第二個參數是資料來源，型別為 `byte[]`。
+* 使用 `File.WriteAllBytes` 存檔，第一個參數是存檔路徑，第二個參數是資料來源，型別為 `byte[]`。所以需要另外寫一個函式 `BitmapToBytes` 做轉換。
+
 ![File.WriteAllBytes說明](https://i.imgur.com/jcadM4Z.png)
-
-* 另外寫一個函式 `BitmapToBytes` 做轉換。
-
 
 ## Code
 ```csharp
