@@ -13,13 +13,13 @@ tags:
 
 
 ## 說明
-* 軟體開發常常會遇到一些預想不到的 Bug，Debug 的方法有很多種，例如`加入中斷點`看參數值有無異常、用`try{}catch(Exception e){ System.Console.WriteLine(e.Message);}`印出錯誤訊息、或者是`紀錄所有的操作Log`來加以分析。
-* 那要如何紀錄 Log 呢？
+* 軟體開發常常會遇到一些預想不到的 Bug，Debug 的方法有很多種，例如`加入中斷點`看參數值有無異常、用`try{}catch(Exception e){ System.Console.WriteLine(e.Message);}`印出錯誤訊息、或者是`記錄所有的操作Log`來加以分析。
+* 那要如何記錄 Log 呢？
 
 ## 思路
 * 記錄 Log ，說穿了就是建立一個文字檔。
 * 如果檔案不存在，就使用 `File.CreateText` 建立並直接寫入。
-* 如果檔案已經存在，我們不希望文字檔被複寫蓋掉內容，而是希望一直堆疊，才能看到所有的紀錄，就要使用`File.AppendText`。
+* 如果檔案已經存在，我們不希望內容被複寫蓋掉，而是要一直堆疊，才能看到所有的歷史記錄，就要使用`File.AppendText`。
 * 我們還希望能夠自動記錄下時間點，就可以用 `DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")`自訂時間格式。
 
 
