@@ -25,40 +25,79 @@ tags:
 * 以我為例，我常放在事件(Event)觸發的時候，常見如 Click, SelectionChanged, MouseDown, MouseMove, MouseUp, Gesture, TouchDown, TouchMove, TouchUp, ManipulationStarting, ManipulationDelta, ManipulationCompleted 等。
 * 如果有使用 Socket 的話，則每個 Emit 和 On 都進行記錄，以確保發送和接收的邏輯都正確，不該發送的時候別發送。像我有次就是接收端應該只要接收就好，結果它接收後要做的動作剛好觸發要發送的邏輯，變成無限循環。
 * 再來就是前面提到的 try{}catch{}攔截的錯誤訊息，也可以用 Log 做記錄，避免程式直接閃退看不出端倪。
+* 第二個參數 isPrepend 是考慮到有些人習慣將最新的 log 放在最上面可使用。
 
 ## Code
 ```csharp
-private void Window_Loaded(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// 建立操作紀錄
+        /// </summary>
+        /// <param name="log"></param>
+        /// <param name="isPrepend"></param>
+        private void Log(string log, bool isPrepend = false)
         {
-            Log("現在 Window_Loaded 了");
-        }
-/// <summary>
-/// 建立操作紀錄
-/// </summary>
-/// <param name="log"></param>
-private void Log(string log) {
-            string logFilePath = "log.txt";
-            string time = "[" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + "]";
+            string logFilePath = AutoSaveFolder + "log.txt";
+            //string logFilePath = "log.txt";
+            string time = "[" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss") + "] ";
+            log = time + log;
 
-            //檔案不存在，直接寫入紀錄
+            //紀錄log
             if (!File.Exists(logFilePath))
             {
-                // Create a file to write to.
                 using (StreamWriter sw = File.CreateText(logFilePath))
                 {
-                    sw.WriteLine(time + log);
+                    sw.WriteLine(log);
                 }
             }
 
-            //檔案已存在，堆疊紀錄
-            using (StreamWriter sw = File.AppendText(logFilePath))
+
+            if (!isPrepend)
             {
-                sw.WriteLine(time + log);
+                // 插入最後一行
+                using (StreamWriter sw = File.AppendText(logFilePath))
+                {
+                    sw.WriteLine(log);
+                }
             }
+            else
+            {
+                List<string> list = new List<string>();
+                // 先讀取歷史log
+                using (StreamReader sr = File.OpenText(logFilePath))
+                {
+                    string s = "";
+                    while ((s = sr.ReadLine()) != null)
+                    {
+                        list.Add(s);
+                    }
+                }
+
+                // 直接複寫，先寫入當前log，再寫入歷史log
+                using (StreamWriter sw = File.CreateText(logFilePath))
+                {
+                    sw.WriteLine(log);
+                    foreach (string it in list.ToArray())
+                    {
+                        sw.WriteLine(it);
+                    }
+                }
+            }
+
         }
 ```
 
-## 執行後
-* 會在與程式執行檔相同目錄下產生 log.txt 檔案，開啟如下。
+## 執行結果
 
-![log.txt](https://i.imgur.com/7SxWx5W.png)
+* 第二參數不給值的話，預設 isPrepend = false 是 Append。
+```csharp
+Log("記錄內容");
+```
+
+![Append]](https://i.imgur.com/3Fr5HNK.png)
+
+* 第二參數如果給 true 是 Prepend。
+```csharp
+Log("記錄內容", true);
+```
+
+![Prepend]](https://i.imgur.com/UPrIiWD.png)
