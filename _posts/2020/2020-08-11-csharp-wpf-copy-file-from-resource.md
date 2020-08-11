@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      C# WPF 從 Resource 複製檔案另存
+title:      C# WPF 從 Resources 複製檔案另存
 date:       2020-08-11 10:37:19
 author:     Mike Chen
 summary:    
@@ -13,8 +13,8 @@ tags:
 
 
 ## 說明
-* 白板專案上有個功能，是要從 Resource 複製一初始圖片檔案另存。
-![Resource中的圖片](https://i.imgur.com/SkubYQj.png)
+* 白板專案上有個功能，是要從 Resources 複製一初始圖片檔案另存。
+![Resources 中的圖片](https://i.imgur.com/SkubYQj.png)
 
 ## 思路
 * 利用 `Properties.Resources.Whiteboard` 找到該資源，圖片型別為 `System.Drawing.Bitmap`。
