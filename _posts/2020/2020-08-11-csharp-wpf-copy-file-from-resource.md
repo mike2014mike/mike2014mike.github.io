@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      C# WPF 從 Resources 複製檔案另存
+title:      C# WPF 從 Resources 另存檔案
 date:       2020-08-11 10:37:19
 author:     Mike Chen
 summary:    
