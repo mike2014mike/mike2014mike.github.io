@@ -23,7 +23,7 @@ tags:
 
 ![名稱還是舊的](https://i.imgur.com/yovM0Jw.png)
 
-* 這讓我下意識的想到去搜尋看看登錄檔 ( 執行 > 輸入`regedit` > 搜尋 `SampleAAA`)，果然在 `Computer\HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache` 下發現了一個有趣的東西 `FriendlyAppName`。
+* 這讓我下意識的想到去搜尋看看登錄檔 ( 執行 > 輸入`regedit` > 搜尋 `SampleAAA`)，果然在 `Computer\HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache` 下發現了一個有趣的東西 `FriendlyAppName` (友善的應用程式名稱？)。
 
 ![FriendlyAppName](https://i.imgur.com/vNZWkFV.png)
 
