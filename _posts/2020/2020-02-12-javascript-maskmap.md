@@ -369,7 +369,7 @@ tags:
 ```
 
 ## 成果預覽
-![口罩地圖預覽](https://i.imgur.com/FVd10zG.png)
+![口罩地圖預覽](https://i.imgur.com/vrV1N5P.png)
 
 ## 系統連結
 [我的口罩地圖](https://mike2014mike.github.io/masksmap/)

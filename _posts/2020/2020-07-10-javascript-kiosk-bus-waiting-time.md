@@ -606,6 +606,6 @@ tags:
 ```
 
 ## 新版廣告機畫面
-![新版廣告機畫面-環廠線](https://i.imgur.com/4m73st1.jpg)
+![新版廣告機畫面-環廠線](https://i.imgur.com/9hFi9n7.png)
 
-![新版廣告機畫面-成功線](https://i.imgur.com/j37qkwO.jpg)
+![新版廣告機畫面-成功線](https://i.imgur.com/jni6MEK.png)

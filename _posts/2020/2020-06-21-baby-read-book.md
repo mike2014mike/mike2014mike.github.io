@@ -20,9 +20,9 @@ tags:
 
 > 所以，寶貝兒子讓老爸唸書給你聽吧！
 
-![老爸陪讀](https://i.imgur.com/VxPIuZ7.jpg)
+![老爸陪讀](https://i.imgur.com/gHSWg94.png)
 
-![老爸陪讀](https://i.imgur.com/B5R2zp6.jpg)
+![老爸陪讀](https://i.imgur.com/l60xJnt.png)
 
 ## 參考
 * [哈佛研究：為什麼爸爸做親子閱讀，效果更佳](https://ek21.com/news/1/85371/)

@@ -235,4 +235,4 @@ namespace WPF_CustomCursor
 ```
 
 ## 執行畫面
-![執行畫面預覽](https://i.imgur.com/ncUIydu.png)
+![執行畫面預覽](https://i.imgur.com/wfuXEZT.png)
