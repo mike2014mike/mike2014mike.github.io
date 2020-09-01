@@ -93,11 +93,11 @@ tags:
 Log("記錄內容");
 ```
 
-![Append](https://i.imgur.com/3Fr5HNK.png)
+![Append](https://i.imgur.com/A0ToiYf.png)
 
 * 第二參數如果給 true 是 Prepend。
 ```csharp
 Log("記錄內容", true);
 ```
 
-![Prepend](https://i.imgur.com/UPrIiWD.png)
+![Prepend](https://i.imgur.com/ODDQWWl.png)
