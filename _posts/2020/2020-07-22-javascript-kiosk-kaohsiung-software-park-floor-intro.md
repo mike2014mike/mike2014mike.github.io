@@ -32,12 +32,12 @@ tags:
 * 直接從隨身碟執行編輯器，修改後就能直接修改對應公司的資料和替換圖片。
 
 ## 成果預覽
-![排版](https://i.imgur.com/VO22nxZ.png)
-![樓層簡介](https://i.imgur.com/I8kOj7V.png)
-![公司簡介](https://i.imgur.com/SxjJ7cZ.png)
-![編輯器畫面](https://i.imgur.com/JY0tJ6C.png)
-![編輯畫面](https://i.imgur.com/DxuXng8.png)
-![廣告機實際畫面](https://i.imgur.com/cYDgLur.jpg)
+![排版](https://i.imgur.com/gAjJCvm.png)
+![樓層簡介](https://i.imgur.com/9KlMYnt.png)
+![公司簡介](https://i.imgur.com/4owYdmo.png)
+![編輯器畫面](https://i.imgur.com/lphzJ2O.png)
+![編輯畫面](https://i.imgur.com/uI7nh6Z.png)
+![廣告機實際畫面](https://i.imgur.com/jefUrB8.png)
 
 ## 後記
 * 功能都實作出來了，就等美編大姊提供美美的平面圖了。
