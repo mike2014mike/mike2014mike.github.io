@@ -21,11 +21,11 @@ tags:
 
 * 發生問題的是，從 Debug 目錄下直接雙擊 SampleBBB.exe 後，又偶然在工作列(Taskbar)上對它的圖示點了右鍵，發現名稱還是原本的 SampleAAA，如下圖。
 
-![名稱還是舊的](https://i.imgur.com/yovM0Jw.png)
+![名稱還是舊的](https://i.imgur.com/HOuA0zx.png)
 
 * 這讓我下意識的想到去搜尋看看登錄檔 ( 執行 > 輸入`regedit` > 搜尋 `SampleAAA`)，果然在 `HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache` 下發現了一個有趣的東西 `FriendlyAppName` (友善的應用程式名稱？)。
 
-![FriendlyAppName](https://i.imgur.com/vNZWkFV.png)
+![FriendlyAppName](https://i.imgur.com/35WmL1R.png)
 
 * 看來是微軟在初次運行執行檔的時候會記錄這個屬性，就算重新編譯，只要是路徑相同，都還是會保持原本的值。
 
@@ -35,4 +35,4 @@ tags:
 
 * 另外，其實如果把整個 Debug 資料夾搬到其他地方去執行，並不會有這問題，因為路徑不同。
 
-![刪除就解決了](https://i.imgur.com/N71kdKi.png)
+![刪除就解決了](https://i.imgur.com/wsh3aAD.png)
