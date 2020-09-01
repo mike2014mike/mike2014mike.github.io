@@ -57,7 +57,7 @@ storage:
 ![MongoDB Shell 基本用法](https://i.imgur.com/dwaN9sn.png)
 
 
-## Node.js安裝Mongo DB driver
+## Node.js 安裝 MongoDB driver
 
 * 需注意安裝本文範例語法適用的版本，保險起見就像我一樣指定版本安裝。
 `npm install mongodb@2.2.31 --save`
