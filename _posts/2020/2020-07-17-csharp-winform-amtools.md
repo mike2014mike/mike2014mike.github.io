@@ -27,13 +27,13 @@ tags:
 
 
 ## AmTools 舊版畫面
-![帳號管理畫面](https://i.imgur.com/R9AdtjK.png)
-![帳號編輯畫面](https://i.imgur.com/oqP8AbO.png)
+![帳號管理畫面](https://i.imgur.com/w1VZeUU.png)
+![帳號編輯畫面](https://i.imgur.com/dSk6aDg.png)
 
 ## AmTools 新版畫面
 
-![帳號管理畫面](https://i.imgur.com/yieoTQ4.png)
-![帳號編輯畫面](https://i.imgur.com/GLBcXhY.png)
+![帳號管理畫面](https://i.imgur.com/e8cW1Qd.png)
+![帳號編輯畫面](https://i.imgur.com/6wo3qa5.png)
 
 ## 工商時間
 如果有需要廣告機、電子白板和視訊會議系統的，可以與我聯繫(網頁最下方有各種聯繫管道)，我會請業務同仁來跟您服務，謝謝。
