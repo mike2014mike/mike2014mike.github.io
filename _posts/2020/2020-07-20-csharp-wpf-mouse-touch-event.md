@@ -286,4 +286,4 @@ namespace WpfApplication1
 ```
 
 ## 執行畫面
-![執行畫面預覽](https://i.imgur.com/NAeOz0L.png)
+![執行畫面預覽](https://i.imgur.com/Z25f07e.png)
