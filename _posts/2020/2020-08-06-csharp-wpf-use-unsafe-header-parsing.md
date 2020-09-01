@@ -15,7 +15,7 @@ tags:
 ## 說明
 * 雲端電子白板專案遇到向伺服器抓圖更新的時候，遇到 `「伺服器認可通訊協定違規. Section=ResponseStatusLine」` 的例外而報錯。
 
-![伺服器認可通訊協定違規](https://i.imgur.com/HlttfI5.png)
+![伺服器認可通訊協定違規](https://i.imgur.com/MyA6Bok.png)
 
 * 請示 Google 大神後，找到解決的方式是在 Web.Config 或 App.Config 裡面加上下面這串設定值，也就是要設定 `useUnsafeHeaderParsing="true"`。
 
