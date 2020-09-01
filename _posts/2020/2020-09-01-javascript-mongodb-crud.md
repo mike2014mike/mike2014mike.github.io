@@ -15,6 +15,7 @@ tags:
 
 ## 說明
 * 以往專案上以 Node.js 當 Server 的項目，大多搭配 MongoDB 使用，這裡紀錄一下從安裝到使用的筆記。
+
 * 標題的 CRUD 是 新增（Create，意為「建立」）、查詢（Read，意為「讀取」）、修改（Update，意為「更新」）、刪除（Delete），取四個單字字首而成。
 
 ## MongoDB 安裝與配置設定
@@ -43,15 +44,14 @@ storage:
 * 安裝設定檔 mongod.cfg，日後啟動服務就不需要再次指定路徑。
 `mongod --config "D:\MongoDB\data\mongod.cfg" --install`
 
-* 啟用服務：
-`net start MongoDB`
+* 啟用服務：`net start MongoDB`
 
-* 停用服務：
-`net stop MongoDB`
+* 停用服務：`net stop MongoDB`
 
 ## MongoDB 可視化工具 (GUI)
-* [Robo 3T 載點](https://download.studio3t.com/robomongo/windows/robo3t-1.3.1-windows-x86_64-7419c406.zip)
 ![Robo 3T 介面](https://i.imgur.com/tEgdECM.png)
+
+[Robo 3T 載點](https://download.studio3t.com/robomongo/windows/robo3t-1.3.1-windows-x86_64-7419c406.zip)
 
 ## MongoDB Shell 基本用法
 ![MongoDB Shell 基本用法](https://i.imgur.com/dwaN9sn.png)
@@ -78,7 +78,7 @@ MongoClient.connect("mongodb://localhost:27017/mymondb", function (err, db) {
 
     collection.count(function (err, count) {
       if (err) throw err;
-      console.log('Total Rows:' + count);
+      console.log('共 ' + count + ' 筆資料');
     });
   });
   db.close(); //關閉連線
@@ -95,7 +95,7 @@ MongoClient.connect("mongodb://localhost:27017/mymondb", function (err, db) {
     collection.find({ firstName: "Nicole" }).toArray(function (err, items) {
       if (err) throw err;
       console.log(items);
-      console.log("We found " + items.length + " results!");
+      console.log("查詢到 " + items.length + " 個符合條件);
     });
 
   });
@@ -114,7 +114,7 @@ MongoClient.connect("mongodb://localhost:27017/mymondb", function (err, db) {
     collection.update({ id: 3 }, { $set: { firstName: 'Steve', lastName: 'Jobs' } },
       { w: 1 }, function (err, result) {
         if (err) throw err;
-        console.log('Document Updated Successfully');
+        console.log('更新成功！');
       });
   });
   db.close(); //關閉連線
@@ -131,7 +131,7 @@ MongoClient.connect("mongodb://localhost:27017/mymondb", function (err, db) {
     //collection.remove(條件,writeConcern,callback)
     collection.remove({ id: 2 }, { w: 1 }, function (err, result) {
       if (err) throw err;
-      console.log('Document Removed Successfully!');
+      console.log('刪除成功！');
     });
   });
   db.close(); //關閉連線
