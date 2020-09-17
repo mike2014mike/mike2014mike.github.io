@@ -9,132 +9,182 @@
 
 <url>
   <loc>https://mike2014mike.github.io/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/categories/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/tags/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/archives/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/about/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mike2014mike.github.io/work/2020/07/20/javascript-kiosk-kaohsiung-software-park-floor-intro/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/09/01/javascript-mongodb-crud/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mike2014mike.github.io/work/2020/07/17/csharp-winform-amtools/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/13/csharp-taskbar-appname-different/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mike2014mike.github.io/work/2020/07/15/csharp-wpf-mouse-touch-event/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/11/csharp-wpf-copy-file-from-resource/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mike2014mike.github.io/work/2020/07/13/javascript-ejs-animation/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/10/csharp-wpf-debug-log/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mike2014mike.github.io/work/2020/07/10/javascript-kiosk-bus-waiting-time/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/06/csharp-wpf-use-unsafe-header-parsing/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/page2/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/page3/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mike2014mike.github.io/page4/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page6/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/08/04/csharp-wpf-default-input/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/23/csharp-get-post-json-param-node/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/23/csharp-cmd-restart/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/22/javascript-kiosk-kaohsiung-software-park-floor-intro/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/20/csharp-wpf-mouse-touch-event/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/17/csharp-winform-amtools/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/13/javascript-ejs-animation/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/work/2020/07/10/javascript-kiosk-bus-waiting-time/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/baby/2020/06/21/baby-read-book/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/baby/2020/05/20/baby-escaroo/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/side-project/2020/05/18/javascript-kikistore-shopping-system/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/side-project/2020/03/30/csharp-pinyin/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/side-project/2020/02/12/javascript-maskmap/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/09/06/csharp-wpf-image-cursor/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/09/05/csharp-wpf-delay-run/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/side-project/2019/04/16/csharp-wpf-clock/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/04/08/csharp-wpf-windows-cursor/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/04/01/csharp-wpf-gif/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/01/10/csharp-wpf-upload-to-nodejs-server/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/01/10/csharp-wpf-ini-read-save/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://mike2014mike.github.io/work/2019/01/09/csharp-wpf-upload-to-iis-server/</loc>
-  <lastmod>2020-07-17T09:16:05+00:00</lastmod>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page4/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page5/</loc>
+  <lastmod>2020-09-01T06:24:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
