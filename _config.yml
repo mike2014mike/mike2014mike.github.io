@@ -29,7 +29,7 @@ paginate: 5
 
 #### Site
 title : Mike's Notes
-tagline: Parenting ✕ Coding ## ✕ Game ## 育兒 ✕ 程式 ✕ 遊戲
+tagline: Parenting ✕ Coding ✕ Game ## 育兒 ✕ 程式 ✕ 遊戲
 description: 這裡主要紀錄一些學習筆記與小技巧，包含網站開發、Javascript、jQuery、CSS、RWD、Android、Linux、SQL等各種工作上遇到的問題與解決方案。除了工作筆記外，也記錄了寶寶成長日記與相關文件，甚至還包含了遊戲攻略。可以方便日後自己查閱外，也希望可以幫助到各位朋友，謝謝。
 assets: /assets
 url: 
