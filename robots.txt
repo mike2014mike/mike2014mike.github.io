@@ -1,3 +1,4 @@
 User-agent: * 
 Disallow: 
+Allow: /
 Sitemap: https://mike2014mike.github.io/sitemap.xml
