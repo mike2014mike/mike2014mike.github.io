@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Node.js 版本的 TensorFlow
+title:      【Node.js】JavaScript 也能玩機器學習！？Node版的 TensorFlow.js
 date:       2018-09-21 10:37:19
 author:     Mike Chen
 summary:    

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      【Node.js】request + cheerio 爬蟲
+title:      【Node.js】網路爬蟲怎麼做？利用 request + cheerio
 date:       2018-09-12 10:37:19
 author:     Mike Chen
 summary:    
@@ -15,11 +15,18 @@ tags:
 ### 步驟
 * 建立 index.js
 
-* 安裝 `request ` 和 `cheerio` ： `npm install request cheerio`
+* 安裝 `request ` 和 `cheerio` ： 
 
-* 初始化 `npm init`
+```batch
+npm install request cheerio
+```
 
-* 抓地震
+* 初始化 
+```batch
+npm init
+```
+
+* 抓中央氣象局網頁地震資料
 
 ```js
 const request = require("request");
@@ -62,7 +69,7 @@ earthquake();
 setInterval(earthquake, 30 * 60 * 1000);
 ```
 
-* 抓天氣
+* 抓天氣資料
 
 ```js
 const request = require("request");
