@@ -8,1243 +8,1318 @@
 
 
 <url>
-  <loc>https://blog.mikeknow.com/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/09/01/javascript-mongodb-crud/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/categories/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/categories/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tags/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tags/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/archives/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/08/13/csharp-taskbar-appname-different/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/about/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/08/11/csharp-wpf-copy-file-from-resource/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/info/2020/11/12/google-photos/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/08/10/csharp-wpf-debug-log/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/09/01/javascript-mongodb-crud/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/08/06/csharp-wpf-use-unsafe-header-parsing/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/13/csharp-taskbar-appname-different/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page2/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/11/csharp-wpf-copy-file-from-resource/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page3/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/10/csharp-wpf-debug-log/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page41/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page2/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/08/04/csharp-wpf-default-input/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mike2014mike.github.io/page3/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/23/csharp-get-post-json-param-node/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mike2014mike.github.io/page41/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/23/csharp-cmd-restart/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/06/csharp-wpf-use-unsafe-header-parsing/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/22/javascript-kiosk-kaohsiung-software-park-floor-intro/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/08/04/csharp-wpf-default-input/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/20/csharp-wpf-mouse-touch-event/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/23/csharp-get-post-json-param-node/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/17/csharp-winform-amtools/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/23/csharp-cmd-restart/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/13/javascript-ejs-animation/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/22/javascript-kiosk-kaohsiung-software-park-floor-intro/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2020/07/10/javascript-kiosk-bus-waiting-time/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/20/csharp-wpf-mouse-touch-event/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/game/2020/07/08/game-douluodalu-tips/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/17/csharp-winform-amtools/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2020/06/21/baby-read-book/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/13/javascript-ejs-animation/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2020/05/20/baby-escaroo/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2020/07/10/javascript-kiosk-bus-waiting-time/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/side-project/2020/05/18/javascript-kikistore-shopping-system/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2020/06/21/baby-read-book/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/side-project/2020/03/30/csharp-pinyin/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2020/05/20/baby-escaroo/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/side-project/2020/02/12/javascript-maskmap/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/side-project/2020/05/18/javascript-kikistore-shopping-system/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/09/06/csharp-wpf-image-cursor/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/side-project/2020/03/30/csharp-pinyin/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/09/05/csharp-wpf-delay-run/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/side-project/2020/02/12/javascript-maskmap/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/side-project/2019/04/16/csharp-wpf-clock/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/09/06/csharp-wpf-image-cursor/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/04/08/csharp-wpf-windows-cursor/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/09/05/csharp-wpf-delay-run/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/04/01/csharp-wpf-gif/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/side-project/2019/04/16/csharp-wpf-clock/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/01/10/csharp-wpf-upload-to-nodejs-server/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/04/08/csharp-wpf-windows-cursor/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/01/10/csharp-wpf-ini-read-save/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/04/01/csharp-wpf-gif/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2019/01/09/csharp-wpf-upload-to-iis-server/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/01/10/csharp-wpf-upload-to-nodejs-server/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/10/05/node-js-fetch/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/01/10/csharp-wpf-ini-read-save/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/10/03/python-user-friendly-condition/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2019/01/09/csharp-wpf-upload-to-iis-server/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/10/03/python-time-arrow/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/10/05/node-js-fetch/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/10/02/python-class/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/10/03/python-user-friendly-condition/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/10/01/python-json/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/10/03/python-time-arrow/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/29/bootstrap-dropdown-menu-right/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/10/02/python-class/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/26/python-cloud-studio-django/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/10/01/python-json/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/09/25/baby-emotion/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/29/bootstrap-dropdown-menu-right/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/25/python-threading/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/26/python-cloud-studio-django/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/25/python-prime-number/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/09/25/baby-emotion/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/25/python-opendata-file-io/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/25/python-threading/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/21/tensorflow-for-nodejs/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/25/python-prime-number/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/21/python-input-asterisks/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/25/python-opendata-file-io/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/20/python-tuple-list-dict-set/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/21/tensorflow-for-nodejs/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/20/python-getpass/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/21/python-input-asterisks/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/20/python-build-exe/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/20/python-tuple-list-dict-set/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/19/javascript-tensorflow-js/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/20/python-getpass/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/18/python-pandas/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/20/python-build-exe/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/18/python-numpy/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/19/javascript-tensorflow-js/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/18/python-machine-learning/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/18/python-pandas/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/18/python-environment/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/18/python-numpy/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/09/17/vscode-asp-dot-net/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/18/python-machine-learning/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/09/17/batch-file-internet-restart/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/18/python-environment/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/09/14/vscode-csharp/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/09/17/vscode-asp-dot-net/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/09/13/batch-file-find-service/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/09/17/batch-file-internet-restart/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/09/12/node-js-request-cheerio/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/09/14/vscode-csharp/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/09/11/batch-file-time-format/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/09/13/batch-file-find-service/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/05/vue-cli/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/09/12/node-js-request-cheerio/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/05/ooxx/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/09/11/batch-file-time-format/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/04/vue-component/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/05/vue-cli/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/03/javascript-30-day-8/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/05/ooxx/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/09/03/javascript-30-day-7/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/04/vue-component/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/31/es6/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/03/javascript-30-day-8/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/30/css-bootstrap-4-part2/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/09/03/javascript-30-day-7/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/29/vuei18n/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/31/es6/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/29/javascript-30-day-13/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/30/css-bootstrap-4-part2/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/28/javascript-30-day-6/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/29/vuei18n/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/28/vscode-plugin/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/29/javascript-30-day-13/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/28/tool-paros/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/28/javascript-30-day-6/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/28/error-cs0016/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/28/vscode-plugin/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/27/javascript-closure/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/28/tool-paros/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/27/javascript-apply-call-bind/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/28/error-cs0016/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/24/javascript-30-day-5/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/27/javascript-closure/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/24/javascript-30-day-4/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/27/javascript-apply-call-bind/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/24/css-vertical-align/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/24/javascript-30-day-5/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/23/vscode-snippets-markdown/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/24/javascript-30-day-4/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/23/asp-dot-net-postback/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/24/css-vertical-align/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/22/javascript-30-day-3/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/23/vscode-snippets-markdown/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/22/javascript-30-day-2/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/23/asp-dot-net-postback/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/22/javascript-30-day-1/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/22/javascript-30-day-3/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/22/mssql-not-allow-save/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/22/javascript-30-day-2/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/21/similar-word/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/22/javascript-30-day-1/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/21/css-bootstrap-4-part1/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/22/mssql-not-allow-save/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/20/css-bootstrap-3/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/21/similar-word/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/other/2018/08/19/medicine/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/21/css-bootstrap-4-part1/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/17/two-version-office-setting-window/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/20/css-bootstrap-3/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/17/sketchup-model-lose-weight/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/17/two-version-office-setting-window/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/17/database-unicode-ascii/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/17/sketchup-model-lose-weight/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/17/big-file-save-to-usb/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/17/database-unicode-ascii/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/16/win-change-admin-password/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/17/big-file-save-to-usb/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/16/css-flex/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/16/win-change-admin-password/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/16/baby-the-furthest-distance-in-the-world/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/16/css-flex/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/15/ubuntu-backup-restore/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/16/baby-the-furthest-distance-in-the-world/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/15/baby-many-baby/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/15/ubuntu-backup-restore/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/14/joomla-iis/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/15/baby-many-baby/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/14/google-spreadsheet/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/14/joomla-iis/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/14/css-bootstrap-frosted-glass/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/14/google-spreadsheet/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/14/baby-ha-chu/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/14/css-bootstrap-frosted-glass/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/13/open-close-windows-function/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/14/baby-ha-chu/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/other/2018/08/13/medicine/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/13/open-close-windows-function/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/13/intranet-error/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/13/intranet-error/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/13/baby-hat/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/13/baby-hat/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/13/acronis-cannot-restore-system/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/13/acronis-cannot-restore-system/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/12/the-father-day-gift/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/12/the-father-day-gift/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/10/javascript-animation/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/10/javascript-animation/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/10/dll-compile-debug-save/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/10/dll-compile-debug-save/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/10/advanced-installer/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/10/advanced-installer/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/08/you-do-not-need-jquery/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/08/you-do-not-need-jquery/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/side-project/2018/08/08/vue-iot-question-search/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/side-project/2018/08/08/vue-iot-question-search/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/08/the-first-father-day/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/08/the-first-father-day/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/08/cannot-remove-wwwroot-files/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/08/cannot-remove-wwwroot-files/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/07/network-neighborhood-disconnect/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/07/network-neighborhood-disconnect/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/07/css-layout-will/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/07/css-layout-will/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/07/css-animate-css/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/07/css-animate-css/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/07/baby-public-care/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/07/baby-public-care/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/07/baby-dooby/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/07/baby-dooby/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/08/06/printer-error/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/08/06/printer-error/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/06/baby-story-machine-ninja-rabbit/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/06/baby-story-machine-ninja-rabbit/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/06/baby-kids-songs/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/06/baby-kids-songs/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/06/baby-game-mat/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/06/baby-game-mat/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/06/baby-found-sister/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/06/baby-found-sister/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/03/typescript/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/03/typescript/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/03/javascript-slick/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/03/javascript-slick/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/03/system-garbled/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/03/system-garbled/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/03/register-dll/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/03/register-dll/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/03/baby-past-now/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/03/baby-past-now/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/03/autoit/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/03/autoit/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/02/baby-subsidy/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/02/baby-subsidy/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/08/02/baby-parking/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/08/02/baby-parking/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/02/nodejs-handlebars-value-view-partialview/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/02/nodejs-handlebars-value-view-partialview/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/08/02/css-expert/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/08/02/css-expert/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/02/csharp-time-delta/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/02/csharp-time-delta/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/02/csharp-face-detect/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/02/csharp-face-detect/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/02/teamviewer-logout/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/02/teamviewer-logout/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/01/vanilla-js/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/01/vanilla-js/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/01/javascript-velocity-js/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/01/javascript-velocity-js/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/08/01/csharp-console/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/08/01/csharp-console/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/31/baby-carrefour-fathers-day/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/31/baby-carrefour-fathers-day/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/30/baby-go-abroad-notice/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/30/baby-go-abroad-notice/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/30/baby-coincidance/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/30/baby-coincidance/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/30/baby-cartoon/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/30/baby-cartoon/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/30/seo-dns-nctu-me/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/30/seo-dns-nctu-me/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/28/baby-say-papa/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/28/baby-say-papa/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/game/2018/07/28/game-sangokush-tips/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/game/2018/07/28/game-sangokush-tips/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/07/27/the-f2e-time-house/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/07/27/the-f2e-time-house/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/27/google-form-customize/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/27/google-form-customize/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/study/2018/07/27/vscode-snippets/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/study/2018/07/27/vscode-snippets/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/26/seo-robots-txt/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/26/seo-robots-txt/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/26/seo-json-ld/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/26/seo-json-ld/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/26/google-app-script-api/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/26/google-app-script-api/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/26/github-page-blog/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/26/github-page-blog/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/25/seo-sitemap/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/25/seo-sitemap/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/25/progressive-web-app/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/25/progressive-web-app/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/25/linux-centos7-auto-connect/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/25/linux-centos7-auto-connect/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/24/baby-cry-mind/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/24/baby-cry-mind/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/23/pug-textarea-wrap/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/23/pug-textarea-wrap/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/23/object-url/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/23/object-url/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/23/javascript-module-pattern/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/23/javascript-module-pattern/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/23/html2canvas/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/23/html2canvas/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/23/echarts-multi-y/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/23/echarts-multi-y/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/23/detect-browser/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/23/detect-browser/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/23/baby-need-babysister/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/23/baby-need-babysister/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/game/2018/07/21/game-coc-tips/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/game/2018/07/21/game-coc-tips/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/useful-array/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/useful-array/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/pickadate-js/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/pickadate-js/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/mssql-zhcn/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/mssql-zhcn/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/jquery-ajax-sample/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/jquery-ajax-sample/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/javascript-array-unique/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/javascript-array-unique/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/es6-spread-and-rest/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/es6-spread-and-rest/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/d3-c3-promise-chart/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/d3-c3-promise-chart/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/cleave-js/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/cleave-js/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/20/alertify-js/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/20/alertify-js/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/19/javascript-json-to-csv-and-download/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/19/javascript-json-to-csv-and-download/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/19/javascript-array-to-csv-and-download.1/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/19/javascript-array-to-csv-and-download.1/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/18/javascript-replace/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/18/javascript-replace/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/18/javascript-regex-to-json/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/18/javascript-regex-to-json/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/18/javascript-no-iframe/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/18/javascript-no-iframe/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/18/javascript-edit-css/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/18/javascript-edit-css/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/18/javascript-check-tw-cn/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/18/javascript-check-tw-cn/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/17/css-noimg-alt/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/17/css-noimg-alt/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/16/rwd-iframe/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/16/rwd-iframe/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/16/css-nth-child/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/16/css-nth-child/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/16/css-flex-xy-center/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/16/css-flex-xy-center/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/15/linux-nohup/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/15/linux-nohup/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/game/2018/07/14/game-pokemon-go-tips/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/game/2018/07/14/game-pokemon-go-tips/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/12/android-chrome-devtool/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/12/android-chrome-devtool/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/12/android-chrome-autoplay/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/12/android-chrome-autoplay/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/07/11/chrome-console-jquery/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/07/11/chrome-console-jquery/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/10/vscode-save-autoformat/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/10/vscode-save-autoformat/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/10/vscode-emmet/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/10/vscode-emmet/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/07/09/print-filename/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/07/09/print-filename/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/07/08/win8-home-group/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/07/08/win8-home-group/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/07/08/win8-clear-garbage/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/07/08/win8-clear-garbage/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/tips/2018/07/07/usb-data-disappear/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/tips/2018/07/07/usb-data-disappear/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/game/2018/07/07/game-tabikaeru-travel-frog/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/game/2018/07/07/game-tabikaeru-travel-frog/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/06/baby-cha-cha/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/06/baby-cha-cha/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/baby/2018/07/05/baby-dance/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/baby/2018/07/05/baby-dance/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/04/batch-file-internet-intranet/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/04/batch-file-internet-intranet/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/other/2018/07/03/using-thumbnails/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/other/2018/07/03/using-thumbnails/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/other/2018/07/03/so-what-is-jekyll/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/other/2018/07/03/so-what-is-jekyll/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/other/2018/07/03/markdown-demo/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/other/2018/07/03/markdown-demo/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/02/supergis-server-marker-different-color/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/02/supergis-server-marker-different-color/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/02/satellite-aster-geoeye/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/02/satellite-aster-geoeye/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/02/officescan-remove/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/02/officescan-remove/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/02/gps-nmea-to-kml/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/02/gps-nmea-to-kml/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/02/dxf-info/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/02/dxf-info/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/work/2018/07/02/cache-service/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/work/2018/07/02/cache-service/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/other/2018/07/01/welcome-to-my-blog/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/other/2018/07/01/welcome-to-my-blog/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page4/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page4/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page5/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page5/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page39/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page39/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page40/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page40/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page6/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/masksmap/</loc>
+  <lastmod>2020-02-12T08:16:28+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page7/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/sample/2018-09-05/vue.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page37/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/sample/2018-09-05/vue_change.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page38/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/js30/16%20-%20Mouse%20Move%20Shadow/index-mike.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page8/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/js30/27%20-%20Click%20and%20Drag/index-mike.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/13%20-%20Slide%20in%20on%20Scroll/index-mike.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/06%20-%20Type%20Ahead/index-mike-js.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/06%20-%20Type%20Ahead/index-mike-vue.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/05%20-%20Flex%20Panel%20Gallery/index-mike-js.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/05%20-%20Flex%20Panel%20Gallery/index-mike-jq.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/05%20-%20Flex%20Panel%20Gallery/index-mike-pure-css.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/03%20-%20CSS%20Variables/index-mike.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/index-mike.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/js30/01%20-%20JavaScript%20Drum%20Kit/index-mike.html</loc>
+  <lastmod>2020-11-12T07:54:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/fox_examination/</loc>
+  <lastmod>2018-04-03T03:27:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page6/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page7/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page37/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page38/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mike2014mike.github.io/page8/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page9/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page9/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page35/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page35/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page36/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page36/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page10/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page10/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page11/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page11/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page33/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page33/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page34/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page34/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page12/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page12/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page13/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page13/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page31/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page31/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page32/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page32/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page14/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page14/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page15/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page15/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page29/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page29/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page30/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page30/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page16/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page16/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page17/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page17/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page27/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page27/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page28/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page28/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page18/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page18/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page19/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page19/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page25/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page25/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page26/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page26/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page20/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page20/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page21/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page21/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page23/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page23/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page24/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page24/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
-  <loc>https://blog.mikeknow.com/page22/</loc>
-  <lastmod>2020-11-04T07:06:43+00:00</lastmod>
+  <loc>https://mike2014mike.github.io/page22/</loc>
+  <lastmod>2020-11-12T07:54:37+00:00</lastmod>
   <priority>0.09</priority>
 </url>
 
