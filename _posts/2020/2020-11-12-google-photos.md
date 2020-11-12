@@ -7,6 +7,7 @@ summary:
 categories: Info
 tags:
  - Google Photos
+description: 一封來自 Google 的信件，標題名稱為「關於 Google 相簿儲存空間的重大更新」。到底是好消息還是壞消息呢？
 ---
 
 
