@@ -4,7 +4,7 @@ title:      【好書推薦】ASP.NET專題實務 (博碩出版)
 date:       2020-11-18 10:37:19
 author:     Mike Chen
 summary:    
-categories: Tips
+categories: Other
 tags:
  - 好書推薦
  - ASP.NET
