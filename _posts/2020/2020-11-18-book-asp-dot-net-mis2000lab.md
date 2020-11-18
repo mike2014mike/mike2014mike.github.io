@@ -38,9 +38,9 @@ description: 恩師出的書籍，乾貨滿滿，真心推薦
 * 老師親自錄製教學影片，可從書中找到連結觀看。
 
 ## 博客來購書連結
-   
-* [ASP.NET專題實務 I](https://www.books.com.tw/exep/assp.php/mikechen2020/products/0010838463?utm_source=mikechen2020&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202011)
-* [ASP.NET專題實務 II](https://www.books.com.tw/exep/assp.php/mikechen2020/products/0010838440?utm_source=mikechen2020&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202011)
+
+* [ASP.NET專題實務 I](https://www.books.com.tw/exep/assp.php/mikechen2020/products/0010838440?utm_source=mikechen2020&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202011)
+* [ASP.NET專題實務 II](https://www.books.com.tw/exep/assp.php/mikechen2020/products/0010838463?utm_source=mikechen2020&utm_medium=ap-books&utm_content=recommend&utm_campaign=ap-202011)
 
 ## 書本範例下載
 
