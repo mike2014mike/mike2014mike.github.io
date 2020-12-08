@@ -53,11 +53,51 @@ console.log(1 < 3); // true
 console.log(1 > 1); // false
 ```
 
-## 不過 python 就不會這樣了
+## 除了 JavaScript，VB.net也會有相同情況
+
+```vb
+Console.WriteLine(1<2<3) 'True
+Console.WriteLine(3>2>1) 'False
+```
+
+## python 相對人性，和人類想的一樣
 
 ```python
 print 1<2<3
 # True
 print 3>2>1
 # True
+```
+
+## 其他強型別程式語言則會直接報錯，因為並不會像弱型別語言自動幫忙轉換型別
+
+```csharp
+Console.WriteLine(1<2<3);
+// error CS0019: Operator `<' cannot be applied to operands of type `bool' and `int'
+```
+
+```ruby
+puts 1<2<3;
+# undefined method `<' for true:TrueClass (NoMethodError)
+```
+
+```java
+System.out.println(1<2<3);
+// error: bad operand types for binary operator '<'
+//       System.out.println(1<2<3);
+//                             ^
+// first type:  boolean
+// second type: int
+```
+
+```go
+package main
+import "fmt"
+
+func main() {
+   fmt.Printf(1<2<3)
+}
+
+// ./main.go:6: cannot convert 3 to type bool
+// ./main.go:6: invalid operation: 1 < 2 < 3 (mismatched types bool and int)
 ```
