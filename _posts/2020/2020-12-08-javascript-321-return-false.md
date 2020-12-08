@@ -61,7 +61,7 @@ Console.WriteLine(1<2<3) 'True
 Console.WriteLine(3>2>1) 'False
 ```
 
-## python 相對人性，和人類想的一樣
+## Python 相對人性，和人類想的一樣
 
 Python
 ```python
@@ -71,7 +71,7 @@ print 3>2>1
 # True
 ```
 
-## 其他強型別程式語言則會直接報錯，因為並不會像弱型別語言自動幫忙轉換型別
+## 其他強型別程式語言則會直接報錯
 
 C#
 ```csharp
@@ -98,12 +98,15 @@ System.out.println(1<2<3);
 Golang
 ```go
 package main
+
 import "fmt"
 
 func main() {
-   fmt.Printf(1<2<3)
+  fmt.Printf(1<2<3)
+  fmt.Printf(3>2>1)
 }
-
 // ./main.go:6: cannot convert 3 to type bool
 // ./main.go:6: invalid operation: 1 < 2 < 3 (mismatched types bool and int)
+// ./main.go:7: cannot convert 1 to type bool
+// ./main.go:7: invalid operation: 3 > 2 > 1 (mismatched types bool and int)
 ```
