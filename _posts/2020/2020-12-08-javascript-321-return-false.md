@@ -52,3 +52,12 @@ console.log(Number(true) > 1);
 console.log(1 < 3); // true
 console.log(1 > 1); // false
 ```
+
+## 不過 python 就不會這樣了
+
+```python
+print 1<2<3
+# True
+print 3>2>1
+# True
+```
