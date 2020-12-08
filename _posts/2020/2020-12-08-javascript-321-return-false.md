@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      javascript 比大小：為何 1<2<3 為真，而 3>2>1 為否？
+title:      JavaScript 比大小：為何 1<2<3 為真，而 3>2>1 為否？
 date:       2020-12-08 10:37:19
 author:     Mike Chen
 summary:    
