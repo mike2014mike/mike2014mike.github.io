@@ -70,17 +70,19 @@ print 3>2>1
 ```
 
 ## 其他強型別程式語言則會直接報錯，因為並不會像弱型別語言自動幫忙轉換型別
-
+C#
 ```csharp
 Console.WriteLine(1<2<3);
 // error CS0019: Operator `<' cannot be applied to operands of type `bool' and `int'
 ```
 
+Ruby
 ```ruby
 puts 1<2<3;
 # undefined method `<' for true:TrueClass (NoMethodError)
 ```
 
+Java
 ```java
 System.out.println(1<2<3);
 // error: bad operand types for binary operator '<'
@@ -90,6 +92,7 @@ System.out.println(1<2<3);
 // second type: int
 ```
 
+Golang
 ```go
 package main
 import "fmt"
